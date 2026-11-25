@@ -175,12 +175,6 @@ img/                    README visuals and screenshots
 
 Full history: [CHANGELOG.md](CHANGELOG.md).
 
-## Contributing, security, license
-
-[Contributing](CONTRIBUTING.md) · [Report a security issue](SECURITY.md) · [MIT](LICENSE) license.
-
-Spotfire and Qlik are trademarks of their respective owners. This repository is independent of these vendors.
-
 ## Author
 
 **Cédric NANA** · BI & Data consultant · [GitHub](https://github.com/cnanaj-wq)
