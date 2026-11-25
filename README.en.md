@@ -2,7 +2,7 @@
   <img src="img/entete.png" alt="Banner: migrating a management control dashboard from Spotfire to Qlik Sense Cloud" width="100%" />
 </p>
 
-<h1 align="center">Migrating a management control dashboard from Spotfire to Qlik Sense</h1>
+<h1 align="center">Migrating a management control dashboard<br />from Spotfire to Qlik Sense</h1>
 
 <p align="center">
   A 5-tab Spotfire dashboard, built entirely from versioned scripts,

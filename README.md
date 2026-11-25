@@ -2,7 +2,7 @@
   <img src="img/entete.png" alt="Bandeau : migration d'un tableau de bord de contrôle de gestion de Spotfire vers Qlik Sense Cloud" width="100%" />
 </p>
 
-<h1 align="center">Migrer un tableau de bord de contrôle de gestion de Spotfire vers Qlik Sense</h1>
+<h1 align="center">Migrer un tableau de bord de contrôle de gestion<br />de Spotfire vers Qlik Sense</h1>
 
 <p align="center">
   Un tableau de bord Spotfire de 5 onglets, construit entièrement par scripts versionnés,
