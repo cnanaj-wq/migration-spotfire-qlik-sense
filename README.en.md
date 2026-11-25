@@ -38,7 +38,6 @@
   &nbsp;·&nbsp; <a href="#architecture">Architecture</a>
   &nbsp;·&nbsp; <a href="docs/reproduire.md">Rebuild in Spotfire (French)</a>
   &nbsp;·&nbsp; <a href="#limitations">Limitations</a>
-  &nbsp;·&nbsp; <a href="CHANGELOG.md">Changelog (French)</a>
 </p>
 
 ## Quick start

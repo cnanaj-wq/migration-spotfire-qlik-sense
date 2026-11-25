@@ -38,7 +38,6 @@
   &nbsp;·&nbsp; <a href="#architecture">Architecture</a>
   &nbsp;·&nbsp; <a href="docs/reproduire.md">Reproduire dans Spotfire</a>
   &nbsp;·&nbsp; <a href="#limites">Limites</a>
-  &nbsp;·&nbsp; <a href="CHANGELOG.md">Nouveautés</a>
 </p>
 
 ## Démarrage rapide
