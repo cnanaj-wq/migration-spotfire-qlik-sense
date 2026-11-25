@@ -523,6 +523,9 @@ if Document.Data.Tables.Contains("resultat_versions"):
         lambda: Document.Data.Tables.Remove(table("resultat_versions")),
     )
 
+# sécurité par région, appliquée en dernier sur tous les visuels
+exec(io.open(DOSSIER + "06_securite.py", encoding="utf-8").read(), globals())
+
 journal_avertissements = io.open(DOSSIER + "_avertissements.log", "w", encoding="utf-8")
 journal_avertissements.write("\n".join(AVERTISSEMENTS) or "Aucun avertissement")
 journal_avertissements.close()

@@ -76,7 +76,7 @@ This repository holds that application: the steering of a fictional company, Orv
 |---|---|---|
 | Dashboard tabs | 5 | [`spotfire/controle_gestion_orvane.dxp`](spotfire/) |
 | Visuals (including 5 rows of 21 KPI tiles) | 25 | [`spotfire/scripts/`](spotfire/scripts/) |
-| IronPython build scripts | 6 | [`spotfire/scripts/`](spotfire/scripts/) |
+| IronPython build scripts | 7 | [`spotfire/scripts/`](spotfire/scripts/) |
 | Data tables (CSV) | 9 | [`data/`](data/) |
 | Data rows | 14,892 | [`data/`](data/) |
 | Reconciliation checks | 4 | [`controles/verifier_donnees.py`](controles/verifier_donnees.py) |
@@ -130,7 +130,7 @@ flowchart LR
   G --> D[data/<br/>9 CSV tables + 1 workbook]
   D --> C[controles/verifier_donnees.py<br/>4 reconciliations]
   D --> S[Spotfire<br/>controle_gestion_orvane.dxp]
-  I[spotfire/scripts/<br/>6 IronPython scripts] --> S
+  I[spotfire/scripts/<br/>7 IronPython scripts] --> S
   S -. upcoming migration .-> Q[Qlik Sense Cloud]
 ```
 
@@ -165,7 +165,7 @@ img/                    README visuals and screenshots
 ## Limitations
 
 - **The migration to Qlik Sense is not done yet.** The repository currently holds the starting application. The Qlik model, expressions and sheets will follow.
-- **Security by region is not enforced in Spotfire.** The `securite` table is ready for Qlik Section Access; the Spotfire trial used here cannot test it.
+- **Security by region: display restriction, not access control.** The [`06_securite.py`](spotfire/scripts/06_securite.py) script limits the visuals to the regions of the profile chosen in the `securite` table. The data stays embedded in the document: real isolation requires Spotfire Server. Tables without a region (income statement, working capital, cash) remain fully visible.
 - **The build cannot run outside Spotfire.** IronPython scripts only run inside Spotfire; the repository's automated check only verifies their syntax.
 
 ## Author

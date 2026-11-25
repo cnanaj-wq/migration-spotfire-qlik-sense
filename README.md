@@ -76,7 +76,7 @@ Ce dépôt contient cette application : le pilotage d'une société fictive, Orv
 |---|---|---|
 | Onglets du tableau de bord | 5 | [`spotfire/controle_gestion_orvane.dxp`](spotfire/) |
 | Visuels (dont 5 rangées de 21 tuiles) | 25 | [`spotfire/scripts/`](spotfire/scripts/) |
-| Scripts IronPython de construction | 6 | [`spotfire/scripts/`](spotfire/scripts/) |
+| Scripts IronPython de construction | 7 | [`spotfire/scripts/`](spotfire/scripts/) |
 | Tables de données (CSV) | 9 | [`data/`](data/) |
 | Lignes de données | 14 892 | [`data/`](data/) |
 | Rapprochements contrôlés | 4 | [`controles/verifier_donnees.py`](controles/verifier_donnees.py) |
@@ -128,7 +128,7 @@ flowchart LR
   G --> D[data/<br/>9 tables CSV + 1 classeur]
   D --> C[controles/verifier_donnees.py<br/>4 rapprochements]
   D --> S[Spotfire<br/>controle_gestion_orvane.dxp]
-  I[spotfire/scripts/<br/>6 scripts IronPython] --> S
+  I[spotfire/scripts/<br/>7 scripts IronPython] --> S
   S -. migration à venir .-> Q[Qlik Sense Cloud]
 ```
 
@@ -163,7 +163,7 @@ img/                    visuels du README et captures d'écran
 ## Limites
 
 - **La migration vers Qlik Sense n'est pas encore faite.** Le dépôt contient aujourd'hui l'application de départ. Le modèle, les expressions et les feuilles Qlik viendront ensuite.
-- **Sécurité par région non appliquée dans Spotfire.** La table `securite` est prête pour le Section Access de Qlik ; la version d'essai de Spotfire utilisée ici ne permet pas de la tester.
+- **Sécurité par région : restriction d'affichage, pas contrôle d'accès.** Le script [`06_securite.py`](spotfire/scripts/06_securite.py) limite les visuels aux régions du profil choisi dans la table `securite`. Les données restent embarquées dans le document : un vrai cloisonnement demande Spotfire Server. Les tables sans région (compte de résultat, BFR, trésorerie) restent visibles en entier.
 - **Construction non automatisable hors de Spotfire.** Les scripts IronPython ne s'exécutent que dans Spotfire ; le contrôle automatique du dépôt ne vérifie que leur syntaxe.
 
 ## Auteur

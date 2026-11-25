@@ -27,6 +27,14 @@ Ouvre `spotfire/scripts/_avertissements.log` : il doit contenir `Aucun avertisse
 - **Sélectionner** : clique sur un mois, une BU ou une agence. Les visuels des tables reliées se recalculent sur cette sélection, dans tous les onglets.
 - **Désélectionner** : clique dans une zone vide d'un graphique ou sur le fond de la carte.
 
+## Voir le tableau de bord comme un autre profil
+
+1. Dans [`06_securite.py`](../spotfire/scripts/06_securite.py), remplace la valeur de `UTILISATEUR` par une adresse de [`data/securite.csv`](../data/securite.csv), par exemple `dir.sud@orvane.example`.
+2. Reconstruis les onglets (étape 3).
+3. Ouvre `spotfire/scripts/_securite.log` : il nomme le profil et ses régions.
+
+Avec `dir.sud@orvane.example`, le chiffre d'affaires réel 2026 passe de 74,2 M€ à 26,3 M€ et la carte ne montre que le Sud-Est et le Sud-Ouest. Un profil absent de la table ne voit aucune ligne. C'est une restriction d'affichage : les données restent dans le document.
+
 ## Ce que font les scripts
 
 | Script | Rôle |
@@ -37,5 +45,6 @@ Ouvre `spotfire/scripts/_avertissements.log` : il doit contenir `Aucun avertisse
 | `03_carte_agences.py` | carte des agences, classement des écarts, détail par région |
 | `04_ecarts_compte_resultat.py` | soldes, cascades de marge et d'EBITDA, compte de résultat |
 | `05_bfr_tresorerie.py` | bandeau cash, DSO, BFR, trésorerie, balance âgée, créances échues |
+| `06_securite.py` | restriction des visuels aux régions du profil |
 
 `00_test_script.py` est un essai isolé, conservé pour vérifier qu'une installation de Spotfire autorise les scripts ; il n'est pas appelé par la construction.
