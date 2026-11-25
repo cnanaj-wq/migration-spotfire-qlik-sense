@@ -16,7 +16,7 @@ SET CollationLocale='fr-FR';
 SET CreateSearchIndexOnReload=1;
 SET NumericalAbbreviation='3:k;6:M;9:G';
 
-SET vDossier = 'lib://DataFiles/';
+SET vDossier = 'lib://DataFiles/Orvane/';
 SET vFormat  = (txt, utf8, embedded labels, delimiter is ',', msq);
 
 // dernier mois clôturé de l'exercice en cours : les cumuls s'arrêtent là
@@ -187,18 +187,24 @@ FROM [$(vDossier)creances_clients.csv] $(vFormat);
 // Spotfire lisait Exercice et Mois dans chaque table. Ici ils viennent d'un calendrier
 // unique, associé aux faits par la date.
 
+// Les dates distinctes passent par une table temporaire : un DISTINCT posé sous un
+// chargement précédent ne dédoublonne pas le résultat final.
+DatesDistinctes:
+LOAD DISTINCT
+    Date as DateCalendrier
+RESIDENT Faits;
+
 Calendrier:
 LOAD
-    Date,
-    Year(Date)                                          as Exercice,
-    Num(Month(Date))                                    as Mois,
-    Month(Date)                                         as [Mois nom],
-    Dual(Text(Date(Date, 'YYYY-MM')), Year(Date) * 100 + Num(Month(Date)))  as Période,
-    If(Num(Month(Date)) <= $(vDernierMoisClos), 1, 0)   as [Mois clos]
-;
-LOAD DISTINCT
-    Date
-RESIDENT Faits;
+    DateCalendrier                                                as Date,
+    Year(DateCalendrier)                                          as Exercice,
+    Num(Month(DateCalendrier))                                    as Mois,
+    Month(DateCalendrier)                                         as [Mois nom],
+    Dual(Text(Date(DateCalendrier, 'YYYY-MM')), Year(DateCalendrier) * 100 + Num(Month(DateCalendrier)))  as Période,
+    If(Num(Month(DateCalendrier)) <= $(vDernierMoisClos), 1, 0)   as [Mois clos]
+RESIDENT DatesDistinctes;
+
+DROP TABLE DatesDistinctes;
 
 ///$tab Seuils
 // Table isolée : les seuils d'alerte ne s'associent à aucun axe.
