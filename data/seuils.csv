@@ -1,0 +1,6 @@
+﻿Indicateur,Sens,Seuil vert,Seuil orange,Unité,Lecture
+Écart CA vs budget,haut,0,-0.02,%,"Vert si >= 0 %, orange jusqu'à -2 %, rouge en dessous"
+Écart taux de marge brute vs budget,haut,0,-0.01,points,"Vert si >= 0 pt, orange jusqu'à -1 pt"
+Écart EBITDA vs budget,haut,0,-0.05,%,"Vert si >= 0 %, orange jusqu'à -5 %"
+Écart DSO vs objectif,bas,0,5,jours,"Vert si <= objectif, orange jusqu'à +5 jours"
+Part des créances échues,bas,0.3,0.4,%,"Vert si <= 30 %, orange jusqu'à 40 %"

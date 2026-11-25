@@ -1,0 +1,8 @@
+# Erreurs de syntaxe et noms inutilisés ou indéfinis.
+[lint]
+select = ["E9", "F"]
+
+[lint.per-file-ignores]
+# Scripts IronPython : Document et Application sont fournis par Spotfire, et les
+# onglets partagent les fonctions de construire_tout.py.
+"spotfire/scripts/*" = ["F821"]

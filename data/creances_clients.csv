@@ -1,0 +1,900 @@
+﻿N° facture,Client,Canal,Région,BU,Date facture,Date échéance,Délai de paiement (jours),Montant TTC,Jours de retard,Ordre tranche,Tranche,Échu
+FA-2026-00001,Habitat Rhône SA,Agences,Sud-Est,Outillage,2026-10-30,2026-12-14,45,8782.95,0,1,Non échu,Non échu
+FA-2026-00002,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-10-01,2026-11-30,60,11302.53,0,1,Non échu,Non échu
+FA-2026-00003,Bâti Concept SA,Agences,Sud-Est,Outillage,2026-08-28,2026-10-12,45,10360.3,19,2,1 à 30 jours,Échu
+FA-2026-00004,Habitat & Fils SA,Grands comptes,Sud-Ouest,Outillage,2026-09-23,2026-11-07,45,42563.95,0,1,Non échu,Non échu
+FA-2026-00005,Bâti Concept SA,Agences,Sud-Est,Outillage,2026-10-15,2026-11-14,30,9889.42,0,1,Non échu,Non échu
+FA-2026-00006,Habitat Rhône SA,Agences,Sud-Est,Outillage,2026-10-04,2026-11-03,30,13807.41,0,1,Non échu,Non échu
+FA-2026-00007,Therm Plus SAS,Agences,Île-de-France,Outillage,2026-09-26,2026-11-10,45,6623.99,0,1,Non échu,Non échu
+FA-2026-00008,Habitat Plus SARL,Grands comptes,Île-de-France,Outillage,2026-09-04,2026-11-03,60,30054.59,0,1,Non échu,Non échu
+FA-2026-00009,Clim Rhône SARL,Grands comptes,Île-de-France,Outillage,2026-10-14,2026-11-28,45,14751.82,0,1,Non échu,Non échu
+FA-2026-00010,Élec Concept SAS,Agences,Île-de-France,Outillage,2026-09-22,2026-11-06,45,16241.18,0,1,Non échu,Non échu
+FA-2026-00011,Artisans Atlantique SAS,Grands comptes,Sud-Est,Outillage,2026-09-28,2026-11-27,60,16939.3,0,1,Non échu,Non échu
+FA-2026-00012,Pro Plus SAS,Agences,Ouest,Outillage,2026-10-28,2026-12-12,45,3306.04,0,1,Non échu,Non échu
+FA-2026-00013,Clim Concept SARL,Grands comptes,Sud-Ouest,Outillage,2026-08-09,2026-10-08,60,13490.84,23,2,1 à 30 jours,Échu
+FA-2026-00014,Artisans Concept SAS,Agences,Sud-Est,Outillage,2026-10-08,2026-11-07,30,4703.2,0,1,Non échu,Non échu
+FA-2026-00015,Artisans Atlantique SAS,Grands comptes,Sud-Est,Outillage,2026-10-08,2026-12-07,60,4187.84,0,1,Non échu,Non échu
+FA-2026-00016,Therm Réunis SARL,Agences,Ouest,Outillage,2026-09-20,2026-10-20,30,7404.23,11,2,1 à 30 jours,Échu
+FA-2026-00017,Pro Ouest SAS,Grands comptes,Île-de-France,Outillage,2026-10-27,2026-12-26,60,26796.16,0,1,Non échu,Non échu
+FA-2026-00018,Clim Expert SARL,Grands comptes,Ouest,Outillage,2026-09-07,2026-10-22,45,15949.74,9,2,1 à 30 jours,Échu
+FA-2026-00019,Bâti Concept SARL,Grands comptes,Île-de-France,Outillage,2026-09-15,2026-11-14,60,11893.85,0,1,Non échu,Non échu
+FA-2026-00020,Artisans Concept SAS,Agences,Sud-Est,Outillage,2026-09-09,2026-10-24,45,12590.58,7,2,1 à 30 jours,Échu
+FA-2026-00021,Clim Expert SARL,Grands comptes,Ouest,Outillage,2026-10-12,2026-12-11,60,6582.45,0,1,Non échu,Non échu
+FA-2026-00022,Habitat Service SA,Agences,Île-de-France,Outillage,2026-10-01,2026-10-31,30,9604.2,0,1,Non échu,Non échu
+FA-2026-00023,Élec Rhône SA,Agences,Île-de-France,Outillage,2026-10-27,2026-11-26,30,6198.89,0,1,Non échu,Non échu
+FA-2026-00024,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-10-18,2026-12-17,60,23454.36,0,1,Non échu,Non échu
+FA-2026-00025,Clim Concept SARL,Grands comptes,Sud-Ouest,Outillage,2026-09-15,2026-11-14,60,15148.36,0,1,Non échu,Non échu
+FA-2026-00026,Therm Concept SA,Grands comptes,Île-de-France,Outillage,2026-10-18,2026-12-02,45,25594.13,0,1,Non échu,Non échu
+FA-2026-00027,Chantier Solutions SARL,Agences,Île-de-France,Outillage,2026-10-20,2026-11-19,30,3703.04,0,1,Non échu,Non échu
+FA-2026-00028,Clim Expert SARL,Grands comptes,Ouest,Outillage,2026-07-28,2026-09-26,60,5595.9,35,3,31 à 60 jours,Échu
+FA-2026-00029,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-07-09,2026-09-07,60,43438.86,54,3,31 à 60 jours,Échu
+FA-2026-00030,Habitat Plus SARL,Grands comptes,Île-de-France,Outillage,2026-08-28,2026-10-27,60,29652.24,4,2,1 à 30 jours,Échu
+FA-2026-00031,Élec Atlantique SARL,Agences,Sud-Est,Outillage,2026-07-06,2026-08-20,45,7487.87,72,4,61 à 90 jours,Échu
+FA-2026-00032,Rénov Service SA,Grands comptes,Sud-Est,Outillage,2026-09-03,2026-10-18,45,26551.79,13,2,1 à 30 jours,Échu
+FA-2026-00033,Clim Rhône SARL,Grands comptes,Île-de-France,Outillage,2026-09-22,2026-11-06,45,6622.6,0,1,Non échu,Non échu
+FA-2026-00034,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-08-17,2026-10-01,45,13635.85,30,2,1 à 30 jours,Échu
+FA-2026-00035,Habitat Rhône SA,Agences,Sud-Est,Outillage,2026-10-03,2026-11-02,30,3959.33,0,1,Non échu,Non échu
+FA-2026-00036,Élec Atlantique SAS,Agences,Île-de-France,Outillage,2026-09-21,2026-10-21,30,1570.92,10,2,1 à 30 jours,Échu
+FA-2026-00037,Chantier Concept SARL,Grands comptes,Nord-Est,Outillage,2026-10-13,2026-12-12,60,6364.29,0,1,Non échu,Non échu
+FA-2026-00038,Pro & Fils SARL,Agences,Sud-Ouest,Outillage,2026-10-06,2026-11-20,45,5463.5,0,1,Non échu,Non échu
+FA-2026-00039,Habitat Concept SARL,Agences,Île-de-France,Outillage,2026-10-15,2026-11-14,30,26405.72,0,1,Non échu,Non échu
+FA-2026-00040,Habitat & Fils SARL,Agences,Nord-Est,Outillage,2026-10-23,2026-12-07,45,6627.26,0,1,Non échu,Non échu
+FA-2026-00041,Rénov Plus SA,Grands comptes,Sud-Est,Outillage,2026-10-18,2026-12-02,45,20538.15,0,1,Non échu,Non échu
+FA-2026-00042,Habitat Service SA,Agences,Île-de-France,Outillage,2026-10-20,2026-11-19,30,9911.79,0,1,Non échu,Non échu
+FA-2026-00043,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-09-03,2026-10-18,45,2375.24,13,2,1 à 30 jours,Échu
+FA-2026-00044,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-09-28,2026-11-12,45,19406.39,0,1,Non échu,Non échu
+FA-2026-00045,Pro Plus SAS,Agences,Ouest,Outillage,2026-09-13,2026-10-28,45,38077.57,3,2,1 à 30 jours,Échu
+FA-2026-00046,Rénov Plus SA,Grands comptes,Sud-Est,Outillage,2026-09-08,2026-11-07,60,27856.97,0,1,Non échu,Non échu
+FA-2026-00047,Therm Rhône SA,Grands comptes,Île-de-France,Outillage,2026-10-07,2026-11-21,45,23523.78,0,1,Non échu,Non échu
+FA-2026-00048,Clim Expert SA,Agences,Sud-Est,Outillage,2026-09-17,2026-10-17,30,8279.07,14,2,1 à 30 jours,Échu
+FA-2026-00049,Clim Plus SA,Grands comptes,Île-de-France,Outillage,2026-07-25,2026-09-08,45,13616.93,53,3,31 à 60 jours,Échu
+FA-2026-00050,Clim Concept SA,Agences,Nord-Est,Outillage,2026-10-30,2026-11-29,30,4640.08,0,1,Non échu,Non échu
+FA-2026-00051,Clim Rhône SARL,Grands comptes,Île-de-France,Outillage,2026-10-09,2026-11-23,45,16291.57,0,1,Non échu,Non échu
+FA-2026-00052,Chantier Concept SARL,Grands comptes,Nord-Est,Outillage,2026-08-19,2026-10-03,45,16352.08,28,2,1 à 30 jours,Échu
+FA-2026-00053,Therm Rhône SA,Grands comptes,Île-de-France,Outillage,2026-09-04,2026-11-03,60,6719.61,0,1,Non échu,Non échu
+FA-2026-00054,Artisans Atlantique SAS,Grands comptes,Sud-Est,Outillage,2026-07-06,2026-09-04,60,30093.24,57,3,31 à 60 jours,Échu
+FA-2026-00055,Rénov Service SA,Grands comptes,Sud-Est,Outillage,2026-07-18,2026-09-16,60,8700.41,45,3,31 à 60 jours,Échu
+FA-2026-00056,Therm Plus SAS,Agences,Île-de-France,Outillage,2026-10-29,2026-11-28,30,4947.67,0,1,Non échu,Non échu
+FA-2026-00057,Habitat Service SA,Agences,Île-de-France,Outillage,2026-10-22,2026-11-21,30,9265.26,0,1,Non échu,Non échu
+FA-2026-00058,Habitat Réunis SARL,Grands comptes,Ouest,Outillage,2026-07-11,2026-09-09,60,12853.73,52,3,31 à 60 jours,Échu
+FA-2026-00059,Therm Concept SA,Grands comptes,Île-de-France,Outillage,2026-10-21,2026-12-05,45,14154.77,0,1,Non échu,Non échu
+FA-2026-00060,Artisans Rhône SARL,Agences,Île-de-France,Outillage,2026-10-30,2026-12-14,45,13947.37,0,1,Non échu,Non échu
+FA-2026-00061,Artisans Rhône SARL,Agences,Île-de-France,Outillage,2026-10-05,2026-11-04,30,15373.88,0,1,Non échu,Non échu
+FA-2026-00062,Habitat Plus SARL,Grands comptes,Île-de-France,Outillage,2026-09-18,2026-11-02,45,22560.41,0,1,Non échu,Non échu
+FA-2026-00063,Artisans Nord SARL,Agences,Nord-Est,Outillage,2026-07-31,2026-09-14,45,12365.9,47,3,31 à 60 jours,Échu
+FA-2026-00064,Rénov Ouest SAS,Agences,Nord-Est,Outillage,2026-10-13,2026-11-27,45,15869.27,0,1,Non échu,Non échu
+FA-2026-00065,Chantier Nord SARL,Grands comptes,Ouest,Outillage,2026-09-19,2026-11-03,45,30987.63,0,1,Non échu,Non échu
+FA-2026-00066,Therm du Midi SA,Agences,Île-de-France,Outillage,2026-10-29,2026-11-28,30,16432.59,0,1,Non échu,Non échu
+FA-2026-00067,Pro Rhône SA,Agences,Nord-Est,Outillage,2026-10-22,2026-11-21,30,2942.69,0,1,Non échu,Non échu
+FA-2026-00068,Atelier Ouest SARL,Agences,Ouest,Outillage,2026-08-27,2026-10-11,45,8236.52,20,2,1 à 30 jours,Échu
+FA-2026-00069,Pro Ouest SAS,Grands comptes,Île-de-France,Outillage,2026-10-27,2026-12-26,60,23767.19,0,1,Non échu,Non échu
+FA-2026-00070,Rénov Plus SA,Grands comptes,Sud-Est,Outillage,2026-10-07,2026-12-06,60,178979.36,0,1,Non échu,Non échu
+FA-2026-00071,Atelier Ouest SARL,Agences,Ouest,Outillage,2026-09-16,2026-10-31,45,4593.51,0,1,Non échu,Non échu
+FA-2026-00072,Artisans & Fils SA,Agences,Sud-Est,Outillage,2026-07-07,2026-08-21,45,9585.0,71,4,61 à 90 jours,Échu
+FA-2026-00073,Rénov Plus SA,Grands comptes,Sud-Est,Outillage,2026-10-27,2026-12-26,60,3475.61,0,1,Non échu,Non échu
+FA-2026-00074,Atelier du Midi SA,Agences,Sud-Est,Outillage,2026-10-24,2026-12-08,45,9663.63,0,1,Non échu,Non échu
+FA-2026-00075,Élec Concept SAS,Agences,Île-de-France,Outillage,2026-10-29,2026-11-28,30,1696.54,0,1,Non échu,Non échu
+FA-2026-00076,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-09-23,2026-11-07,45,3911.4,0,1,Non échu,Non échu
+FA-2026-00077,Chantier Nord SARL,Grands comptes,Ouest,Outillage,2026-10-24,2026-12-23,60,27649.44,0,1,Non échu,Non échu
+FA-2026-00078,Habitat Réunis SARL,Grands comptes,Ouest,Outillage,2026-10-22,2026-12-21,60,26257.62,0,1,Non échu,Non échu
+FA-2026-00079,Chantier Nord SARL,Grands comptes,Ouest,Outillage,2026-10-08,2026-12-07,60,7512.68,0,1,Non échu,Non échu
+FA-2026-00080,Clim Plus SA,Grands comptes,Île-de-France,Outillage,2026-09-20,2026-11-04,45,17656.75,0,1,Non échu,Non échu
+FA-2026-00081,Élec Rhône SA,Agences,Île-de-France,Outillage,2026-10-24,2026-11-23,30,5232.07,0,1,Non échu,Non échu
+FA-2026-00082,Rénov Atlantique SAS,Agences,Ouest,Outillage,2026-10-28,2026-12-12,45,11203.77,0,1,Non échu,Non échu
+FA-2026-00083,Therm Concept SA,Grands comptes,Île-de-France,Outillage,2026-07-08,2026-08-22,45,11249.91,70,4,61 à 90 jours,Échu
+FA-2026-00084,Bâti Concept SARL,Grands comptes,Île-de-France,Outillage,2026-10-15,2026-11-29,45,40323.25,0,1,Non échu,Non échu
+FA-2026-00085,Rénov Atlantique SAS,Agences,Ouest,Outillage,2026-09-29,2026-11-13,45,7086.97,0,1,Non échu,Non échu
+FA-2026-00086,Habitat Réunis SARL,Grands comptes,Ouest,Outillage,2026-06-27,2026-08-26,60,8782.12,66,4,61 à 90 jours,Échu
+FA-2026-00087,Pro Plus SAS,Agences,Ouest,Outillage,2026-09-22,2026-10-22,30,6812.6,9,2,1 à 30 jours,Échu
+FA-2026-00088,Artisans Atlantique SAS,Grands comptes,Sud-Est,Outillage,2026-10-12,2026-11-26,45,13562.23,0,1,Non échu,Non échu
+FA-2026-00089,Therm du Midi SA,Agences,Île-de-France,Outillage,2026-09-06,2026-10-21,45,16661.65,10,2,1 à 30 jours,Échu
+FA-2026-00090,Rénov Service SA,Grands comptes,Sud-Est,Outillage,2026-09-18,2026-11-02,45,13494.08,0,1,Non échu,Non échu
+FA-2026-00091,Therm Concept SA,Grands comptes,Île-de-France,Outillage,2026-07-09,2026-08-23,45,52207.19,69,4,61 à 90 jours,Échu
+FA-2026-00092,Chantier Concept SARL,Grands comptes,Nord-Est,Outillage,2026-10-19,2026-12-03,45,23719.98,0,1,Non échu,Non échu
+FA-2026-00093,Habitat & Fils SA,Grands comptes,Sud-Ouest,Outillage,2026-07-03,2026-09-01,60,52797.83,60,3,31 à 60 jours,Échu
+FA-2026-00094,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-10-16,2026-11-30,45,8919.31,0,1,Non échu,Non échu
+FA-2026-00095,Habitat & Fils SARL,Agences,Nord-Est,Outillage,2026-10-08,2026-11-07,30,33137.75,0,1,Non échu,Non échu
+FA-2026-00096,Rénov Service SA,Grands comptes,Sud-Est,Outillage,2026-09-23,2026-11-07,45,18820.27,0,1,Non échu,Non échu
+FA-2026-00097,Rénov Service SA,Grands comptes,Sud-Est,Outillage,2026-07-08,2026-09-06,60,22869.39,55,3,31 à 60 jours,Échu
+FA-2026-00098,Artisans Rhône SARL,Agences,Île-de-France,Outillage,2026-10-22,2026-12-06,45,6793.43,0,1,Non échu,Non échu
+FA-2026-00099,Clim Expert SARL,Grands comptes,Ouest,Outillage,2026-07-25,2026-09-23,60,31443.16,38,3,31 à 60 jours,Échu
+FA-2026-00100,Artisans Atlantique SAS,Grands comptes,Sud-Est,Outillage,2026-10-27,2026-12-11,45,25955.44,0,1,Non échu,Non échu
+FA-2026-00101,Clim Concept SARL,Grands comptes,Sud-Ouest,Outillage,2026-09-12,2026-11-11,60,5561.38,0,1,Non échu,Non échu
+FA-2026-00102,Pro Plus SAS,Agences,Ouest,Outillage,2026-09-27,2026-10-27,30,6754.19,4,2,1 à 30 jours,Échu
+FA-2026-00103,Clim Expert SARL,Grands comptes,Ouest,Outillage,2026-07-29,2026-09-27,60,5719.22,34,3,31 à 60 jours,Échu
+FA-2026-00104,Chantier Concept SARL,Grands comptes,Nord-Est,Outillage,2026-06-14,2026-08-13,60,7756.52,79,4,61 à 90 jours,Échu
+FA-2026-00105,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-09-17,2026-11-16,60,8063.43,0,1,Non échu,Non échu
+FA-2026-00106,Rénov Service SA,Grands comptes,Sud-Est,Outillage,2026-08-23,2026-10-22,60,17641.41,9,2,1 à 30 jours,Échu
+FA-2026-00107,Rénov Ouest SAS,Agences,Nord-Est,Outillage,2026-08-04,2026-09-03,30,6867.3,58,3,31 à 60 jours,Échu
+FA-2026-00108,Clim & Fils SA,Agences,Nord-Est,Outillage,2026-09-28,2026-11-12,45,13239.01,0,1,Non échu,Non échu
+FA-2026-00109,Chantier Nord SARL,Grands comptes,Ouest,Outillage,2026-06-12,2026-08-11,60,12422.03,81,4,61 à 90 jours,Échu
+FA-2026-00110,Clim Concept SARL,Grands comptes,Sud-Ouest,Outillage,2026-06-19,2026-08-18,60,5999.01,74,4,61 à 90 jours,Échu
+FA-2026-00111,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-10-29,2026-12-28,60,60011.15,0,1,Non échu,Non échu
+FA-2026-00112,Habitat Plus SARL,Grands comptes,Île-de-France,Outillage,2026-10-14,2026-11-28,45,10428.94,0,1,Non échu,Non échu
+FA-2026-00113,Habitat Atlantique SAS,Agences,Ouest,Outillage,2026-07-25,2026-08-24,30,66695.63,68,4,61 à 90 jours,Échu
+FA-2026-00114,Rénov Plus SA,Grands comptes,Sud-Est,Outillage,2026-10-26,2026-12-10,45,13614.07,0,1,Non échu,Non échu
+FA-2026-00115,Artisans Nord SARL,Agences,Nord-Est,Outillage,2026-10-10,2026-11-09,30,12404.7,0,1,Non échu,Non échu
+FA-2026-00116,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-09-25,2026-11-09,45,15598.2,0,1,Non échu,Non échu
+FA-2026-00117,Artisans & Fils SA,Agences,Sud-Est,Outillage,2026-08-15,2026-09-29,45,2607.08,32,3,31 à 60 jours,Échu
+FA-2026-00118,Clim Concept SARL,Grands comptes,Sud-Ouest,Outillage,2026-10-13,2026-11-27,45,6945.07,0,1,Non échu,Non échu
+FA-2026-00119,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-07-13,2026-09-11,60,4380.09,50,3,31 à 60 jours,Échu
+FA-2026-00120,Clim Expert SARL,Grands comptes,Ouest,Outillage,2026-10-17,2026-12-01,45,2298.5,0,1,Non échu,Non échu
+FA-2026-00121,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-08-11,2026-09-25,45,14209.77,36,3,31 à 60 jours,Échu
+FA-2026-00122,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-07-24,2026-09-22,60,5956.72,39,3,31 à 60 jours,Échu
+FA-2026-00123,Artisans Atlantique SAS,Grands comptes,Sud-Est,Outillage,2026-10-29,2026-12-13,45,30868.47,0,1,Non échu,Non échu
+FA-2026-00124,Therm Plus SAS,Agences,Île-de-France,Outillage,2026-10-14,2026-11-28,45,1121.91,0,1,Non échu,Non échu
+FA-2026-00125,Pro Ouest SAS,Grands comptes,Île-de-France,Outillage,2026-09-17,2026-11-01,45,11314.97,0,1,Non échu,Non échu
+FA-2026-00126,Therm & Fils SA,Agences,Île-de-France,Outillage,2026-04-16,2026-05-16,30,7146.62,168,5,Plus de 90 jours,Échu
+FA-2026-00127,Chantier Solutions SARL,Agences,Île-de-France,Outillage,2026-10-08,2026-11-07,30,2822.57,0,1,Non échu,Non échu
+FA-2026-00128,Clim Expert SA,Agences,Sud-Est,Outillage,2026-10-16,2026-11-15,30,13001.99,0,1,Non échu,Non échu
+FA-2026-00129,Artisans Nord SARL,Agences,Nord-Est,Outillage,2026-09-21,2026-11-05,45,9499.6,0,1,Non échu,Non échu
+FA-2026-00130,Pro Nord SA,Agences,Nord-Est,Outillage,2026-10-30,2026-11-29,30,13279.14,0,1,Non échu,Non échu
+FA-2026-00131,Habitat Plus SARL,Grands comptes,Île-de-France,Outillage,2026-09-08,2026-10-23,45,26841.34,8,2,1 à 30 jours,Échu
+FA-2026-00132,Therm Rhône SA,Grands comptes,Île-de-France,Outillage,2026-10-01,2026-11-15,45,12155.24,0,1,Non échu,Non échu
+FA-2026-00133,Rénov Rhône SAS,Grands comptes,Île-de-France,Outillage,2026-09-24,2026-11-23,60,2336.14,0,1,Non échu,Non échu
+FA-2026-00134,Clim Concept SA,Agences,Nord-Est,Outillage,2026-10-10,2026-11-09,30,12352.01,0,1,Non échu,Non échu
+FA-2026-00135,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-10-24,2026-12-23,60,5381.09,0,1,Non échu,Non échu
+FA-2026-00136,Therm Réunis SARL,Agences,Ouest,Outillage,2026-07-31,2026-09-14,45,8982.56,47,3,31 à 60 jours,Échu
+FA-2026-00137,Atelier Expert SARL,Agences,Nord-Est,Outillage,2026-10-05,2026-11-04,30,27873.05,0,1,Non échu,Non échu
+FA-2026-00138,Élec Plus SARL,Agences,Île-de-France,Outillage,2026-10-19,2026-11-18,30,2794.01,0,1,Non échu,Non échu
+FA-2026-00139,Clim Plus SA,Grands comptes,Île-de-France,Outillage,2026-09-24,2026-11-08,45,1549.31,0,1,Non échu,Non échu
+FA-2026-00140,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-09-13,2026-11-12,60,16448.73,0,1,Non échu,Non échu
+FA-2026-00141,Clim Expert SARL,Grands comptes,Ouest,Outillage,2026-08-22,2026-10-06,45,42326.79,25,2,1 à 30 jours,Échu
+FA-2026-00142,Therm Concept SA,Grands comptes,Île-de-France,Outillage,2026-06-30,2026-08-29,60,68359.29,63,4,61 à 90 jours,Échu
+FA-2026-00143,Habitat Rhône SA,Agences,Sud-Est,Outillage,2026-07-27,2026-09-10,45,2412.68,51,3,31 à 60 jours,Échu
+FA-2026-00144,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-09-27,2026-11-26,60,34449.07,0,1,Non échu,Non échu
+FA-2026-00145,Habitat & Fils SA,Grands comptes,Sud-Ouest,Outillage,2026-08-25,2026-10-24,60,46252.87,7,2,1 à 30 jours,Échu
+FA-2026-00146,Habitat Concept SARL,Agences,Île-de-France,Outillage,2026-09-01,2026-10-16,45,11073.33,15,2,1 à 30 jours,Échu
+FA-2026-00147,Artisans Plus SAS,Agences,Île-de-France,Outillage,2026-09-15,2026-10-15,30,3910.16,16,2,1 à 30 jours,Échu
+FA-2026-00148,Clim Service SAS,Grands comptes,Nord-Est,Outillage,2026-09-24,2026-11-08,45,37598.01,0,1,Non échu,Non échu
+FA-2026-00149,Therm Concept SA,Grands comptes,Île-de-France,Outillage,2026-08-06,2026-09-20,45,7713.27,41,3,31 à 60 jours,Échu
+FA-2026-00150,Chantier Concept SARL,Grands comptes,Nord-Est,Outillage,2026-08-04,2026-10-03,60,32214.89,28,2,1 à 30 jours,Échu
+FA-2026-00151,Therm Solutions SARL,Agences,Sud-Ouest,Outillage,2026-09-18,2026-11-02,45,2104.88,0,1,Non échu,Non échu
+FA-2026-00152,Rénov Plus SA,Grands comptes,Sud-Est,Outillage,2026-10-18,2026-12-02,45,30248.56,0,1,Non échu,Non échu
+FA-2026-00153,Chantier Nord SARL,Grands comptes,Ouest,Outillage,2026-10-26,2026-12-10,45,11652.9,0,1,Non échu,Non échu
+FA-2026-00154,Artisans Concept SAS,Agences,Sud-Est,Outillage,2026-08-03,2026-09-17,45,5342.08,44,3,31 à 60 jours,Échu
+FA-2026-00155,Bâti Concept SARL,Grands comptes,Île-de-France,Outillage,2026-10-13,2026-11-27,45,8393.39,0,1,Non échu,Non échu
+FA-2026-00156,Habitat Plus SARL,Grands comptes,Île-de-France,Outillage,2026-10-29,2026-12-28,60,9851.96,0,1,Non échu,Non échu
+FA-2026-00157,Rénov Service SA,Grands comptes,Sud-Est,Outillage,2026-10-30,2026-12-29,60,15122.7,0,1,Non échu,Non échu
+FA-2026-00158,Clim Plus SA,Grands comptes,Île-de-France,Outillage,2026-09-21,2026-11-20,60,8442.78,0,1,Non échu,Non échu
+FA-2026-00159,Élec Plus SARL,Agences,Île-de-France,Outillage,2026-07-04,2026-08-03,30,3257.5,89,4,61 à 90 jours,Échu
+FA-2026-00160,Clim Plus SA,Grands comptes,Île-de-France,Outillage,2026-10-13,2026-12-12,60,5588.12,0,1,Non échu,Non échu
+FA-2026-00161,Clim Expert SARL,Grands comptes,Ouest,Outillage,2026-07-23,2026-09-06,45,21681.3,55,3,31 à 60 jours,Échu
+FA-2026-00162,Rénov Atlantique SAS,Agences,Ouest,Outillage,2026-09-27,2026-11-11,45,4653.82,0,1,Non échu,Non échu
+FA-2026-00163,Habitat Plus SARL,Grands comptes,Île-de-France,Outillage,2026-10-14,2026-11-28,45,11411.57,0,1,Non échu,Non échu
+FA-2026-00164,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-07-12,2026-08-26,45,9864.7,66,4,61 à 90 jours,Échu
+FA-2026-00165,Therm & Fils SA,Agences,Île-de-France,Électricité,2026-09-25,2026-11-09,45,14019.54,0,1,Non échu,Non échu
+FA-2026-00166,Habitat Rhône SA,Agences,Sud-Est,Électricité,2026-07-02,2026-08-01,30,7514.41,91,5,Plus de 90 jours,Échu
+FA-2026-00167,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-10-18,2026-12-17,60,8893.32,0,1,Non échu,Non échu
+FA-2026-00168,Artisans Nord SARL,Agences,Nord-Est,Électricité,2026-10-26,2026-11-25,30,2934.81,0,1,Non échu,Non échu
+FA-2026-00169,Clim Concept SARL,Grands comptes,Sud-Ouest,Électricité,2026-07-16,2026-09-14,60,24764.72,47,3,31 à 60 jours,Échu
+FA-2026-00170,Rénov Atlantique SAS,Agences,Ouest,Électricité,2026-09-19,2026-10-19,30,23708.41,12,2,1 à 30 jours,Échu
+FA-2026-00171,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-07-30,2026-09-13,45,3818.31,48,3,31 à 60 jours,Échu
+FA-2026-00172,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-07-07,2026-09-05,60,29440.6,56,3,31 à 60 jours,Échu
+FA-2026-00173,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-09-12,2026-10-27,45,2238.6,4,2,1 à 30 jours,Échu
+FA-2026-00174,Therm & Fils SA,Agences,Île-de-France,Électricité,2026-10-27,2026-11-26,30,3725.4,0,1,Non échu,Non échu
+FA-2026-00175,Therm Réunis SARL,Agences,Ouest,Électricité,2026-09-14,2026-10-14,30,6327.97,17,2,1 à 30 jours,Échu
+FA-2026-00176,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-10-09,2026-12-08,60,35627.48,0,1,Non échu,Non échu
+FA-2026-00177,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-05-19,2026-07-03,45,55901.51,120,5,Plus de 90 jours,Échu
+FA-2026-00178,Artisans Concept SAS,Agences,Sud-Est,Électricité,2026-10-25,2026-11-24,30,4665.14,0,1,Non échu,Non échu
+FA-2026-00179,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-09-29,2026-11-13,45,7178.58,0,1,Non échu,Non échu
+FA-2026-00180,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-05-31,2026-07-30,60,9726.51,93,5,Plus de 90 jours,Échu
+FA-2026-00181,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-06-26,2026-08-25,60,11405.56,67,4,61 à 90 jours,Échu
+FA-2026-00182,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-08-31,2026-10-15,45,18383.78,16,2,1 à 30 jours,Échu
+FA-2026-00183,Habitat Concept SARL,Agences,Île-de-France,Électricité,2026-09-30,2026-11-14,45,3448.84,0,1,Non échu,Non échu
+FA-2026-00184,Artisans Plus SAS,Agences,Île-de-France,Électricité,2026-10-26,2026-11-25,30,6490.73,0,1,Non échu,Non échu
+FA-2026-00185,Habitat Plus SARL,Grands comptes,Île-de-France,Électricité,2026-09-21,2026-11-05,45,48324.21,0,1,Non échu,Non échu
+FA-2026-00186,Clim Concept SARL,Grands comptes,Sud-Ouest,Électricité,2026-09-25,2026-11-09,45,7127.97,0,1,Non échu,Non échu
+FA-2026-00187,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-10-05,2026-11-19,45,4491.09,0,1,Non échu,Non échu
+FA-2026-00188,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-06-23,2026-08-22,60,89557.42,70,4,61 à 90 jours,Échu
+FA-2026-00189,Habitat Plus SARL,Grands comptes,Île-de-France,Électricité,2026-08-28,2026-10-27,60,15224.82,4,2,1 à 30 jours,Échu
+FA-2026-00190,Bâti Concept SA,Agences,Sud-Est,Électricité,2026-10-08,2026-11-22,45,8456.46,0,1,Non échu,Non échu
+FA-2026-00191,Bâti Nord SA,Agences,Sud-Ouest,Électricité,2026-10-22,2026-11-21,30,19249.98,0,1,Non échu,Non échu
+FA-2026-00192,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-10-03,2026-12-02,60,42843.92,0,1,Non échu,Non échu
+FA-2026-00193,Bâti Nord SA,Agences,Sud-Ouest,Électricité,2026-09-10,2026-10-10,30,11346.66,21,2,1 à 30 jours,Échu
+FA-2026-00194,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-10-07,2026-11-21,45,31530.74,0,1,Non échu,Non échu
+FA-2026-00195,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-09-18,2026-11-17,60,26456.56,0,1,Non échu,Non échu
+FA-2026-00196,Therm Plus SAS,Agences,Île-de-France,Électricité,2026-08-23,2026-10-07,45,7476.75,24,2,1 à 30 jours,Échu
+FA-2026-00197,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-08-22,2026-10-21,60,23114.72,10,2,1 à 30 jours,Échu
+FA-2026-00198,Élec Concept SAS,Agences,Île-de-France,Électricité,2026-10-04,2026-11-03,30,3313.38,0,1,Non échu,Non échu
+FA-2026-00199,Pro & Fils SARL,Agences,Sud-Ouest,Électricité,2026-10-09,2026-11-08,30,9535.77,0,1,Non échu,Non échu
+FA-2026-00200,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-09-08,2026-10-23,45,8286.45,8,2,1 à 30 jours,Échu
+FA-2026-00201,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-08-04,2026-10-03,60,17573.5,28,2,1 à 30 jours,Échu
+FA-2026-00202,Artisans Atlantique SA,Agences,Ouest,Électricité,2026-09-08,2026-10-23,45,17296.02,8,2,1 à 30 jours,Échu
+FA-2026-00203,Clim Rhône SARL,Grands comptes,Île-de-France,Électricité,2026-09-26,2026-11-25,60,5854.2,0,1,Non échu,Non échu
+FA-2026-00204,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-07-22,2026-09-20,60,15240.9,41,3,31 à 60 jours,Échu
+FA-2026-00205,Clim Rhône SARL,Grands comptes,Île-de-France,Électricité,2026-09-16,2026-10-31,45,66892.79,0,1,Non échu,Non échu
+FA-2026-00206,Habitat Plus SARL,Grands comptes,Île-de-France,Électricité,2026-06-22,2026-08-06,45,28368.26,86,4,61 à 90 jours,Échu
+FA-2026-00207,Clim Rhône SARL,Grands comptes,Île-de-France,Électricité,2026-05-29,2026-07-13,45,32364.5,110,5,Plus de 90 jours,Échu
+FA-2026-00208,Habitat Rhône SA,Agences,Sud-Est,Électricité,2026-10-13,2026-11-12,30,11180.74,0,1,Non échu,Non échu
+FA-2026-00209,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-10-19,2026-12-03,45,5533.0,0,1,Non échu,Non échu
+FA-2026-00210,Therm du Midi SA,Agences,Île-de-France,Électricité,2026-06-18,2026-08-02,45,8099.24,90,4,61 à 90 jours,Échu
+FA-2026-00211,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-07-17,2026-09-15,60,22033.11,46,3,31 à 60 jours,Échu
+FA-2026-00212,Habitat Service SA,Agences,Île-de-France,Électricité,2026-10-07,2026-11-06,30,6874.3,0,1,Non échu,Non échu
+FA-2026-00213,Habitat & Fils SARL,Agences,Nord-Est,Électricité,2026-08-09,2026-09-08,30,4423.16,53,3,31 à 60 jours,Échu
+FA-2026-00214,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-06-16,2026-08-15,60,12014.91,77,4,61 à 90 jours,Échu
+FA-2026-00215,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-09-17,2026-11-01,45,7022.24,0,1,Non échu,Non échu
+FA-2026-00216,Habitat Atlantique SAS,Agences,Ouest,Électricité,2026-06-30,2026-07-30,30,7054.82,93,5,Plus de 90 jours,Échu
+FA-2026-00217,Chantier Solutions SARL,Agences,Île-de-France,Électricité,2026-09-15,2026-10-30,45,4531.92,1,2,1 à 30 jours,Échu
+FA-2026-00218,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-09-20,2026-11-19,60,16020.14,0,1,Non échu,Non échu
+FA-2026-00219,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-09-29,2026-11-28,60,7296.89,0,1,Non échu,Non échu
+FA-2026-00220,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-10-29,2026-12-13,45,29057.37,0,1,Non échu,Non échu
+FA-2026-00221,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-09-28,2026-11-27,60,9722.64,0,1,Non échu,Non échu
+FA-2026-00222,Habitat Plus SARL,Grands comptes,Île-de-France,Électricité,2026-09-30,2026-11-14,45,4046.94,0,1,Non échu,Non échu
+FA-2026-00223,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-08-23,2026-10-22,60,1451.68,9,2,1 à 30 jours,Échu
+FA-2026-00224,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-08-21,2026-10-05,45,12854.64,26,2,1 à 30 jours,Échu
+FA-2026-00225,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-10-08,2026-11-22,45,16640.71,0,1,Non échu,Non échu
+FA-2026-00226,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-07-26,2026-09-24,60,31203.24,37,3,31 à 60 jours,Échu
+FA-2026-00227,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-08-02,2026-09-16,45,6867.73,45,3,31 à 60 jours,Échu
+FA-2026-00228,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-10-18,2026-12-17,60,3607.22,0,1,Non échu,Non échu
+FA-2026-00229,Rénov Concept SAS,Agences,Ouest,Électricité,2026-10-20,2026-12-04,45,2892.48,0,1,Non échu,Non échu
+FA-2026-00230,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-09-23,2026-11-07,45,28528.95,0,1,Non échu,Non échu
+FA-2026-00231,Rénov Concept SAS,Agences,Ouest,Électricité,2026-10-25,2026-11-24,30,13590.56,0,1,Non échu,Non échu
+FA-2026-00232,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-10-19,2026-12-03,45,24615.6,0,1,Non échu,Non échu
+FA-2026-00233,Atelier Expert SAS,Agences,Île-de-France,Électricité,2026-10-25,2026-11-24,30,16527.72,0,1,Non échu,Non échu
+FA-2026-00234,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-10-28,2026-12-12,45,17241.54,0,1,Non échu,Non échu
+FA-2026-00235,Artisans Nord SAS,Agences,Sud-Est,Électricité,2026-10-24,2026-12-08,45,14277.85,0,1,Non échu,Non échu
+FA-2026-00236,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-10-27,2026-12-11,45,16899.53,0,1,Non échu,Non échu
+FA-2026-00237,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-07-31,2026-09-14,45,24795.55,47,3,31 à 60 jours,Échu
+FA-2026-00238,Pro Concept SAS,Agences,Île-de-France,Électricité,2026-09-27,2026-10-27,30,3657.97,4,2,1 à 30 jours,Échu
+FA-2026-00239,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-10-19,2026-12-18,60,4132.77,0,1,Non échu,Non échu
+FA-2026-00240,Atelier du Midi SA,Agences,Sud-Est,Électricité,2026-10-28,2026-11-27,30,6545.26,0,1,Non échu,Non échu
+FA-2026-00241,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-08-04,2026-09-18,45,4562.72,43,3,31 à 60 jours,Échu
+FA-2026-00242,Atelier du Midi SA,Agences,Sud-Est,Électricité,2026-10-04,2026-11-03,30,2101.0,0,1,Non échu,Non échu
+FA-2026-00243,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-06-12,2026-08-11,60,7945.08,81,4,61 à 90 jours,Échu
+FA-2026-00244,Élec Plus SARL,Agences,Île-de-France,Électricité,2026-10-06,2026-11-05,30,9451.62,0,1,Non échu,Non échu
+FA-2026-00245,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-06-27,2026-08-11,45,8417.38,81,4,61 à 90 jours,Échu
+FA-2026-00246,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-05-05,2026-07-04,60,75531.14,119,5,Plus de 90 jours,Échu
+FA-2026-00247,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-10-24,2026-12-23,60,7007.84,0,1,Non échu,Non échu
+FA-2026-00248,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-06-25,2026-08-09,45,20383.36,83,4,61 à 90 jours,Échu
+FA-2026-00249,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-10-12,2026-11-26,45,8743.65,0,1,Non échu,Non échu
+FA-2026-00250,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-08-12,2026-09-26,45,32967.17,35,3,31 à 60 jours,Échu
+FA-2026-00251,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-06-24,2026-08-23,60,1529.8,69,4,61 à 90 jours,Échu
+FA-2026-00252,Atelier Ouest SARL,Agences,Ouest,Électricité,2026-08-12,2026-09-11,30,3109.1,50,3,31 à 60 jours,Échu
+FA-2026-00253,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-09-03,2026-10-18,45,23734.57,13,2,1 à 30 jours,Échu
+FA-2026-00254,Atelier du Midi SA,Agences,Sud-Est,Électricité,2026-07-24,2026-09-07,45,1221.67,54,3,31 à 60 jours,Échu
+FA-2026-00255,Élec Rhône SA,Agences,Île-de-France,Électricité,2026-07-02,2026-08-16,45,21043.41,76,4,61 à 90 jours,Échu
+FA-2026-00256,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-09-25,2026-11-09,45,82901.68,0,1,Non échu,Non échu
+FA-2026-00257,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-06-19,2026-08-18,60,24833.32,74,4,61 à 90 jours,Échu
+FA-2026-00258,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-08-01,2026-09-30,60,8002.07,31,3,31 à 60 jours,Échu
+FA-2026-00259,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-09-20,2026-11-04,45,8281.8,0,1,Non échu,Non échu
+FA-2026-00260,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-09-24,2026-11-08,45,8026.16,0,1,Non échu,Non échu
+FA-2026-00261,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-07-15,2026-09-13,60,6075.88,48,3,31 à 60 jours,Échu
+FA-2026-00262,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-06-30,2026-08-14,45,11132.39,78,4,61 à 90 jours,Échu
+FA-2026-00263,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-06-23,2026-08-22,60,42621.06,70,4,61 à 90 jours,Échu
+FA-2026-00264,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-09-13,2026-10-28,45,18371.8,3,2,1 à 30 jours,Échu
+FA-2026-00265,Artisans Atlantique SA,Agences,Ouest,Électricité,2026-10-05,2026-11-19,45,1968.85,0,1,Non échu,Non échu
+FA-2026-00266,Clim Concept SARL,Grands comptes,Sud-Ouest,Électricité,2026-10-03,2026-12-02,60,23106.45,0,1,Non échu,Non échu
+FA-2026-00267,Élec Atlantique SAS,Agences,Île-de-France,Électricité,2026-10-04,2026-11-03,30,1396.09,0,1,Non échu,Non échu
+FA-2026-00268,Clim Expert SA,Agences,Sud-Est,Électricité,2026-10-03,2026-11-17,45,11287.85,0,1,Non échu,Non échu
+FA-2026-00269,Artisans Plus SAS,Agences,Île-de-France,Électricité,2026-10-30,2026-11-29,30,9284.11,0,1,Non échu,Non échu
+FA-2026-00270,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-06-19,2026-08-03,45,80018.3,89,4,61 à 90 jours,Échu
+FA-2026-00271,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-10-08,2026-11-22,45,12295.62,0,1,Non échu,Non échu
+FA-2026-00272,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-07-07,2026-09-05,60,4437.74,56,3,31 à 60 jours,Échu
+FA-2026-00273,Habitat Plus SARL,Grands comptes,Île-de-France,Électricité,2026-09-12,2026-10-27,45,21997.44,4,2,1 à 30 jours,Échu
+FA-2026-00274,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-07-10,2026-09-08,60,2860.15,53,3,31 à 60 jours,Échu
+FA-2026-00275,Therm Plus SAS,Agences,Île-de-France,Électricité,2026-10-22,2026-11-21,30,12916.61,0,1,Non échu,Non échu
+FA-2026-00276,Therm Plus SAS,Agences,Île-de-France,Électricité,2026-08-25,2026-10-09,45,1344.71,22,2,1 à 30 jours,Échu
+FA-2026-00277,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-06-18,2026-08-02,45,25900.99,90,4,61 à 90 jours,Échu
+FA-2026-00278,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-08-23,2026-10-07,45,7872.32,24,2,1 à 30 jours,Échu
+FA-2026-00279,Clim Concept SARL,Grands comptes,Sud-Ouest,Électricité,2026-07-23,2026-09-06,45,22356.02,55,3,31 à 60 jours,Échu
+FA-2026-00280,Élec Atlantique SAS,Agences,Île-de-France,Électricité,2026-09-05,2026-10-20,45,21425.51,11,2,1 à 30 jours,Échu
+FA-2026-00281,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-09-18,2026-11-02,45,26115.59,0,1,Non échu,Non échu
+FA-2026-00282,Habitat Plus SARL,Grands comptes,Île-de-France,Électricité,2026-10-27,2026-12-26,60,22467.88,0,1,Non échu,Non échu
+FA-2026-00283,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-07-05,2026-09-03,60,16013.52,58,3,31 à 60 jours,Échu
+FA-2026-00284,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-03-16,2026-05-15,60,22074.65,169,5,Plus de 90 jours,Échu
+FA-2026-00285,Clim Concept SA,Agences,Nord-Est,Électricité,2026-09-11,2026-10-26,45,10379.51,5,2,1 à 30 jours,Échu
+FA-2026-00286,Bâti Concept SA,Agences,Sud-Est,Électricité,2026-08-19,2026-10-03,45,1367.16,28,2,1 à 30 jours,Échu
+FA-2026-00287,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-10-08,2026-12-07,60,26239.72,0,1,Non échu,Non échu
+FA-2026-00288,Atelier Ouest SARL,Agences,Ouest,Électricité,2026-10-13,2026-11-12,30,3606.71,0,1,Non échu,Non échu
+FA-2026-00289,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-09-24,2026-11-23,60,3780.79,0,1,Non échu,Non échu
+FA-2026-00290,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-06-20,2026-08-04,45,13707.01,88,4,61 à 90 jours,Échu
+FA-2026-00291,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-09-05,2026-10-20,45,20575.93,11,2,1 à 30 jours,Échu
+FA-2026-00292,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-03-25,2026-05-24,60,2183.8,160,5,Plus de 90 jours,Échu
+FA-2026-00293,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-04-28,2026-06-12,45,11041.68,141,5,Plus de 90 jours,Échu
+FA-2026-00294,Atelier Ouest SARL,Agences,Ouest,Électricité,2026-08-29,2026-09-28,30,4458.25,33,3,31 à 60 jours,Échu
+FA-2026-00295,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-05-29,2026-07-28,60,9209.61,95,5,Plus de 90 jours,Échu
+FA-2026-00296,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-09-28,2026-11-27,60,36863.53,0,1,Non échu,Non échu
+FA-2026-00297,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-09-01,2026-10-16,45,17879.69,15,2,1 à 30 jours,Échu
+FA-2026-00298,Élec Plus SARL,Agences,Île-de-France,Électricité,2026-09-30,2026-11-14,45,1625.73,0,1,Non échu,Non échu
+FA-2026-00299,Clim Concept SARL,Grands comptes,Sud-Ouest,Électricité,2026-06-13,2026-08-12,60,3887.7,80,4,61 à 90 jours,Échu
+FA-2026-00300,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-08-26,2026-10-10,45,3996.98,21,2,1 à 30 jours,Échu
+FA-2026-00301,Habitat Service SA,Agences,Île-de-France,Électricité,2026-09-01,2026-10-01,30,29648.58,30,2,1 à 30 jours,Échu
+FA-2026-00302,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-09-08,2026-10-23,45,17158.61,8,2,1 à 30 jours,Échu
+FA-2026-00303,Atelier Ouest SARL,Agences,Ouest,Électricité,2026-08-06,2026-09-05,30,9749.19,56,3,31 à 60 jours,Échu
+FA-2026-00304,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-08-31,2026-10-15,45,28616.27,16,2,1 à 30 jours,Échu
+FA-2026-00305,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-04-28,2026-06-12,45,5341.92,141,5,Plus de 90 jours,Échu
+FA-2026-00306,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-08-26,2026-10-25,60,8198.13,6,2,1 à 30 jours,Échu
+FA-2026-00307,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-07-01,2026-08-15,45,15011.27,77,4,61 à 90 jours,Échu
+FA-2026-00308,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-09-22,2026-11-21,60,3440.07,0,1,Non échu,Non échu
+FA-2026-00309,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-07-22,2026-09-20,60,25130.11,41,3,31 à 60 jours,Échu
+FA-2026-00310,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-10-01,2026-11-30,60,73487.47,0,1,Non échu,Non échu
+FA-2026-00311,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-08-08,2026-10-07,60,5850.64,24,2,1 à 30 jours,Échu
+FA-2026-00312,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-06-09,2026-08-08,60,24064.56,84,4,61 à 90 jours,Échu
+FA-2026-00313,Élec Atlantique SARL,Agences,Sud-Est,Électricité,2026-10-17,2026-11-16,30,11555.7,0,1,Non échu,Non échu
+FA-2026-00314,Habitat & Fils SARL,Agences,Nord-Est,Électricité,2026-09-03,2026-10-18,45,3405.98,13,2,1 à 30 jours,Échu
+FA-2026-00315,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-10-13,2026-11-27,45,5227.51,0,1,Non échu,Non échu
+FA-2026-00316,Artisans Nord SAS,Agences,Sud-Est,Électricité,2026-09-19,2026-11-03,45,2503.53,0,1,Non échu,Non échu
+FA-2026-00317,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-08-10,2026-10-09,60,7858.65,22,2,1 à 30 jours,Échu
+FA-2026-00318,Pro & Fils SARL,Agences,Sud-Ouest,Électricité,2026-10-12,2026-11-26,45,4987.47,0,1,Non échu,Non échu
+FA-2026-00319,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-07-18,2026-09-16,60,15761.54,45,3,31 à 60 jours,Échu
+FA-2026-00320,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-10-13,2026-11-27,45,17661.94,0,1,Non échu,Non échu
+FA-2026-00321,Therm Plus SAS,Agences,Île-de-France,Électricité,2026-10-24,2026-11-23,30,155944.11,0,1,Non échu,Non échu
+FA-2026-00322,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-10-27,2026-12-26,60,11131.35,0,1,Non échu,Non échu
+FA-2026-00323,Clim Rhône SARL,Grands comptes,Île-de-France,Électricité,2026-10-03,2026-12-02,60,22938.66,0,1,Non échu,Non échu
+FA-2026-00324,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-09-29,2026-11-13,45,10833.09,0,1,Non échu,Non échu
+FA-2026-00325,Clim Concept SARL,Grands comptes,Sud-Ouest,Électricité,2026-10-17,2026-12-01,45,13017.54,0,1,Non échu,Non échu
+FA-2026-00326,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-09-07,2026-10-22,45,6921.38,9,2,1 à 30 jours,Échu
+FA-2026-00327,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-07-31,2026-09-29,60,13371.91,32,3,31 à 60 jours,Échu
+FA-2026-00328,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-09-04,2026-10-19,45,30542.14,12,2,1 à 30 jours,Échu
+FA-2026-00329,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-08-22,2026-10-21,60,8526.19,10,2,1 à 30 jours,Échu
+FA-2026-00330,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-10-22,2026-12-21,60,28520.57,0,1,Non échu,Non échu
+FA-2026-00331,Artisans Rhône SARL,Agences,Île-de-France,Électricité,2026-10-03,2026-11-02,30,4400.41,0,1,Non échu,Non échu
+FA-2026-00332,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-06-20,2026-08-19,60,2807.18,73,4,61 à 90 jours,Échu
+FA-2026-00333,Chantier Solutions SARL,Agences,Île-de-France,Électricité,2026-10-28,2026-11-27,30,3340.54,0,1,Non échu,Non échu
+FA-2026-00334,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-10-24,2026-12-23,60,19423.16,0,1,Non échu,Non échu
+FA-2026-00335,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-09-23,2026-11-07,45,2323.86,0,1,Non échu,Non échu
+FA-2026-00336,Atelier Ouest SARL,Agences,Ouest,Électricité,2026-09-20,2026-11-04,45,29582.54,0,1,Non échu,Non échu
+FA-2026-00337,Clim Expert SA,Agences,Sud-Est,Électricité,2026-09-13,2026-10-28,45,8976.39,3,2,1 à 30 jours,Échu
+FA-2026-00338,Artisans & Fils SA,Agences,Sud-Est,Électricité,2026-10-29,2026-12-13,45,4064.49,0,1,Non échu,Non échu
+FA-2026-00339,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-10-09,2026-11-23,45,4376.37,0,1,Non échu,Non échu
+FA-2026-00340,Artisans Rhône SARL,Agences,Île-de-France,Électricité,2026-10-02,2026-11-01,30,3877.1,0,1,Non échu,Non échu
+FA-2026-00341,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-09-29,2026-11-13,45,5333.04,0,1,Non échu,Non échu
+FA-2026-00342,Élec Concept SAS,Agences,Île-de-France,Électricité,2026-10-28,2026-11-27,30,8501.15,0,1,Non échu,Non échu
+FA-2026-00343,Habitat Rhône SA,Agences,Sud-Est,Électricité,2026-09-19,2026-11-03,45,16407.88,0,1,Non échu,Non échu
+FA-2026-00344,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-06-29,2026-08-13,45,2366.46,79,4,61 à 90 jours,Échu
+FA-2026-00345,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-10-02,2026-11-16,45,11580.75,0,1,Non échu,Non échu
+FA-2026-00346,Clim Rhône SARL,Grands comptes,Île-de-France,Électricité,2026-07-18,2026-09-01,45,4905.58,60,3,31 à 60 jours,Échu
+FA-2026-00347,Habitat Concept SARL,Agences,Île-de-France,Électricité,2026-08-10,2026-09-09,30,1744.93,52,3,31 à 60 jours,Échu
+FA-2026-00348,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-10-02,2026-11-16,45,21111.38,0,1,Non échu,Non échu
+FA-2026-00349,Élec Rhône SA,Agences,Île-de-France,Électricité,2026-08-11,2026-09-25,45,1179.28,36,3,31 à 60 jours,Échu
+FA-2026-00350,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-09-25,2026-11-09,45,30961.07,0,1,Non échu,Non échu
+FA-2026-00351,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-10-21,2026-12-20,60,5506.18,0,1,Non échu,Non échu
+FA-2026-00352,Élec Plus SARL,Agences,Île-de-France,Électricité,2026-10-13,2026-11-27,45,6546.99,0,1,Non échu,Non échu
+FA-2026-00353,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-09-28,2026-11-27,60,7052.55,0,1,Non échu,Non échu
+FA-2026-00354,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-09-22,2026-11-06,45,33739.42,0,1,Non échu,Non échu
+FA-2026-00355,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-10-20,2026-12-04,45,33009.6,0,1,Non échu,Non échu
+FA-2026-00356,Habitat Rhône SA,Agences,Sud-Est,Électricité,2026-10-27,2026-12-11,45,1921.99,0,1,Non échu,Non échu
+FA-2026-00357,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-07-12,2026-09-10,60,78566.55,51,3,31 à 60 jours,Échu
+FA-2026-00358,Chantier Nord SAS,Agences,Sud-Est,Électricité,2026-10-18,2026-11-17,30,9488.66,0,1,Non échu,Non échu
+FA-2026-00359,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-10-18,2026-12-02,45,6563.82,0,1,Non échu,Non échu
+FA-2026-00360,Habitat Atlantique SAS,Agences,Ouest,Électricité,2026-09-12,2026-10-12,30,9805.23,19,2,1 à 30 jours,Échu
+FA-2026-00361,Élec Concept SAS,Agences,Île-de-France,Électricité,2026-09-29,2026-11-13,45,2100.05,0,1,Non échu,Non échu
+FA-2026-00362,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-08-29,2026-10-13,45,59012.68,18,2,1 à 30 jours,Échu
+FA-2026-00363,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-08-28,2026-10-12,45,82052.08,19,2,1 à 30 jours,Échu
+FA-2026-00364,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-08-10,2026-10-09,60,13094.89,22,2,1 à 30 jours,Échu
+FA-2026-00365,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-08-09,2026-10-08,60,3476.06,23,2,1 à 30 jours,Échu
+FA-2026-00366,Artisans & Fils SA,Agences,Sud-Est,Électricité,2026-10-16,2026-11-15,30,5422.71,0,1,Non échu,Non échu
+FA-2026-00367,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-08-21,2026-10-05,45,13051.77,26,2,1 à 30 jours,Échu
+FA-2026-00368,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-09-12,2026-10-27,45,2022.2,4,2,1 à 30 jours,Échu
+FA-2026-00369,Bâti Concept SA,Agences,Sud-Est,Électricité,2026-09-18,2026-10-18,30,14447.67,13,2,1 à 30 jours,Échu
+FA-2026-00370,Clim Expert SA,Agences,Sud-Est,Électricité,2026-10-08,2026-11-07,30,4283.68,0,1,Non échu,Non échu
+FA-2026-00371,Élec Atlantique SARL,Agences,Sud-Est,Électricité,2026-09-03,2026-10-03,30,15453.63,28,2,1 à 30 jours,Échu
+FA-2026-00372,Rénov Atlantique SAS,Agences,Ouest,Électricité,2026-10-15,2026-11-29,45,12536.77,0,1,Non échu,Non échu
+FA-2026-00373,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-10-21,2026-12-05,45,18425.97,0,1,Non échu,Non échu
+FA-2026-00374,Therm Plus SAS,Agences,Île-de-France,Électricité,2026-10-15,2026-11-14,30,1919.71,0,1,Non échu,Non échu
+FA-2026-00375,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-10-29,2026-12-28,60,14248.82,0,1,Non échu,Non échu
+FA-2026-00376,Élec Rhône SA,Agences,Île-de-France,Électricité,2026-10-07,2026-11-21,45,15133.61,0,1,Non échu,Non échu
+FA-2026-00377,Therm Solutions SARL,Agences,Sud-Ouest,Électricité,2026-04-14,2026-05-29,45,10847.97,155,5,Plus de 90 jours,Échu
+FA-2026-00378,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-09-12,2026-10-27,45,10197.98,4,2,1 à 30 jours,Échu
+FA-2026-00379,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-08-04,2026-10-03,60,31637.54,28,2,1 à 30 jours,Échu
+FA-2026-00380,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-08-04,2026-09-18,45,11178.1,43,3,31 à 60 jours,Échu
+FA-2026-00381,Chantier Nord SAS,Agences,Sud-Est,Électricité,2026-09-16,2026-10-31,45,3688.22,0,1,Non échu,Non échu
+FA-2026-00382,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-10-22,2026-12-06,45,27693.61,0,1,Non échu,Non échu
+FA-2026-00383,Rénov Ouest SAS,Agences,Nord-Est,Électricité,2026-09-26,2026-11-10,45,7813.72,0,1,Non échu,Non échu
+FA-2026-00384,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-09-30,2026-11-29,60,5823.06,0,1,Non échu,Non échu
+FA-2026-00385,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-08-18,2026-10-17,60,9245.48,14,2,1 à 30 jours,Échu
+FA-2026-00386,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-08-01,2026-09-30,60,19171.71,31,3,31 à 60 jours,Échu
+FA-2026-00387,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-07-25,2026-09-08,45,8878.23,53,3,31 à 60 jours,Échu
+FA-2026-00388,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-10-03,2026-11-17,45,4074.21,0,1,Non échu,Non échu
+FA-2026-00389,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-08-06,2026-09-20,45,8915.64,41,3,31 à 60 jours,Échu
+FA-2026-00390,Therm Solutions SARL,Agences,Sud-Ouest,Électricité,2026-10-12,2026-11-11,30,1561.12,0,1,Non échu,Non échu
+FA-2026-00391,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-10-21,2026-12-05,45,2132.98,0,1,Non échu,Non échu
+FA-2026-00392,Habitat & Fils SARL,Agences,Nord-Est,Électricité,2026-08-30,2026-10-14,45,2630.08,17,2,1 à 30 jours,Échu
+FA-2026-00393,Habitat Rhône SA,Agences,Sud-Est,Électricité,2026-10-22,2026-11-21,30,7031.23,0,1,Non échu,Non échu
+FA-2026-00394,Therm Réunis SARL,Agences,Ouest,Électricité,2026-10-17,2026-11-16,30,15911.2,0,1,Non échu,Non échu
+FA-2026-00395,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-06-21,2026-08-05,45,4123.57,87,4,61 à 90 jours,Échu
+FA-2026-00396,Élec Atlantique SAS,Agences,Île-de-France,Électricité,2026-06-28,2026-08-12,45,11826.18,80,4,61 à 90 jours,Échu
+FA-2026-00397,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-06-23,2026-08-22,60,121952.25,70,4,61 à 90 jours,Échu
+FA-2026-00398,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-08-20,2026-10-19,60,16407.13,12,2,1 à 30 jours,Échu
+FA-2026-00399,Rénov Rhône SAS,Grands comptes,Île-de-France,Électricité,2026-08-09,2026-09-23,45,7343.61,38,3,31 à 60 jours,Échu
+FA-2026-00400,Clim Concept SARL,Grands comptes,Sud-Ouest,Électricité,2026-10-13,2026-12-12,60,7227.18,0,1,Non échu,Non échu
+FA-2026-00401,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-09-30,2026-11-14,45,26744.92,0,1,Non échu,Non échu
+FA-2026-00402,Artisans Nord SARL,Agences,Nord-Est,Électricité,2026-10-10,2026-11-09,30,2809.55,0,1,Non échu,Non échu
+FA-2026-00403,Pro & Fils SARL,Agences,Sud-Ouest,Électricité,2026-10-05,2026-11-19,45,15069.91,0,1,Non échu,Non échu
+FA-2026-00404,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-08-05,2026-10-04,60,4448.63,27,2,1 à 30 jours,Échu
+FA-2026-00405,Artisans Atlantique SAS,Grands comptes,Sud-Est,Électricité,2026-07-06,2026-09-04,60,11756.14,57,3,31 à 60 jours,Échu
+FA-2026-00406,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-08-22,2026-10-21,60,2867.4,10,2,1 à 30 jours,Échu
+FA-2026-00407,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-08-30,2026-10-14,45,6926.56,17,2,1 à 30 jours,Échu
+FA-2026-00408,Atelier Expert SARL,Agences,Nord-Est,Électricité,2026-04-16,2026-05-16,30,3538.84,168,5,Plus de 90 jours,Échu
+FA-2026-00409,Clim Plus SA,Grands comptes,Île-de-France,Électricité,2026-09-28,2026-11-27,60,68433.53,0,1,Non échu,Non échu
+FA-2026-00410,Clim Concept SARL,Grands comptes,Sud-Ouest,Électricité,2026-07-21,2026-09-04,45,10564.82,57,3,31 à 60 jours,Échu
+FA-2026-00411,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-07-19,2026-09-17,60,4475.88,44,3,31 à 60 jours,Échu
+FA-2026-00412,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-09-28,2026-11-12,45,16212.03,0,1,Non échu,Non échu
+FA-2026-00413,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-06-02,2026-07-17,45,50587.36,106,5,Plus de 90 jours,Échu
+FA-2026-00414,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-09-13,2026-11-12,60,15040.4,0,1,Non échu,Non échu
+FA-2026-00415,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-08-11,2026-09-25,45,81313.14,36,3,31 à 60 jours,Échu
+FA-2026-00416,Therm Rhône SA,Grands comptes,Île-de-France,Électricité,2026-08-19,2026-10-18,60,22121.0,13,2,1 à 30 jours,Échu
+FA-2026-00417,Élec Plus SARL,Agences,Île-de-France,Électricité,2026-09-13,2026-10-28,45,9128.17,3,2,1 à 30 jours,Échu
+FA-2026-00418,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-07-30,2026-09-28,60,5878.26,33,3,31 à 60 jours,Échu
+FA-2026-00419,Chantier Nord SARL,Grands comptes,Ouest,Électricité,2026-08-01,2026-09-15,45,14038.12,46,3,31 à 60 jours,Échu
+FA-2026-00420,Clim Expert SARL,Grands comptes,Ouest,Électricité,2026-07-09,2026-09-07,60,14685.47,54,3,31 à 60 jours,Échu
+FA-2026-00421,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-10-19,2026-12-18,60,2333.74,0,1,Non échu,Non échu
+FA-2026-00422,Clim Service SAS,Grands comptes,Nord-Est,Électricité,2026-10-13,2026-12-12,60,15516.62,0,1,Non échu,Non échu
+FA-2026-00423,Élec Rhône SA,Agences,Île-de-France,Électricité,2026-10-22,2026-12-06,45,3775.14,0,1,Non échu,Non échu
+FA-2026-00424,Rénov Ouest SAS,Agences,Nord-Est,Électricité,2026-09-22,2026-10-22,30,30513.5,9,2,1 à 30 jours,Échu
+FA-2026-00425,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-10-11,2026-12-10,60,2232.23,0,1,Non échu,Non échu
+FA-2026-00426,Rénov Service SA,Grands comptes,Sud-Est,Électricité,2026-10-07,2026-11-21,45,33009.44,0,1,Non échu,Non échu
+FA-2026-00427,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-06-27,2026-08-26,60,22084.29,66,4,61 à 90 jours,Échu
+FA-2026-00428,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-05-18,2026-07-17,60,77113.62,106,5,Plus de 90 jours,Échu
+FA-2026-00429,Pro Ouest SAS,Grands comptes,Île-de-France,Électricité,2026-07-15,2026-09-13,60,7233.52,48,3,31 à 60 jours,Échu
+FA-2026-00430,Pro Rhône SA,Agences,Nord-Est,Électricité,2026-09-21,2026-11-05,45,14477.0,0,1,Non échu,Non échu
+FA-2026-00431,Chantier Solutions SARL,Agences,Île-de-France,Électricité,2026-09-17,2026-10-17,30,1718.65,14,2,1 à 30 jours,Échu
+FA-2026-00432,Élec Rhône SA,Agences,Île-de-France,Électricité,2026-10-16,2026-11-15,30,3209.89,0,1,Non échu,Non échu
+FA-2026-00433,Chantier Nord SAS,Agences,Sud-Est,Électricité,2026-06-06,2026-07-21,45,2226.03,102,5,Plus de 90 jours,Échu
+FA-2026-00434,Artisans Nord SARL,Agences,Nord-Est,Électricité,2026-10-30,2026-12-14,45,5571.75,0,1,Non échu,Non échu
+FA-2026-00435,Therm Concept SA,Grands comptes,Île-de-France,Électricité,2026-10-21,2026-12-20,60,13842.53,0,1,Non échu,Non échu
+FA-2026-00436,Habitat Rhône SA,Agences,Sud-Est,Électricité,2026-10-29,2026-11-28,30,6908.42,0,1,Non échu,Non échu
+FA-2026-00437,Chantier Concept SARL,Grands comptes,Nord-Est,Électricité,2026-08-31,2026-10-30,60,10590.47,1,2,1 à 30 jours,Échu
+FA-2026-00438,Pro Concept SAS,Agences,Île-de-France,Électricité,2026-10-30,2026-12-14,45,2345.48,0,1,Non échu,Non échu
+FA-2026-00439,Habitat & Fils SA,Grands comptes,Sud-Ouest,Électricité,2026-10-24,2026-12-23,60,14571.43,0,1,Non échu,Non échu
+FA-2026-00440,Therm Réunis SARL,Agences,Ouest,Électricité,2026-09-28,2026-11-12,45,18454.36,0,1,Non échu,Non échu
+FA-2026-00441,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-10-20,2026-12-19,60,28219.84,0,1,Non échu,Non échu
+FA-2026-00442,Rénov Plus SA,Grands comptes,Sud-Est,Électricité,2026-07-29,2026-09-12,45,4157.09,49,3,31 à 60 jours,Échu
+FA-2026-00443,Bâti Concept SARL,Grands comptes,Île-de-France,Électricité,2026-08-08,2026-10-07,60,11831.12,24,2,1 à 30 jours,Échu
+FA-2026-00444,Habitat & Fils SARL,Agences,Nord-Est,Électricité,2026-10-15,2026-11-14,30,4189.17,0,1,Non échu,Non échu
+FA-2026-00445,Habitat Réunis SARL,Grands comptes,Ouest,Électricité,2026-07-05,2026-09-03,60,25492.81,58,3,31 à 60 jours,Échu
+FA-2026-00446,Habitat Plus SARL,Grands comptes,Île-de-France,Électricité,2026-08-14,2026-10-13,60,13041.22,18,2,1 à 30 jours,Échu
+FA-2026-00447,Chantier Nord SAS,Agences,Sud-Est,Électricité,2026-09-18,2026-11-02,45,12913.19,0,1,Non échu,Non échu
+FA-2026-00448,Habitat Plus SARL,Grands comptes,Île-de-France,Électricité,2026-07-31,2026-09-14,45,32723.2,47,3,31 à 60 jours,Échu
+FA-2026-00449,Habitat Service SA,Agences,Île-de-France,Chauffage & Climatisation,2026-07-31,2026-09-14,45,34311.64,47,3,31 à 60 jours,Échu
+FA-2026-00450,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-03,2026-09-01,60,18753.87,60,3,31 à 60 jours,Échu
+FA-2026-00451,Bâti Concept SA,Agences,Sud-Est,Chauffage & Climatisation,2026-08-07,2026-09-21,45,9762.16,40,3,31 à 60 jours,Échu
+FA-2026-00452,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-25,2026-12-24,60,32271.11,0,1,Non échu,Non échu
+FA-2026-00453,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-09-01,2026-10-31,60,61125.21,0,1,Non échu,Non échu
+FA-2026-00454,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-08,2026-09-22,45,3701.18,39,3,31 à 60 jours,Échu
+FA-2026-00455,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-19,2026-11-03,45,9699.74,0,1,Non échu,Non échu
+FA-2026-00456,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-22,2026-10-06,45,11583.9,25,2,1 à 30 jours,Échu
+FA-2026-00457,Chantier Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-10-09,2026-11-23,45,20495.46,0,1,Non échu,Non échu
+FA-2026-00458,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-08-22,2026-10-06,45,24369.28,25,2,1 à 30 jours,Échu
+FA-2026-00459,Therm & Fils SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-23,2026-11-22,30,1429.9,0,1,Non échu,Non échu
+FA-2026-00460,Pro & Fils SARL,Agences,Sud-Ouest,Chauffage & Climatisation,2026-09-18,2026-11-02,45,1771.71,0,1,Non échu,Non échu
+FA-2026-00461,Therm Plus SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-10-30,2026-12-14,45,2110.74,0,1,Non échu,Non échu
+FA-2026-00462,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-17,2026-10-01,45,6517.76,30,2,1 à 30 jours,Échu
+FA-2026-00463,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-29,2026-10-28,60,5294.05,3,2,1 à 30 jours,Échu
+FA-2026-00464,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-25,2026-11-24,60,7811.13,0,1,Non échu,Non échu
+FA-2026-00465,Artisans & Fils SA,Agences,Sud-Est,Chauffage & Climatisation,2026-10-24,2026-11-23,30,16522.16,0,1,Non échu,Non échu
+FA-2026-00466,Pro Plus SAS,Agences,Ouest,Chauffage & Climatisation,2026-07-23,2026-08-22,30,7084.15,70,4,61 à 90 jours,Échu
+FA-2026-00467,Artisans Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-10-12,2026-11-11,30,23551.92,0,1,Non échu,Non échu
+FA-2026-00468,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-23,2026-12-22,60,4543.52,0,1,Non échu,Non échu
+FA-2026-00469,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-12,2026-11-26,45,17843.35,0,1,Non échu,Non échu
+FA-2026-00470,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-10,2026-12-09,60,52163.96,0,1,Non échu,Non échu
+FA-2026-00471,Pro Rhône SA,Agences,Nord-Est,Chauffage & Climatisation,2026-09-11,2026-10-11,30,23522.2,20,2,1 à 30 jours,Échu
+FA-2026-00472,Clim Service SAS,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-08-28,2026-10-27,60,31114.08,4,2,1 à 30 jours,Échu
+FA-2026-00473,Pro Plus SAS,Agences,Ouest,Chauffage & Climatisation,2026-10-15,2026-11-14,30,12367.3,0,1,Non échu,Non échu
+FA-2026-00474,Artisans Nord SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-10-04,2026-11-03,30,5651.39,0,1,Non échu,Non échu
+FA-2026-00475,Habitat Service SA,Agences,Île-de-France,Chauffage & Climatisation,2026-09-08,2026-10-23,45,29413.84,8,2,1 à 30 jours,Échu
+FA-2026-00476,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-06,2026-12-05,60,17810.59,0,1,Non échu,Non échu
+FA-2026-00477,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-16,2026-08-30,45,17364.63,62,4,61 à 90 jours,Échu
+FA-2026-00478,Habitat & Fils SA,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-09-15,2026-11-14,60,9342.89,0,1,Non échu,Non échu
+FA-2026-00479,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-13,2026-10-28,45,7279.97,3,2,1 à 30 jours,Échu
+FA-2026-00480,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-23,2026-12-07,45,27167.47,0,1,Non échu,Non échu
+FA-2026-00481,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-09-14,2026-10-29,45,56169.54,2,2,1 à 30 jours,Échu
+FA-2026-00482,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-02,2026-12-01,60,3956.6,0,1,Non échu,Non échu
+FA-2026-00483,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-19,2026-11-18,60,3790.89,0,1,Non échu,Non échu
+FA-2026-00484,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-21,2026-12-05,45,23479.71,0,1,Non échu,Non échu
+FA-2026-00485,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-07-26,2026-09-24,60,41090.75,37,3,31 à 60 jours,Échu
+FA-2026-00486,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-14,2026-11-28,45,6966.12,0,1,Non échu,Non échu
+FA-2026-00487,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-08-13,2026-10-12,60,32859.84,19,2,1 à 30 jours,Échu
+FA-2026-00488,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-06-04,2026-08-03,60,11375.11,89,4,61 à 90 jours,Échu
+FA-2026-00489,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-10,2026-12-09,60,46383.17,0,1,Non échu,Non échu
+FA-2026-00490,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-04,2026-11-03,60,21708.02,0,1,Non échu,Non échu
+FA-2026-00491,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-27,2026-10-11,45,10802.19,20,2,1 à 30 jours,Échu
+FA-2026-00492,Artisans Nord SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-10-08,2026-11-07,30,22420.14,0,1,Non échu,Non échu
+FA-2026-00493,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-06,2026-10-05,60,3320.38,26,2,1 à 30 jours,Échu
+FA-2026-00494,Élec Rhône SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-08,2026-11-22,45,3344.37,0,1,Non échu,Non échu
+FA-2026-00495,Therm Réunis SARL,Agences,Ouest,Chauffage & Climatisation,2026-10-06,2026-11-20,45,21384.37,0,1,Non échu,Non échu
+FA-2026-00496,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-04-01,2026-05-16,45,7001.77,168,5,Plus de 90 jours,Échu
+FA-2026-00497,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-14,2026-11-28,45,10901.09,0,1,Non échu,Non échu
+FA-2026-00498,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-06,2026-11-20,45,4373.38,0,1,Non échu,Non échu
+FA-2026-00499,Habitat Service SA,Agences,Île-de-France,Chauffage & Climatisation,2026-09-11,2026-10-11,30,1562.5,20,2,1 à 30 jours,Échu
+FA-2026-00500,Pro Ouest SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-19,2026-12-03,45,14691.18,0,1,Non échu,Non échu
+FA-2026-00501,Chantier Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-09-09,2026-10-09,30,2613.52,22,2,1 à 30 jours,Échu
+FA-2026-00502,Rénov Ouest SAS,Agences,Nord-Est,Chauffage & Climatisation,2026-09-13,2026-10-13,30,11419.48,18,2,1 à 30 jours,Échu
+FA-2026-00503,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-08-15,2026-09-29,45,19536.02,32,3,31 à 60 jours,Échu
+FA-2026-00504,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-04,2026-11-18,45,3641.65,0,1,Non échu,Non échu
+FA-2026-00505,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-25,2026-12-09,45,38689.87,0,1,Non échu,Non échu
+FA-2026-00506,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-07-15,2026-09-13,60,33894.03,48,3,31 à 60 jours,Échu
+FA-2026-00507,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-11,2026-11-25,45,5623.72,0,1,Non échu,Non échu
+FA-2026-00508,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-14,2026-10-13,60,125809.2,18,2,1 à 30 jours,Échu
+FA-2026-00509,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-27,2026-09-25,60,25689.79,36,3,31 à 60 jours,Échu
+FA-2026-00510,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-22,2026-09-20,60,16302.2,41,3,31 à 60 jours,Échu
+FA-2026-00511,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-18,2026-12-02,45,5970.57,0,1,Non échu,Non échu
+FA-2026-00512,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-04,2026-11-18,45,3168.61,0,1,Non échu,Non échu
+FA-2026-00513,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-21,2026-10-20,60,51155.79,11,2,1 à 30 jours,Échu
+FA-2026-00514,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-06-01,2026-07-16,45,29401.69,107,5,Plus de 90 jours,Échu
+FA-2026-00515,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-28,2026-12-27,60,6887.56,0,1,Non échu,Non échu
+FA-2026-00516,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-16,2026-09-14,60,18579.16,47,3,31 à 60 jours,Échu
+FA-2026-00517,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-09-26,2026-11-25,60,20864.08,0,1,Non échu,Non échu
+FA-2026-00518,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-06-15,2026-08-14,60,6122.19,78,4,61 à 90 jours,Échu
+FA-2026-00519,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-07-10,2026-09-08,60,7405.27,53,3,31 à 60 jours,Échu
+FA-2026-00520,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-08-07,2026-10-06,60,13783.24,25,2,1 à 30 jours,Échu
+FA-2026-00521,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-06-19,2026-08-18,60,9647.32,74,4,61 à 90 jours,Échu
+FA-2026-00522,Pro Plus SAS,Agences,Ouest,Chauffage & Climatisation,2026-10-24,2026-12-08,45,24702.62,0,1,Non échu,Non échu
+FA-2026-00523,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-09-03,2026-11-02,60,35542.33,0,1,Non échu,Non échu
+FA-2026-00524,Habitat Atlantique SAS,Agences,Ouest,Chauffage & Climatisation,2026-10-28,2026-11-27,30,3897.05,0,1,Non échu,Non échu
+FA-2026-00525,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-07-08,2026-09-06,60,5084.83,55,3,31 à 60 jours,Échu
+FA-2026-00526,Pro Concept SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-10-23,2026-11-22,30,1937.85,0,1,Non échu,Non échu
+FA-2026-00527,Atelier Expert SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-10-24,2026-12-08,45,4843.02,0,1,Non échu,Non échu
+FA-2026-00528,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-29,2026-11-28,60,59423.69,0,1,Non échu,Non échu
+FA-2026-00529,Rénov Ouest SAS,Agences,Nord-Est,Chauffage & Climatisation,2026-10-12,2026-11-11,30,9453.55,0,1,Non échu,Non échu
+FA-2026-00530,Clim Expert SA,Agences,Sud-Est,Chauffage & Climatisation,2026-10-18,2026-11-17,30,3215.38,0,1,Non échu,Non échu
+FA-2026-00531,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-09,2026-08-23,45,45099.4,69,4,61 à 90 jours,Échu
+FA-2026-00532,Pro Nord SA,Agences,Nord-Est,Chauffage & Climatisation,2026-10-20,2026-11-19,30,1704.49,0,1,Non échu,Non échu
+FA-2026-00533,Therm du Midi SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-27,2026-12-11,45,29515.07,0,1,Non échu,Non échu
+FA-2026-00534,Atelier Ouest SARL,Agences,Ouest,Chauffage & Climatisation,2026-10-08,2026-11-22,45,1893.29,0,1,Non échu,Non échu
+FA-2026-00535,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-07-17,2026-08-31,45,7045.08,61,4,61 à 90 jours,Échu
+FA-2026-00536,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-22,2026-11-21,60,3887.47,0,1,Non échu,Non échu
+FA-2026-00537,Artisans Atlantique SA,Agences,Ouest,Chauffage & Climatisation,2026-10-05,2026-11-04,30,6189.91,0,1,Non échu,Non échu
+FA-2026-00538,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-29,2026-10-28,60,19871.82,3,2,1 à 30 jours,Échu
+FA-2026-00539,Pro du Midi SARL,Agences,Sud-Est,Chauffage & Climatisation,2026-09-30,2026-11-14,45,15275.13,0,1,Non échu,Non échu
+FA-2026-00540,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-30,2026-10-14,45,6653.78,17,2,1 à 30 jours,Échu
+FA-2026-00541,Clim Service SAS,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-20,2026-12-19,60,55847.36,0,1,Non échu,Non échu
+FA-2026-00542,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-03,2026-11-17,45,5959.23,0,1,Non échu,Non échu
+FA-2026-00543,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-20,2026-12-04,45,14188.01,0,1,Non échu,Non échu
+FA-2026-00544,Pro Rhône SA,Agences,Nord-Est,Chauffage & Climatisation,2026-10-24,2026-11-23,30,3470.39,0,1,Non échu,Non échu
+FA-2026-00545,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-23,2026-10-07,45,61517.43,24,2,1 à 30 jours,Échu
+FA-2026-00546,Pro Ouest SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-24,2026-11-23,60,20395.78,0,1,Non échu,Non échu
+FA-2026-00547,Atelier Expert SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-08-18,2026-10-02,45,9627.01,29,2,1 à 30 jours,Échu
+FA-2026-00548,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-20,2026-11-19,60,2122.67,0,1,Non échu,Non échu
+FA-2026-00549,Atelier Expert SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-06-06,2026-07-21,45,6715.5,102,5,Plus de 90 jours,Échu
+FA-2026-00550,Atelier Expert SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-10-28,2026-11-27,30,7085.16,0,1,Non échu,Non échu
+FA-2026-00551,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-22,2026-10-21,60,12720.96,10,2,1 à 30 jours,Échu
+FA-2026-00552,Atelier Expert SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-10-13,2026-11-12,30,2050.59,0,1,Non échu,Non échu
+FA-2026-00553,Therm du Midi SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-11,2026-11-25,45,15148.69,0,1,Non échu,Non échu
+FA-2026-00554,Atelier Expert SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-10-02,2026-11-01,30,15070.82,0,1,Non échu,Non échu
+FA-2026-00555,Therm Réunis SARL,Agences,Ouest,Chauffage & Climatisation,2026-08-15,2026-09-14,30,3602.95,47,3,31 à 60 jours,Échu
+FA-2026-00556,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-08,2026-10-07,60,14887.64,24,2,1 à 30 jours,Échu
+FA-2026-00557,Pro Nord SA,Agences,Nord-Est,Chauffage & Climatisation,2026-10-13,2026-11-27,45,1345.2,0,1,Non échu,Non échu
+FA-2026-00558,Pro Nord SA,Agences,Nord-Est,Chauffage & Climatisation,2026-10-18,2026-11-17,30,3747.53,0,1,Non échu,Non échu
+FA-2026-00559,Habitat & Fils SA,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-10-28,2026-12-27,60,31721.78,0,1,Non échu,Non échu
+FA-2026-00560,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-16,2026-09-30,45,5034.65,31,3,31 à 60 jours,Échu
+FA-2026-00561,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-30,2026-11-14,45,4104.17,0,1,Non échu,Non échu
+FA-2026-00562,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-12,2026-12-11,60,31252.93,0,1,Non échu,Non échu
+FA-2026-00563,Atelier du Midi SA,Agences,Sud-Est,Chauffage & Climatisation,2026-10-14,2026-11-13,30,7555.05,0,1,Non échu,Non échu
+FA-2026-00564,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-07-14,2026-09-12,60,14337.64,49,3,31 à 60 jours,Échu
+FA-2026-00565,Habitat Service SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-09,2026-11-08,30,6474.74,0,1,Non échu,Non échu
+FA-2026-00566,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-06-30,2026-08-29,60,16921.77,63,4,61 à 90 jours,Échu
+FA-2026-00567,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-11,2026-08-25,45,27933.9,67,4,61 à 90 jours,Échu
+FA-2026-00568,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-25,2026-10-24,60,39932.35,7,2,1 à 30 jours,Échu
+FA-2026-00569,Artisans Plus SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-09-25,2026-11-09,45,13431.6,0,1,Non échu,Non échu
+FA-2026-00570,Habitat Concept SARL,Agences,Île-de-France,Chauffage & Climatisation,2026-07-19,2026-09-02,45,7122.1,59,3,31 à 60 jours,Échu
+FA-2026-00571,Artisans Concept SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-09-12,2026-10-27,45,2509.21,4,2,1 à 30 jours,Échu
+FA-2026-00572,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-14,2026-11-28,45,4105.09,0,1,Non échu,Non échu
+FA-2026-00573,Habitat Atlantique SAS,Agences,Ouest,Chauffage & Climatisation,2026-10-19,2026-11-18,30,1879.18,0,1,Non échu,Non échu
+FA-2026-00574,Habitat Service SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-05,2026-11-19,45,4013.29,0,1,Non échu,Non échu
+FA-2026-00575,Atelier Ouest SARL,Agences,Ouest,Chauffage & Climatisation,2026-07-30,2026-09-13,45,5925.21,48,3,31 à 60 jours,Échu
+FA-2026-00576,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-25,2026-10-24,60,16382.59,7,2,1 à 30 jours,Échu
+FA-2026-00577,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-09,2026-08-23,45,27476.91,69,4,61 à 90 jours,Échu
+FA-2026-00578,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-19,2026-10-18,60,15965.55,13,2,1 à 30 jours,Échu
+FA-2026-00579,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-30,2026-11-29,60,1832.03,0,1,Non échu,Non échu
+FA-2026-00580,Pro & Fils SARL,Agences,Sud-Ouest,Chauffage & Climatisation,2026-09-03,2026-10-03,30,1829.42,28,2,1 à 30 jours,Échu
+FA-2026-00581,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-27,2026-12-11,45,10585.7,0,1,Non échu,Non échu
+FA-2026-00582,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-06,2026-12-05,60,13243.1,0,1,Non échu,Non échu
+FA-2026-00583,Rénov Concept SAS,Agences,Ouest,Chauffage & Climatisation,2026-09-05,2026-10-20,45,5763.5,11,2,1 à 30 jours,Échu
+FA-2026-00584,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-22,2026-11-21,60,33915.87,0,1,Non échu,Non échu
+FA-2026-00585,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-24,2026-12-23,60,98190.49,0,1,Non échu,Non échu
+FA-2026-00586,Élec Plus SARL,Agences,Île-de-France,Chauffage & Climatisation,2026-09-21,2026-11-05,45,33092.86,0,1,Non échu,Non échu
+FA-2026-00587,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-05,2026-11-04,60,105431.61,0,1,Non échu,Non échu
+FA-2026-00588,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-04-10,2026-06-09,60,5090.68,144,5,Plus de 90 jours,Échu
+FA-2026-00589,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-06-12,2026-08-11,60,5800.92,81,4,61 à 90 jours,Échu
+FA-2026-00590,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-19,2026-09-02,45,19702.68,59,3,31 à 60 jours,Échu
+FA-2026-00591,Pro Rhône SA,Agences,Nord-Est,Chauffage & Climatisation,2026-10-02,2026-11-01,30,20277.11,0,1,Non échu,Non échu
+FA-2026-00592,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-25,2026-11-09,45,979.42,0,1,Non échu,Non échu
+FA-2026-00593,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-26,2026-09-24,60,11932.01,37,3,31 à 60 jours,Échu
+FA-2026-00594,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-29,2026-12-13,45,4224.58,0,1,Non échu,Non échu
+FA-2026-00595,Atelier Expert SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-09-17,2026-11-01,45,8690.47,0,1,Non échu,Non échu
+FA-2026-00596,Habitat & Fils SA,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-08-27,2026-10-26,60,11192.57,5,2,1 à 30 jours,Échu
+FA-2026-00597,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-08,2026-11-07,60,11592.53,0,1,Non échu,Non échu
+FA-2026-00598,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-01,2026-10-16,45,1237.71,15,2,1 à 30 jours,Échu
+FA-2026-00599,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-06-30,2026-08-14,45,25075.81,78,4,61 à 90 jours,Échu
+FA-2026-00600,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-16,2026-12-15,60,25813.93,0,1,Non échu,Non échu
+FA-2026-00601,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-14,2026-10-29,45,8965.69,2,2,1 à 30 jours,Échu
+FA-2026-00602,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-13,2026-09-11,60,6322.87,50,3,31 à 60 jours,Échu
+FA-2026-00603,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-01,2026-10-31,60,19945.36,0,1,Non échu,Non échu
+FA-2026-00604,Élec Atlantique SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-08-04,2026-09-03,30,5397.55,58,3,31 à 60 jours,Échu
+FA-2026-00605,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-07-04,2026-09-02,60,13971.37,59,3,31 à 60 jours,Échu
+FA-2026-00606,Bâti Nord SA,Agences,Sud-Ouest,Chauffage & Climatisation,2026-10-15,2026-11-14,30,5440.18,0,1,Non échu,Non échu
+FA-2026-00607,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-27,2026-10-26,60,49534.67,5,2,1 à 30 jours,Échu
+FA-2026-00608,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-07-21,2026-09-19,60,19719.41,42,3,31 à 60 jours,Échu
+FA-2026-00609,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-05-20,2026-07-19,60,28693.96,104,5,Plus de 90 jours,Échu
+FA-2026-00610,Chantier Solutions SARL,Agences,Île-de-France,Chauffage & Climatisation,2026-07-06,2026-08-05,30,5991.14,87,4,61 à 90 jours,Échu
+FA-2026-00611,Pro Ouest SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-11,2026-10-10,60,6021.59,21,2,1 à 30 jours,Échu
+FA-2026-00612,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-31,2026-10-30,60,9536.29,1,2,1 à 30 jours,Échu
+FA-2026-00613,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-10-10,2026-11-24,45,3611.39,0,1,Non échu,Non échu
+FA-2026-00614,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-26,2026-11-10,45,6160.17,0,1,Non échu,Non échu
+FA-2026-00615,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-17,2026-10-01,45,7721.97,30,2,1 à 30 jours,Échu
+FA-2026-00616,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-09,2026-09-23,45,38728.33,38,3,31 à 60 jours,Échu
+FA-2026-00617,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-05-28,2026-07-12,45,24908.53,111,5,Plus de 90 jours,Échu
+FA-2026-00618,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-21,2026-11-05,45,13088.83,0,1,Non échu,Non échu
+FA-2026-00619,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-23,2026-11-07,45,12629.38,0,1,Non échu,Non échu
+FA-2026-00620,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-07,2026-12-06,60,14050.0,0,1,Non échu,Non échu
+FA-2026-00621,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-20,2026-10-04,45,29236.81,27,2,1 à 30 jours,Échu
+FA-2026-00622,Habitat & Fils SA,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-09-26,2026-11-10,45,17272.72,0,1,Non échu,Non échu
+FA-2026-00623,Clim Service SAS,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-11,2026-12-10,60,20382.76,0,1,Non échu,Non échu
+FA-2026-00624,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-08,2026-11-22,45,7817.79,0,1,Non échu,Non échu
+FA-2026-00625,Habitat Atlantique SAS,Agences,Ouest,Chauffage & Climatisation,2026-09-29,2026-11-13,45,5391.25,0,1,Non échu,Non échu
+FA-2026-00626,Habitat & Fils SA,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-09-23,2026-11-07,45,6902.79,0,1,Non échu,Non échu
+FA-2026-00627,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-20,2026-11-04,45,13958.33,0,1,Non échu,Non échu
+FA-2026-00628,Habitat & Fils SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-10-20,2026-11-19,30,4611.77,0,1,Non échu,Non échu
+FA-2026-00629,Artisans Atlantique SA,Agences,Ouest,Chauffage & Climatisation,2026-08-09,2026-09-08,30,3227.84,53,3,31 à 60 jours,Échu
+FA-2026-00630,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-29,2026-11-13,45,2293.55,0,1,Non échu,Non échu
+FA-2026-00631,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-06,2026-11-05,60,8100.33,0,1,Non échu,Non échu
+FA-2026-00632,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-16,2026-10-15,60,27720.7,16,2,1 à 30 jours,Échu
+FA-2026-00633,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-26,2026-11-25,60,10746.76,0,1,Non échu,Non échu
+FA-2026-00634,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-31,2026-10-30,60,4275.72,1,2,1 à 30 jours,Échu
+FA-2026-00635,Pro & Fils SARL,Agences,Sud-Ouest,Chauffage & Climatisation,2026-09-09,2026-10-24,45,4142.23,7,2,1 à 30 jours,Échu
+FA-2026-00636,Élec Rhône SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-23,2026-12-07,45,986.41,0,1,Non échu,Non échu
+FA-2026-00637,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-03,2026-11-17,45,6251.03,0,1,Non échu,Non échu
+FA-2026-00638,Clim & Fils SA,Agences,Nord-Est,Chauffage & Climatisation,2026-09-22,2026-11-06,45,2180.4,0,1,Non échu,Non échu
+FA-2026-00639,Clim Concept SA,Agences,Nord-Est,Chauffage & Climatisation,2026-08-04,2026-09-03,30,30256.6,58,3,31 à 60 jours,Échu
+FA-2026-00640,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-17,2026-10-01,45,7669.74,30,2,1 à 30 jours,Échu
+FA-2026-00641,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-14,2026-12-13,60,11780.99,0,1,Non échu,Non échu
+FA-2026-00642,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-07-28,2026-09-11,45,57187.92,50,3,31 à 60 jours,Échu
+FA-2026-00643,Therm du Midi SA,Agences,Île-de-France,Chauffage & Climatisation,2026-06-25,2026-08-09,45,4022.62,83,4,61 à 90 jours,Échu
+FA-2026-00644,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-13,2026-10-28,45,34018.57,3,2,1 à 30 jours,Échu
+FA-2026-00645,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-30,2026-11-14,45,44492.07,0,1,Non échu,Non échu
+FA-2026-00646,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-23,2026-11-22,60,30596.23,0,1,Non échu,Non échu
+FA-2026-00647,Clim Service SAS,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-07-02,2026-08-31,60,21159.92,61,4,61 à 90 jours,Échu
+FA-2026-00648,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-18,2026-11-17,60,10957.05,0,1,Non échu,Non échu
+FA-2026-00649,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-09-19,2026-11-03,45,3888.06,0,1,Non échu,Non échu
+FA-2026-00650,Pro Ouest SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-12,2026-09-26,45,9185.27,35,3,31 à 60 jours,Échu
+FA-2026-00651,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-14,2026-11-28,45,2848.32,0,1,Non échu,Non échu
+FA-2026-00652,Habitat Concept SARL,Agences,Île-de-France,Chauffage & Climatisation,2026-07-24,2026-08-23,30,12119.73,69,4,61 à 90 jours,Échu
+FA-2026-00653,Artisans Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-10-16,2026-11-15,30,1790.91,0,1,Non échu,Non échu
+FA-2026-00654,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-22,2026-12-06,45,17761.81,0,1,Non échu,Non échu
+FA-2026-00655,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-04-30,2026-06-29,60,5004.83,124,5,Plus de 90 jours,Échu
+FA-2026-00656,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-02,2026-11-16,45,3851.38,0,1,Non échu,Non échu
+FA-2026-00657,Atelier Ouest SARL,Agences,Ouest,Chauffage & Climatisation,2026-09-11,2026-10-26,45,2247.7,5,2,1 à 30 jours,Échu
+FA-2026-00658,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-15,2026-10-14,60,16489.88,17,2,1 à 30 jours,Échu
+FA-2026-00659,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-25,2026-10-24,60,14786.76,7,2,1 à 30 jours,Échu
+FA-2026-00660,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-19,2026-11-03,45,13866.84,0,1,Non échu,Non échu
+FA-2026-00661,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-27,2026-12-11,45,32298.9,0,1,Non échu,Non échu
+FA-2026-00662,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-04,2026-10-03,60,18100.88,28,2,1 à 30 jours,Échu
+FA-2026-00663,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-14,2026-11-13,60,4291.77,0,1,Non échu,Non échu
+FA-2026-00664,Rénov Atlantique SAS,Agences,Ouest,Chauffage & Climatisation,2026-07-12,2026-08-26,45,14712.51,66,4,61 à 90 jours,Échu
+FA-2026-00665,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-24,2026-11-08,45,15372.62,0,1,Non échu,Non échu
+FA-2026-00666,Clim & Fils SA,Agences,Nord-Est,Chauffage & Climatisation,2026-10-24,2026-11-23,30,2219.4,0,1,Non échu,Non échu
+FA-2026-00667,Élec Atlantique SARL,Agences,Sud-Est,Chauffage & Climatisation,2026-10-26,2026-11-25,30,1264.95,0,1,Non échu,Non échu
+FA-2026-00668,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-06-06,2026-07-21,45,29365.95,102,5,Plus de 90 jours,Échu
+FA-2026-00669,Habitat & Fils SA,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-07-20,2026-09-18,60,8247.06,43,3,31 à 60 jours,Échu
+FA-2026-00670,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-04,2026-11-18,45,4206.41,0,1,Non échu,Non échu
+FA-2026-00671,Atelier Expert SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-05-18,2026-07-02,45,3629.18,121,5,Plus de 90 jours,Échu
+FA-2026-00672,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-09-01,2026-10-31,60,5896.11,0,1,Non échu,Non échu
+FA-2026-00673,Habitat Atlantique SAS,Agences,Ouest,Chauffage & Climatisation,2026-09-12,2026-10-27,45,2017.71,4,2,1 à 30 jours,Échu
+FA-2026-00674,Pro Nord SA,Agences,Nord-Est,Chauffage & Climatisation,2026-08-06,2026-09-05,30,7484.25,56,3,31 à 60 jours,Échu
+FA-2026-00675,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-02,2026-10-01,60,2150.52,30,2,1 à 30 jours,Échu
+FA-2026-00676,Pro Plus SAS,Agences,Ouest,Chauffage & Climatisation,2026-07-31,2026-09-14,45,6305.45,47,3,31 à 60 jours,Échu
+FA-2026-00677,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-01,2026-10-31,60,56392.19,0,1,Non échu,Non échu
+FA-2026-00678,Clim Service SAS,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-11,2026-12-10,60,11292.54,0,1,Non échu,Non échu
+FA-2026-00679,Clim Expert SA,Agences,Sud-Est,Chauffage & Climatisation,2026-09-11,2026-10-11,30,5578.92,20,2,1 à 30 jours,Échu
+FA-2026-00680,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-05,2026-11-04,60,9589.07,0,1,Non échu,Non échu
+FA-2026-00681,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-05-12,2026-07-11,60,7633.0,112,5,Plus de 90 jours,Échu
+FA-2026-00682,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-01,2026-11-15,45,27576.71,0,1,Non échu,Non échu
+FA-2026-00683,Élec Concept SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-10-03,2026-11-17,45,22845.92,0,1,Non échu,Non échu
+FA-2026-00684,Pro & Fils SARL,Agences,Sud-Ouest,Chauffage & Climatisation,2026-09-30,2026-10-30,30,6471.8,1,2,1 à 30 jours,Échu
+FA-2026-00685,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-05,2026-09-19,45,4933.13,42,3,31 à 60 jours,Échu
+FA-2026-00686,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-06,2026-11-20,45,37061.34,0,1,Non échu,Non échu
+FA-2026-00687,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-05,2026-12-04,60,6566.72,0,1,Non échu,Non échu
+FA-2026-00688,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-19,2026-11-03,45,19021.45,0,1,Non échu,Non échu
+FA-2026-00689,Therm Réunis SARL,Agences,Ouest,Chauffage & Climatisation,2026-10-13,2026-11-12,30,7684.05,0,1,Non échu,Non échu
+FA-2026-00690,Pro du Midi SARL,Agences,Sud-Est,Chauffage & Climatisation,2026-10-20,2026-11-19,30,4201.58,0,1,Non échu,Non échu
+FA-2026-00691,Artisans Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-10-18,2026-11-17,30,5805.35,0,1,Non échu,Non échu
+FA-2026-00692,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-08-16,2026-10-15,60,54781.95,16,2,1 à 30 jours,Échu
+FA-2026-00693,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-11,2026-10-10,60,32426.54,21,2,1 à 30 jours,Échu
+FA-2026-00694,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-14,2026-11-13,60,3637.84,0,1,Non échu,Non échu
+FA-2026-00695,Habitat Atlantique SAS,Agences,Ouest,Chauffage & Climatisation,2026-09-30,2026-11-14,45,2090.18,0,1,Non échu,Non échu
+FA-2026-00696,Habitat Rhône SA,Agences,Sud-Est,Chauffage & Climatisation,2026-07-19,2026-09-02,45,1331.81,59,3,31 à 60 jours,Échu
+FA-2026-00697,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-24,2026-12-23,60,26088.47,0,1,Non échu,Non échu
+FA-2026-00698,Artisans Atlantique SA,Agences,Ouest,Chauffage & Climatisation,2026-09-19,2026-11-03,45,7394.89,0,1,Non échu,Non échu
+FA-2026-00699,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-13,2026-09-27,45,9994.62,34,3,31 à 60 jours,Échu
+FA-2026-00700,Habitat & Fils SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-10-24,2026-11-23,30,25085.7,0,1,Non échu,Non échu
+FA-2026-00701,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-23,2026-12-07,45,6446.31,0,1,Non échu,Non échu
+FA-2026-00702,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-28,2026-10-12,45,63233.85,19,2,1 à 30 jours,Échu
+FA-2026-00703,Clim & Fils SA,Agences,Nord-Est,Chauffage & Climatisation,2026-09-11,2026-10-26,45,12363.73,5,2,1 à 30 jours,Échu
+FA-2026-00704,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-05-24,2026-07-23,60,27698.78,100,5,Plus de 90 jours,Échu
+FA-2026-00705,Élec Concept SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-10-04,2026-11-18,45,1677.17,0,1,Non échu,Non échu
+FA-2026-00706,Therm du Midi SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-29,2026-11-28,30,5531.94,0,1,Non échu,Non échu
+FA-2026-00707,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-25,2026-11-09,45,30595.13,0,1,Non échu,Non échu
+FA-2026-00708,Artisans Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-08-31,2026-10-15,45,3099.51,16,2,1 à 30 jours,Échu
+FA-2026-00709,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-05-14,2026-06-28,45,8960.37,125,5,Plus de 90 jours,Échu
+FA-2026-00710,Élec Concept SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-10-07,2026-11-06,30,842.47,0,1,Non échu,Non échu
+FA-2026-00711,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-07-01,2026-08-15,45,6764.89,77,4,61 à 90 jours,Échu
+FA-2026-00712,Rénov Ouest SAS,Agences,Nord-Est,Chauffage & Climatisation,2026-10-04,2026-11-03,30,17060.23,0,1,Non échu,Non échu
+FA-2026-00713,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-08,2026-11-22,45,6668.22,0,1,Non échu,Non échu
+FA-2026-00714,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-17,2026-11-16,60,5025.89,0,1,Non échu,Non échu
+FA-2026-00715,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-07,2026-11-06,60,5827.57,0,1,Non échu,Non échu
+FA-2026-00716,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-01,2026-09-30,60,3198.96,31,3,31 à 60 jours,Échu
+FA-2026-00717,Clim Service SAS,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-26,2026-12-10,45,14765.32,0,1,Non échu,Non échu
+FA-2026-00718,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-09,2026-11-08,60,79498.49,0,1,Non échu,Non échu
+FA-2026-00719,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-11,2026-11-10,60,7911.57,0,1,Non échu,Non échu
+FA-2026-00720,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-03,2026-11-17,45,61489.89,0,1,Non échu,Non échu
+FA-2026-00721,Therm & Fils SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-17,2026-11-16,30,2450.39,0,1,Non échu,Non échu
+FA-2026-00722,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-08-01,2026-09-30,60,8512.6,31,3,31 à 60 jours,Échu
+FA-2026-00723,Habitat & Fils SA,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-09-14,2026-11-13,60,10830.15,0,1,Non échu,Non échu
+FA-2026-00724,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-24,2026-12-23,60,12145.27,0,1,Non échu,Non échu
+FA-2026-00725,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-09-19,2026-11-18,60,27922.2,0,1,Non échu,Non échu
+FA-2026-00726,Atelier du Midi SA,Agences,Sud-Est,Chauffage & Climatisation,2026-09-13,2026-10-28,45,9933.38,3,2,1 à 30 jours,Échu
+FA-2026-00727,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-06-03,2026-07-18,45,53080.71,105,5,Plus de 90 jours,Échu
+FA-2026-00728,Clim Service SAS,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-10-21,2026-12-20,60,11493.8,0,1,Non échu,Non échu
+FA-2026-00729,Bâti Concept SA,Agences,Sud-Est,Chauffage & Climatisation,2026-10-23,2026-12-07,45,4790.92,0,1,Non échu,Non échu
+FA-2026-00730,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-06,2026-09-20,45,47637.25,41,3,31 à 60 jours,Échu
+FA-2026-00731,Artisans Nord SARL,Agences,Nord-Est,Chauffage & Climatisation,2026-10-27,2026-11-26,30,11524.51,0,1,Non échu,Non échu
+FA-2026-00732,Habitat Concept SARL,Agences,Île-de-France,Chauffage & Climatisation,2026-09-19,2026-10-19,30,7592.05,12,2,1 à 30 jours,Échu
+FA-2026-00733,Therm & Fils SA,Agences,Île-de-France,Chauffage & Climatisation,2026-10-19,2026-11-18,30,18127.66,0,1,Non échu,Non échu
+FA-2026-00734,Clim Concept SA,Agences,Nord-Est,Chauffage & Climatisation,2026-04-11,2026-05-26,45,5810.4,158,5,Plus de 90 jours,Échu
+FA-2026-00735,Clim Expert SA,Agences,Sud-Est,Chauffage & Climatisation,2026-07-28,2026-09-11,45,7370.93,50,3,31 à 60 jours,Échu
+FA-2026-00736,Habitat & Fils SA,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-07-08,2026-08-22,45,25407.95,70,4,61 à 90 jours,Échu
+FA-2026-00737,Atelier Ouest SARL,Agences,Ouest,Chauffage & Climatisation,2026-06-18,2026-08-02,45,2123.17,90,4,61 à 90 jours,Échu
+FA-2026-00738,Therm & Fils SA,Agences,Île-de-France,Chauffage & Climatisation,2026-09-24,2026-11-08,45,5547.18,0,1,Non échu,Non échu
+FA-2026-00739,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-08-23,2026-10-22,60,9854.32,9,2,1 à 30 jours,Échu
+FA-2026-00740,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-05-04,2026-07-03,60,9912.59,120,5,Plus de 90 jours,Échu
+FA-2026-00741,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-03,2026-10-18,45,48535.61,13,2,1 à 30 jours,Échu
+FA-2026-00742,Habitat Plus SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-20,2026-11-04,45,18228.65,0,1,Non échu,Non échu
+FA-2026-00743,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-07-19,2026-09-02,45,12533.07,59,3,31 à 60 jours,Échu
+FA-2026-00744,Chantier Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-10-08,2026-11-07,30,8906.68,0,1,Non échu,Non échu
+FA-2026-00745,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-01,2026-08-30,60,12903.49,62,4,61 à 90 jours,Échu
+FA-2026-00746,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-25,2026-12-24,60,21279.33,0,1,Non échu,Non échu
+FA-2026-00747,Pro Plus SAS,Agences,Ouest,Chauffage & Climatisation,2026-10-18,2026-12-02,45,32406.47,0,1,Non échu,Non échu
+FA-2026-00748,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-06,2026-09-20,45,38291.26,41,3,31 à 60 jours,Échu
+FA-2026-00749,Therm du Midi SA,Agences,Île-de-France,Chauffage & Climatisation,2026-08-25,2026-10-09,45,37293.37,22,2,1 à 30 jours,Échu
+FA-2026-00750,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-25,2026-11-09,45,21385.48,0,1,Non échu,Non échu
+FA-2026-00751,Pro du Midi SARL,Agences,Sud-Est,Chauffage & Climatisation,2026-10-01,2026-10-31,30,2439.26,0,1,Non échu,Non échu
+FA-2026-00752,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-11,2026-12-10,60,19854.61,0,1,Non échu,Non échu
+FA-2026-00753,Artisans Atlantique SAS,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-09-25,2026-11-24,60,48448.59,0,1,Non échu,Non échu
+FA-2026-00754,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-07-07,2026-08-21,45,15162.93,71,4,61 à 90 jours,Échu
+FA-2026-00755,Therm & Fils SA,Agences,Île-de-France,Chauffage & Climatisation,2026-09-27,2026-11-11,45,30082.78,0,1,Non échu,Non échu
+FA-2026-00756,Pro Ouest SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-01,2026-11-30,60,11556.73,0,1,Non échu,Non échu
+FA-2026-00757,Chantier Nord SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-26,2026-10-10,45,2890.94,21,2,1 à 30 jours,Échu
+FA-2026-00758,Rénov Service SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-10-22,2026-12-21,60,3842.06,0,1,Non échu,Non échu
+FA-2026-00759,Clim Service SAS,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-08-09,2026-10-08,60,18975.07,23,2,1 à 30 jours,Échu
+FA-2026-00760,Therm du Midi SA,Agences,Île-de-France,Chauffage & Climatisation,2026-07-27,2026-09-10,45,3436.58,51,3,31 à 60 jours,Échu
+FA-2026-00761,Clim Rhône SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-28,2026-12-12,45,12118.72,0,1,Non échu,Non échu
+FA-2026-00762,Élec Plus SARL,Agences,Île-de-France,Chauffage & Climatisation,2026-08-02,2026-09-16,45,25077.36,45,3,31 à 60 jours,Échu
+FA-2026-00763,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-06-14,2026-08-13,60,14586.94,79,4,61 à 90 jours,Échu
+FA-2026-00764,Rénov Rhône SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-23,2026-12-22,60,8732.51,0,1,Non échu,Non échu
+FA-2026-00765,Pro Ouest SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-15,2026-12-14,60,8725.62,0,1,Non échu,Non échu
+FA-2026-00766,Therm Rhône SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-22,2026-10-21,60,9890.16,10,2,1 à 30 jours,Échu
+FA-2026-00767,Bâti Concept SARL,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-12,2026-11-11,60,745.47,0,1,Non échu,Non échu
+FA-2026-00768,Pro Ouest SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-27,2026-10-26,60,10216.85,5,2,1 à 30 jours,Échu
+FA-2026-00769,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-23,2026-12-22,60,10649.19,0,1,Non échu,Non échu
+FA-2026-00770,Artisans Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-10-09,2026-11-08,30,12422.42,0,1,Non échu,Non échu
+FA-2026-00771,Chantier Concept SARL,Grands comptes,Nord-Est,Chauffage & Climatisation,2026-06-17,2026-08-16,60,10051.29,76,4,61 à 90 jours,Échu
+FA-2026-00772,Pro Ouest SAS,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-09-23,2026-11-22,60,13176.69,0,1,Non échu,Non échu
+FA-2026-00773,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-08-01,2026-09-30,60,12093.46,31,3,31 à 60 jours,Échu
+FA-2026-00774,Clim Concept SARL,Grands comptes,Sud-Ouest,Chauffage & Climatisation,2026-06-09,2026-08-08,60,6368.58,84,4,61 à 90 jours,Échu
+FA-2026-00775,Habitat Réunis SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-04-20,2026-06-04,45,51727.49,149,5,Plus de 90 jours,Échu
+FA-2026-00776,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-03,2026-11-17,45,1865.15,0,1,Non échu,Non échu
+FA-2026-00777,Élec Concept SAS,Agences,Île-de-France,Chauffage & Climatisation,2026-08-10,2026-09-24,45,7981.03,37,3,31 à 60 jours,Échu
+FA-2026-00778,Chantier Nord SAS,Agences,Sud-Est,Chauffage & Climatisation,2026-10-09,2026-11-23,45,8464.48,0,1,Non échu,Non échu
+FA-2026-00779,Clim Plus SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-08-06,2026-10-05,60,7668.18,26,2,1 à 30 jours,Échu
+FA-2026-00780,Pro du Midi SARL,Agences,Sud-Est,Chauffage & Climatisation,2026-10-14,2026-11-13,30,3083.1,0,1,Non échu,Non échu
+FA-2026-00781,Rénov Plus SA,Grands comptes,Sud-Est,Chauffage & Climatisation,2026-06-05,2026-08-04,60,5997.94,88,4,61 à 90 jours,Échu
+FA-2026-00782,Clim Expert SARL,Grands comptes,Ouest,Chauffage & Climatisation,2026-10-25,2026-12-09,45,2478.75,0,1,Non échu,Non échu
+FA-2026-00783,Therm Concept SA,Grands comptes,Île-de-France,Chauffage & Climatisation,2026-10-04,2026-12-03,60,100865.43,0,1,Non échu,Non échu
+FA-2026-00784,Therm Rhône SA,Grands comptes,Île-de-France,Services,2026-09-02,2026-11-01,60,24678.97,0,1,Non échu,Non échu
+FA-2026-00785,Pro Rhône SA,Agences,Nord-Est,Services,2026-10-01,2026-11-15,45,2638.25,0,1,Non échu,Non échu
+FA-2026-00786,Clim Concept SARL,Grands comptes,Sud-Ouest,Services,2026-10-02,2026-11-16,45,1748.84,0,1,Non échu,Non échu
+FA-2026-00787,Therm Rhône SA,Grands comptes,Île-de-France,Services,2026-10-30,2026-12-14,45,17009.02,0,1,Non échu,Non échu
+FA-2026-00788,Pro Nord SA,Agences,Nord-Est,Services,2026-10-15,2026-11-14,30,4768.62,0,1,Non échu,Non échu
+FA-2026-00789,Artisans Plus SAS,Agences,Île-de-France,Services,2026-10-03,2026-11-02,30,2185.36,0,1,Non échu,Non échu
+FA-2026-00790,Bâti Concept SARL,Grands comptes,Île-de-France,Services,2026-09-22,2026-11-06,45,22144.07,0,1,Non échu,Non échu
+FA-2026-00791,Therm Plus SAS,Agences,Île-de-France,Services,2026-09-05,2026-10-05,30,3059.23,26,2,1 à 30 jours,Échu
+FA-2026-00792,Habitat Plus SARL,Grands comptes,Île-de-France,Services,2026-08-10,2026-10-09,60,74575.24,22,2,1 à 30 jours,Échu
+FA-2026-00793,Clim Plus SA,Grands comptes,Île-de-France,Services,2026-09-26,2026-11-10,45,37675.7,0,1,Non échu,Non échu
+FA-2026-00794,Chantier Solutions SARL,Agences,Île-de-France,Services,2026-08-27,2026-09-26,30,2890.09,35,3,31 à 60 jours,Échu
+FA-2026-00795,Bâti Concept SARL,Grands comptes,Île-de-France,Services,2026-09-04,2026-11-03,60,20918.22,0,1,Non échu,Non échu
+FA-2026-00796,Artisans Atlantique SAS,Grands comptes,Sud-Est,Services,2026-09-24,2026-11-08,45,20943.26,0,1,Non échu,Non échu
+FA-2026-00797,Chantier Concept SARL,Grands comptes,Nord-Est,Services,2026-08-04,2026-09-18,45,928.75,43,3,31 à 60 jours,Échu
+FA-2026-00798,Pro du Midi SARL,Agences,Sud-Est,Services,2026-10-16,2026-11-30,45,28326.14,0,1,Non échu,Non échu
+FA-2026-00799,Habitat & Fils SA,Grands comptes,Sud-Ouest,Services,2026-09-19,2026-11-03,45,38738.18,0,1,Non échu,Non échu
+FA-2026-00800,Habitat Plus SARL,Grands comptes,Île-de-France,Services,2026-07-15,2026-09-13,60,9839.05,48,3,31 à 60 jours,Échu
+FA-2026-00801,Bâti Concept SA,Agences,Sud-Est,Services,2026-09-14,2026-10-14,30,7978.81,17,2,1 à 30 jours,Échu
+FA-2026-00802,Habitat Plus SARL,Grands comptes,Île-de-France,Services,2026-10-09,2026-12-08,60,4372.53,0,1,Non échu,Non échu
+FA-2026-00803,Habitat & Fils SA,Grands comptes,Sud-Ouest,Services,2026-08-30,2026-10-14,45,11540.09,17,2,1 à 30 jours,Échu
+FA-2026-00804,Artisans Nord SARL,Agences,Nord-Est,Services,2026-10-07,2026-11-06,30,9610.83,0,1,Non échu,Non échu
+FA-2026-00805,Clim Concept SARL,Grands comptes,Sud-Ouest,Services,2026-09-16,2026-10-31,45,18793.33,0,1,Non échu,Non échu
+FA-2026-00806,Clim Expert SARL,Grands comptes,Ouest,Services,2026-10-13,2026-11-27,45,1662.29,0,1,Non échu,Non échu
+FA-2026-00807,Clim Expert SA,Agences,Sud-Est,Services,2026-08-17,2026-10-01,45,4707.65,30,2,1 à 30 jours,Échu
+FA-2026-00808,Habitat Service SA,Agences,Île-de-France,Services,2026-08-22,2026-10-06,45,10803.3,25,2,1 à 30 jours,Échu
+FA-2026-00809,Artisans Atlantique SA,Agences,Ouest,Services,2026-09-30,2026-11-14,45,2957.63,0,1,Non échu,Non échu
+FA-2026-00810,Élec Rhône SA,Agences,Île-de-France,Services,2026-10-06,2026-11-20,45,6633.9,0,1,Non échu,Non échu
+FA-2026-00811,Therm & Fils SA,Agences,Île-de-France,Services,2026-10-06,2026-11-20,45,8291.64,0,1,Non échu,Non échu
+FA-2026-00812,Clim Plus SA,Grands comptes,Île-de-France,Services,2026-10-27,2026-12-26,60,8339.45,0,1,Non échu,Non échu
+FA-2026-00813,Pro Ouest SAS,Grands comptes,Île-de-France,Services,2026-07-24,2026-09-07,45,3867.28,54,3,31 à 60 jours,Échu
+FA-2026-00814,Clim Rhône SARL,Grands comptes,Île-de-France,Services,2026-09-17,2026-11-16,60,4861.52,0,1,Non échu,Non échu
+FA-2026-00815,Clim Expert SARL,Grands comptes,Ouest,Services,2026-07-03,2026-09-01,60,18141.03,60,3,31 à 60 jours,Échu
+FA-2026-00816,Habitat & Fils SA,Grands comptes,Sud-Ouest,Services,2026-10-11,2026-11-25,45,12256.93,0,1,Non échu,Non échu
+FA-2026-00817,Rénov Concept SAS,Agences,Ouest,Services,2026-10-25,2026-12-09,45,11990.34,0,1,Non échu,Non échu
+FA-2026-00818,Rénov Rhône SAS,Grands comptes,Île-de-France,Services,2026-09-19,2026-11-03,45,27361.84,0,1,Non échu,Non échu
+FA-2026-00819,Bâti Concept SA,Agences,Sud-Est,Services,2026-07-12,2026-08-11,30,16133.44,81,4,61 à 90 jours,Échu
+FA-2026-00820,Artisans Atlantique SAS,Grands comptes,Sud-Est,Services,2026-06-22,2026-08-21,60,6959.42,71,4,61 à 90 jours,Échu
+FA-2026-00821,Rénov Rhône SAS,Grands comptes,Île-de-France,Services,2026-10-16,2026-11-30,45,9350.27,0,1,Non échu,Non échu
+FA-2026-00822,Pro & Fils SARL,Agences,Sud-Ouest,Services,2026-09-25,2026-11-09,45,2499.64,0,1,Non échu,Non échu
+FA-2026-00823,Clim Service SAS,Grands comptes,Nord-Est,Services,2026-06-29,2026-08-28,60,8433.93,64,4,61 à 90 jours,Échu
+FA-2026-00824,Clim Concept SARL,Grands comptes,Sud-Ouest,Services,2026-10-12,2026-11-26,45,17142.32,0,1,Non échu,Non échu
+FA-2026-00825,Bâti Concept SARL,Grands comptes,Île-de-France,Services,2026-08-28,2026-10-12,45,11129.55,19,2,1 à 30 jours,Échu
+FA-2026-00826,Rénov Atlantique SAS,Agences,Ouest,Services,2026-08-22,2026-10-06,45,2347.24,25,2,1 à 30 jours,Échu
+FA-2026-00827,Artisans Plus SAS,Agences,Île-de-France,Services,2026-09-24,2026-10-24,30,9361.04,7,2,1 à 30 jours,Échu
+FA-2026-00828,Rénov Service SA,Grands comptes,Sud-Est,Services,2026-10-11,2026-12-10,60,5964.2,0,1,Non échu,Non échu
+FA-2026-00829,Chantier Concept SARL,Grands comptes,Nord-Est,Services,2026-08-04,2026-10-03,60,10631.53,28,2,1 à 30 jours,Échu
+FA-2026-00830,Clim Service SAS,Grands comptes,Nord-Est,Services,2026-08-26,2026-10-25,60,43007.51,6,2,1 à 30 jours,Échu
+FA-2026-00831,Clim Plus SA,Grands comptes,Île-de-France,Services,2026-09-24,2026-11-23,60,40632.14,0,1,Non échu,Non échu
+FA-2026-00832,Pro Ouest SAS,Grands comptes,Île-de-France,Services,2026-09-01,2026-10-31,60,38960.03,0,1,Non échu,Non échu
+FA-2026-00833,Élec Plus SARL,Agences,Île-de-France,Services,2026-10-16,2026-11-15,30,1401.34,0,1,Non échu,Non échu
+FA-2026-00834,Clim Expert SARL,Grands comptes,Ouest,Services,2026-06-30,2026-08-29,60,51732.4,63,4,61 à 90 jours,Échu
+FA-2026-00835,Therm & Fils SA,Agences,Île-de-France,Services,2026-07-18,2026-08-17,30,4410.72,75,4,61 à 90 jours,Échu
+FA-2026-00836,Rénov Plus SA,Grands comptes,Sud-Est,Services,2026-10-20,2026-12-19,60,5254.31,0,1,Non échu,Non échu
+FA-2026-00837,Bâti Concept SARL,Grands comptes,Île-de-France,Services,2026-08-12,2026-09-26,45,54312.38,35,3,31 à 60 jours,Échu
+FA-2026-00838,Clim Plus SA,Grands comptes,Île-de-France,Services,2026-09-07,2026-10-22,45,16802.45,9,2,1 à 30 jours,Échu
+FA-2026-00839,Artisans Nord SAS,Agences,Sud-Est,Services,2026-09-22,2026-11-06,45,4693.56,0,1,Non échu,Non échu
+FA-2026-00840,Habitat & Fils SA,Grands comptes,Sud-Ouest,Services,2026-09-27,2026-11-26,60,17548.96,0,1,Non échu,Non échu
+FA-2026-00841,Pro Ouest SAS,Grands comptes,Île-de-France,Services,2026-10-03,2026-12-02,60,12731.47,0,1,Non échu,Non échu
+FA-2026-00842,Artisans Nord SARL,Agences,Nord-Est,Services,2026-07-13,2026-08-12,30,9059.79,80,4,61 à 90 jours,Échu
+FA-2026-00843,Rénov Service SA,Grands comptes,Sud-Est,Services,2026-06-29,2026-08-13,45,11146.5,79,4,61 à 90 jours,Échu
+FA-2026-00844,Clim Expert SA,Agences,Sud-Est,Services,2026-10-24,2026-11-23,30,9153.72,0,1,Non échu,Non échu
+FA-2026-00845,Artisans Nord SAS,Agences,Sud-Est,Services,2026-10-27,2026-12-11,45,6494.96,0,1,Non échu,Non échu
+FA-2026-00846,Artisans Atlantique SAS,Grands comptes,Sud-Est,Services,2026-08-31,2026-10-30,60,13976.42,1,2,1 à 30 jours,Échu
+FA-2026-00847,Therm Réunis SARL,Agences,Ouest,Services,2026-08-03,2026-09-17,45,986.29,44,3,31 à 60 jours,Échu
+FA-2026-00848,Therm & Fils SA,Agences,Île-de-France,Services,2026-10-02,2026-11-16,45,13835.53,0,1,Non échu,Non échu
+FA-2026-00849,Habitat Réunis SARL,Grands comptes,Ouest,Services,2026-09-06,2026-11-05,60,5150.53,0,1,Non échu,Non échu
+FA-2026-00850,Chantier Concept SARL,Grands comptes,Nord-Est,Services,2026-09-07,2026-10-22,45,86901.65,9,2,1 à 30 jours,Échu
+FA-2026-00851,Pro Ouest SAS,Grands comptes,Île-de-France,Services,2026-08-16,2026-09-30,45,84685.82,31,3,31 à 60 jours,Échu
+FA-2026-00852,Bâti Concept SARL,Grands comptes,Île-de-France,Services,2026-09-14,2026-11-13,60,18443.83,0,1,Non échu,Non échu
+FA-2026-00853,Rénov Plus SA,Grands comptes,Sud-Est,Services,2026-10-01,2026-11-15,45,17250.32,0,1,Non échu,Non échu
+FA-2026-00854,Élec Concept SAS,Agences,Île-de-France,Services,2026-10-13,2026-11-12,30,944.62,0,1,Non échu,Non échu
+FA-2026-00855,Artisans Nord SAS,Agences,Sud-Est,Services,2026-10-24,2026-12-08,45,10397.76,0,1,Non échu,Non échu
+FA-2026-00856,Clim Plus SA,Grands comptes,Île-de-France,Services,2026-10-06,2026-12-05,60,83428.2,0,1,Non échu,Non échu
+FA-2026-00857,Rénov Plus SA,Grands comptes,Sud-Est,Services,2026-09-30,2026-11-14,45,28553.43,0,1,Non échu,Non échu
+FA-2026-00858,Chantier Nord SARL,Grands comptes,Ouest,Services,2026-10-22,2026-12-06,45,32348.84,0,1,Non échu,Non échu
+FA-2026-00859,Rénov Ouest SAS,Agences,Nord-Est,Services,2026-10-26,2026-12-10,45,2469.51,0,1,Non échu,Non échu
+FA-2026-00860,Clim Concept SARL,Grands comptes,Sud-Ouest,Services,2026-10-05,2026-11-19,45,14789.6,0,1,Non échu,Non échu
+FA-2026-00861,Clim Expert SARL,Grands comptes,Ouest,Services,2026-08-29,2026-10-28,60,32150.87,3,2,1 à 30 jours,Échu
+FA-2026-00862,Artisans Nord SARL,Agences,Nord-Est,Services,2026-09-16,2026-10-31,45,2563.74,0,1,Non échu,Non échu
+FA-2026-00863,Bâti Concept SA,Agences,Sud-Est,Services,2026-09-21,2026-10-21,30,4025.59,10,2,1 à 30 jours,Échu
+FA-2026-00864,Rénov Rhône SAS,Grands comptes,Île-de-France,Services,2026-09-22,2026-11-21,60,38988.39,0,1,Non échu,Non échu
+FA-2026-00865,Habitat Réunis SARL,Grands comptes,Ouest,Services,2026-06-19,2026-08-18,60,6534.42,74,4,61 à 90 jours,Échu
+FA-2026-00866,Artisans Atlantique SA,Agences,Ouest,Services,2026-09-16,2026-10-16,30,4756.29,15,2,1 à 30 jours,Échu
+FA-2026-00867,Pro Concept SAS,Agences,Île-de-France,Services,2026-10-09,2026-11-23,45,7897.58,0,1,Non échu,Non échu
+FA-2026-00868,Clim Expert SARL,Grands comptes,Ouest,Services,2026-09-12,2026-10-27,45,16285.85,4,2,1 à 30 jours,Échu
+FA-2026-00869,Rénov Service SA,Grands comptes,Sud-Est,Services,2026-07-26,2026-09-09,45,21298.21,52,3,31 à 60 jours,Échu
+FA-2026-00870,Artisans Atlantique SAS,Grands comptes,Sud-Est,Services,2026-08-22,2026-10-06,45,5612.86,25,2,1 à 30 jours,Échu
+FA-2026-00871,Chantier Nord SARL,Grands comptes,Ouest,Services,2026-07-21,2026-09-04,45,6102.29,57,3,31 à 60 jours,Échu
+FA-2026-00872,Pro Nord SA,Agences,Nord-Est,Services,2026-10-28,2026-11-27,30,1418.07,0,1,Non échu,Non échu
+FA-2026-00873,Clim Plus SA,Grands comptes,Île-de-France,Services,2026-10-23,2026-12-07,45,9623.98,0,1,Non échu,Non échu
+FA-2026-00874,Habitat Réunis SARL,Grands comptes,Ouest,Services,2026-08-19,2026-10-18,60,34762.36,13,2,1 à 30 jours,Échu
+FA-2026-00875,Chantier Solutions SARL,Agences,Île-de-France,Services,2026-08-28,2026-10-12,45,4544.44,19,2,1 à 30 jours,Échu
+FA-2026-00876,Therm & Fils SA,Agences,Île-de-France,Services,2026-10-12,2026-11-11,30,41380.67,0,1,Non échu,Non échu
+FA-2026-00877,Chantier Nord SARL,Grands comptes,Ouest,Services,2026-10-04,2026-11-18,45,9758.91,0,1,Non échu,Non échu
+FA-2026-00878,Rénov Service SA,Grands comptes,Sud-Est,Services,2026-10-28,2026-12-12,45,18446.65,0,1,Non échu,Non échu
+FA-2026-00879,Chantier Solutions SARL,Agences,Île-de-France,Services,2026-09-26,2026-11-10,45,3176.0,0,1,Non échu,Non échu
+FA-2026-00880,Bâti Concept SARL,Grands comptes,Île-de-France,Services,2026-08-31,2026-10-30,60,18924.83,1,2,1 à 30 jours,Échu
+FA-2026-00881,Clim Expert SARL,Grands comptes,Ouest,Services,2026-09-10,2026-11-09,60,9390.71,0,1,Non échu,Non échu
+FA-2026-00882,Therm Concept SA,Grands comptes,Île-de-France,Services,2026-10-03,2026-11-17,45,44180.46,0,1,Non échu,Non échu
+FA-2026-00883,Habitat & Fils SA,Grands comptes,Sud-Ouest,Services,2026-08-29,2026-10-13,45,6200.06,18,2,1 à 30 jours,Échu
+FA-2026-00884,Rénov Service SA,Grands comptes,Sud-Est,Services,2026-10-20,2026-12-19,60,33998.54,0,1,Non échu,Non échu
+FA-2026-00885,Therm Concept SA,Grands comptes,Île-de-France,Services,2026-09-11,2026-11-10,60,43553.92,0,1,Non échu,Non échu
+FA-2026-00886,Rénov Plus SA,Grands comptes,Sud-Est,Services,2026-10-01,2026-11-30,60,34635.52,0,1,Non échu,Non échu
+FA-2026-00887,Habitat Réunis SARL,Grands comptes,Ouest,Services,2026-08-24,2026-10-23,60,6579.92,8,2,1 à 30 jours,Échu
+FA-2026-00888,Rénov Concept SAS,Agences,Ouest,Services,2026-10-24,2026-12-08,45,649.96,0,1,Non échu,Non échu
+FA-2026-00889,Rénov Rhône SAS,Grands comptes,Île-de-France,Services,2026-08-28,2026-10-12,45,4532.36,19,2,1 à 30 jours,Échu
+FA-2026-00890,Therm Rhône SA,Grands comptes,Île-de-France,Services,2026-10-02,2026-11-16,45,2757.92,0,1,Non échu,Non échu
+FA-2026-00891,Pro Rhône SA,Agences,Nord-Est,Services,2026-10-05,2026-11-19,45,3343.49,0,1,Non échu,Non échu
+FA-2026-00892,Therm Concept SA,Grands comptes,Île-de-France,Services,2026-10-24,2026-12-23,60,40731.66,0,1,Non échu,Non échu
+FA-2026-00893,Chantier Concept SARL,Grands comptes,Nord-Est,Services,2026-08-05,2026-10-04,60,3786.85,27,2,1 à 30 jours,Échu
+FA-2026-00894,Bâti Concept SARL,Grands comptes,Île-de-France,Services,2026-10-17,2026-12-16,60,3065.15,0,1,Non échu,Non échu
+FA-2026-00895,Rénov Plus SA,Grands comptes,Sud-Est,Services,2026-09-25,2026-11-24,60,8207.83,0,1,Non échu,Non échu
+FA-2026-00896,Chantier Nord SAS,Agences,Sud-Est,Services,2026-10-28,2026-11-27,30,6010.38,0,1,Non échu,Non échu
+FA-2026-00897,Therm & Fils SA,Agences,Île-de-France,Services,2026-05-31,2026-06-30,30,2621.11,123,5,Plus de 90 jours,Échu
+FA-2026-00898,Therm Concept SA,Grands comptes,Île-de-France,Services,2026-08-21,2026-10-20,60,9363.71,11,2,1 à 30 jours,Échu
+FA-2026-00899,Rénov Rhône SAS,Grands comptes,Île-de-France,Services,2026-10-22,2026-12-06,45,8003.49,0,1,Non échu,Non échu

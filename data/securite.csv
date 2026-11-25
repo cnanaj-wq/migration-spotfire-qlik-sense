@@ -1,0 +1,11 @@
+﻿ACCESS,USER.EMAIL,Nom,Profil,Région
+ADMIN,A_REMPLACER_PAR_TON_EMAIL_QLIK,Administrateur du tenant,Administrateur,*
+USER,daf@orvane.example,Claire Morel,Direction financière,*
+USER,cdg.groupe@orvane.example,Julien Faure,Contrôle de gestion groupe,*
+USER,cdg.idf@orvane.example,Sophie Lambert,Contrôle de gestion région,Île-de-France
+USER,cdg.sudest@orvane.example,Karim Benali,Contrôle de gestion région,Sud-Est
+USER,cdg.ouest@orvane.example,Maëlle Le Goff,Contrôle de gestion région,Ouest
+USER,cdg.nordest@orvane.example,Thomas Weber,Contrôle de gestion région,Nord-Est
+USER,cdg.sudouest@orvane.example,Inès Darrieux,Contrôle de gestion région,Sud-Ouest
+USER,dir.sud@orvane.example,Paul Marchetti,Direction de zone Sud,Sud-Est
+USER,dir.sud@orvane.example,Paul Marchetti,Direction de zone Sud,Sud-Ouest
