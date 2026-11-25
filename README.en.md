@@ -172,5 +172,3 @@ img/                    README visuals and screenshots
 ## Author
 
 **Cédric NANA** · BI & Data consultant · [GitHub](https://github.com/cnanaj-wq)
-
-Personal experiment on synthetic data.
