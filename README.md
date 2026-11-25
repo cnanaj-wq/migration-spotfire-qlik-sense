@@ -167,12 +167,6 @@ img/                    visuels du README et captures d'écran
 - **Sécurité par région non appliquée dans Spotfire.** La table `securite` est prête pour le Section Access de Qlik ; la version d'essai de Spotfire utilisée ici ne permet pas de la tester.
 - **Construction non automatisable hors de Spotfire.** Les scripts IronPython ne s'exécutent que dans Spotfire ; le contrôle automatique du dépôt ne vérifie que leur syntaxe.
 
-## Nouveautés
-
-- **2026-11-25** : tableau de bord Spotfire de 5 onglets, sélections dynamiques entre tables, contrôle de cohérence des données.
-
-Historique complet : [CHANGELOG.md](CHANGELOG.md).
-
 ## Auteur
 
 **Cédric NANA** · Consultant BI & Data · [GitHub](https://github.com/cnanaj-wq)

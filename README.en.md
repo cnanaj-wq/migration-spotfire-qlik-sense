@@ -169,12 +169,6 @@ img/                    README visuals and screenshots
 - **Security by region is not enforced in Spotfire.** The `securite` table is ready for Qlik Section Access; the Spotfire trial used here cannot test it.
 - **The build cannot run outside Spotfire.** IronPython scripts only run inside Spotfire; the repository's automated check only verifies their syntax.
 
-## What is new
-
-- **2026-11-25**: 5-tab Spotfire dashboard, dynamic selections across tables, data consistency check.
-
-Full history: [CHANGELOG.md](CHANGELOG.md).
-
 ## Author
 
 **Cédric NANA** · BI & Data consultant · [GitHub](https://github.com/cnanaj-wq)
