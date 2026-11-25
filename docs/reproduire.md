@@ -4,7 +4,7 @@ Testé avec Spotfire Industry Pro 15.1 (version d'essai), sous Windows.
 
 ## 1. Placer le dépôt
 
-Les scripts sont lus dans `C:/Migration Spotfire To QlikSense/spotfire/scripts/`. Clone le dépôt dans `C:\Migration Spotfire To QlikSense`, ou adapte la constante `DOSSIER` en tête de [`construire_tout.py`](../spotfire/scripts/construire_tout.py) et le chemin du script lanceur (étape 3).
+Clone le dépôt où tu veux. Les scripts sont lus dans le dossier `scripts` placé à côté du document Spotfire : il suffit de garder `spotfire/controle_gestion_orvane.dxp` et `spotfire/scripts/` ensemble.
 
 ## 2. Ouvrir le document
 

@@ -6,8 +6,16 @@ import re
 
 from Spotfire.Dxp.Application.Layout import LayoutDefinition
 from System.Drawing import Color
+from System.IO import Path
 
-DOSSIER = "C:/Migration Spotfire To QlikSense/spotfire/scripts/"
+# les scripts sont lus dans le dossier « scripts » placé à côté du document Spotfire :
+# le dépôt peut être cloné n'importe où. Le premier nom est renseigné quand le document
+# vient d'être ouvert, le second quand il a été enregistré sous un nouveau nom.
+_DOCUMENT = (
+    Application.DocumentMetadata.LoadedFromFileName
+    or Application.DocumentMetadata.FileNameUsedBySave
+)
+DOSSIER = Path.GetDirectoryName(_DOCUMENT) + "/scripts/"
 ONGLETS = [
     "01_synthese_direction.py",
     "02_chiffre_affaires_marge.py",
@@ -515,6 +523,6 @@ if Document.Data.Tables.Contains("resultat_versions"):
         lambda: Document.Data.Tables.Remove(table("resultat_versions")),
     )
 
-journal = io.open(DOSSIER + "_avertissements.log", "w", encoding="utf-8")
-journal.write("\n".join(AVERTISSEMENTS) or "Aucun avertissement")
-journal.close()
+journal_avertissements = io.open(DOSSIER + "_avertissements.log", "w", encoding="utf-8")
+journal_avertissements.write("\n".join(AVERTISSEMENTS) or "Aucun avertissement")
+journal_avertissements.close()

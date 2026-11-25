@@ -165,11 +165,7 @@ img/                    visuels du README et captures d'écran
 
 - **La migration vers Qlik Sense n'est pas encore faite.** Le dépôt contient aujourd'hui l'application de départ. Le modèle, les expressions et les feuilles Qlik viendront ensuite.
 - **Sécurité par région non appliquée dans Spotfire.** La table `securite` est prête pour le Section Access de Qlik ; la version d'essai de Spotfire utilisée ici ne permet pas de la tester.
-- **Chemin en dur.** `construire_tout.py` lit les scripts dans `C:/Migration Spotfire To QlikSense/spotfire/scripts/`. Ailleurs, il faut adapter la constante `DOSSIER`.
 - **Construction non automatisable hors de Spotfire.** Les scripts IronPython ne s'exécutent que dans Spotfire ; le contrôle automatique du dépôt ne vérifie que leur syntaxe.
-- **Sélections.** Un clic recalcule les visuels des quatre tables mensuelles. La balance âgée et les créances clients, photographiées au 31/10/2026, ne suivent pas la sélection d'un mois.
-- **Délais moyens.** Les tuiles DSO, DIO et DPO sont des moyennes simples des quatre BU, non pondérées.
-- **Données fictives.** Orvane Distribution n'existe pas ; les montants n'ont aucune valeur de référence sectorielle.
 
 ## Nouveautés
 
