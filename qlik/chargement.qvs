@@ -218,3 +218,8 @@ LOAD
     Unité,
     Lecture
 FROM [$(vDossier)seuils.csv] $(vFormat);
+
+///$tab Affichage
+// Le point décimal ne servait qu'à lire les fichiers. Une fois les données chargées,
+// l'application affiche les nombres à la française.
+SET DecimalSep=',';
