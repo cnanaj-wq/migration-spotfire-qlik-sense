@@ -15,10 +15,22 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-1f3a5f" alt="Licence MIT" /></a>
+  <a href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/actions/workflows/controle.yml"><img src="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/actions/workflows/controle.yml/badge.svg" alt="Contrôle automatique" /></a>
   <img src="https://img.shields.io/badge/donn%C3%A9es-synth%C3%A9tiques-1f3a5f" alt="Données synthétiques" />
-  <img src="https://img.shields.io/badge/Spotfire-15.1-3a4cf0" alt="Spotfire 15.1" />
-  <img src="https://img.shields.io/badge/Python-3.12-1f3a5f" alt="Python 3.12" />
   <img src="https://img.shields.io/badge/Qlik%20Sense%20Cloud-%C3%A0%20venir-a7b1bd" alt="Qlik Sense Cloud : à venir" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Spotfire-15.1-3a4cf0" alt="Spotfire 15.1" />
+  <img src="https://img.shields.io/badge/IronPython-scripts%20Spotfire-1f3a5f" alt="IronPython" />
+  <img src="https://img.shields.io/badge/Python-3.12-3776ab?logo=python&logoColor=white" alt="Python 3.12" />
+  <img src="https://img.shields.io/badge/Ruff-lint%20%2B%20format-d7ff64?logo=ruff&logoColor=black" alt="Ruff" />
+  <img src="https://img.shields.io/badge/openpyxl-Excel-1d6f42" alt="openpyxl" />
+  <img src="https://img.shields.io/badge/Pillow-images-8c6bb1" alt="Pillow" />
+  <img src="https://img.shields.io/badge/Git-versionnement-f05032?logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-CI-2088ff?logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Mermaid-sch%C3%A9mas-ff3670?logo=mermaid&logoColor=white" alt="Mermaid" />
+  <img src="https://img.shields.io/badge/VS%20Code-%C3%A9diteur-007acc" alt="VS Code" />
 </p>
 
 <p align="center">
