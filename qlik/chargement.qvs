@@ -1,0 +1,214 @@
+///$tab Paramètres
+// Contrôle de gestion Orvane - script de chargement Qlik Sense.
+// Reprend les neuf tables de data/ du dépôt, chargées dans Spotfire sans transformation.
+// Différence de fond avec Spotfire : ici les tables sont associées par leurs champs communs,
+// une sélection se propage donc à tout le modèle sans relation à déclarer visuel par visuel.
+
+SET ThousandSep=' ';
+SET DecimalSep='.';          // les fichiers CSV écrivent les décimales avec un point
+SET DateFormat='DD/MM/YYYY';
+SET MonthNames='janv.;févr.;mars;avr.;mai;juin;juil.;août;sept.;oct.;nov.;déc.';
+SET LongMonthNames='janvier;février;mars;avril;mai;juin;juillet;août;septembre;octobre;novembre;décembre';
+SET DayNames='lun.;mar.;mer.;jeu.;ven.;sam.;dim.';
+SET FirstWeekDay=0;
+SET FirstMonthOfYear=1;
+SET CollationLocale='fr-FR';
+SET CreateSearchIndexOnReload=1;
+SET NumericalAbbreviation='3:k;6:M;9:G';
+
+SET vDossier = 'lib://DataFiles/';
+SET vFormat  = (txt, utf8, embedded labels, delimiter is ',', msq);
+
+// dernier mois clôturé de l'exercice en cours : les cumuls s'arrêtent là
+LET vExercice        = 2026;
+LET vDernierMoisClos = 10;
+
+///$tab Faits
+// Une seule table de faits. Chaque source y garde ses propres mesures ; les axes communs
+// (Date, BU, Région, Canal) portent le même nom et font l'association.
+// Les deux tables de ventes ont les mêmes mesures à deux mailles différentes (produit et
+// agence) : celles de la maille agence sont préfixées pour ne jamais s'additionner.
+
+Faits:
+LOAD
+    'Ventes'                          as Source,
+    Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
+    Statut,
+    BU,
+    Produit,
+    Région,
+    Canal,
+    [Quantité Réel],
+    [Quantité Budget],
+    [Quantité N-1],
+    [CA Réel],
+    [CA Budget],
+    [CA N-1],
+    [CA Prévision],
+    [Coût des ventes Réel],
+    [Coût des ventes Budget],
+    [Coût des ventes N-1],
+    [Coût des ventes Prévision],
+    [Marge brute Réel],
+    [Marge brute Budget],
+    [Marge brute N-1],
+    [Marge brute Prévision],
+    [Effet volume & mix],
+    [Effet prix],
+    [Effet coûts d'achat]
+FROM [$(vDossier)ventes.csv] $(vFormat);
+
+Concatenate (Faits)
+LOAD
+    'Agences'                         as Source,
+    Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
+    Statut,
+    BU,
+    Région,
+    Agence,
+    [CA Réel]                         as [Agence CA Réel],
+    [CA Budget]                       as [Agence CA Budget],
+    [CA N-1]                          as [Agence CA N-1],
+    [CA Prévision]                    as [Agence CA Prévision],
+    [Marge brute Réel]                as [Agence Marge brute Réel],
+    [Marge brute Budget]              as [Agence Marge brute Budget],
+    [Marge brute N-1]                 as [Agence Marge brute N-1],
+    [Marge brute Prévision]           as [Agence Marge brute Prévision]
+FROM [$(vDossier)ventes_agences.csv] $(vFormat);
+
+Concatenate (Faits)
+LOAD
+    'Compte de résultat'              as Source,
+    Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
+    Statut,
+    BU,
+    Rubrique,
+    Réel                              as [CR Réel],
+    Budget                            as [CR Budget],
+    [N-1]                             as [CR N-1],
+    Prévision                         as [CR Prévision]
+FROM [$(vDossier)compte_resultat.csv] $(vFormat);
+
+Concatenate (Faits)
+LOAD
+    'Écarts de marge'                 as Source,
+    Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
+    BU,
+    Région,
+    Poste,
+    Montant                           as [Écart de marge]
+FROM [$(vDossier)ecarts_marge.csv] $(vFormat);
+
+Concatenate (Faits)
+LOAD
+    'BFR'                             as Source,
+    Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
+    BU,
+    [Créances clients],
+    Stocks,
+    [Dettes fournisseurs],
+    BFR,
+    [BFR Objectif],
+    [DSO (jours)],
+    [DSO Objectif (jours)],
+    [DIO (jours)],
+    [DIO Objectif (jours)],
+    [DPO (jours)],
+    [DPO Objectif (jours)],
+    [CA journalier TTC],
+    [Coût des ventes journalier]
+FROM [$(vDossier)bfr.csv] $(vFormat);
+
+Concatenate (Faits)
+LOAD
+    'Trésorerie'                      as Source,
+    Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
+    EBITDA                            as [Flux EBITDA],
+    [Variation de BFR],
+    Investissements,
+    [Impôt sur les sociétés],
+    [Flux net de trésorerie],
+    [Trésorerie fin de mois]
+FROM [$(vDossier)tresorerie.csv] $(vFormat);
+
+// Les créances sont une photographie au 31/10/2026 : elles sont rattachées au dernier
+// mois clos, ce qui les fait suivre la sélection de ce mois.
+Concatenate (Faits)
+LOAD
+    'Créances clients'                              as Source,
+    MakeDate($(vExercice), $(vDernierMoisClos), 1)  as Date,
+    BU,
+    Région,
+    Canal,
+    [N° facture],
+    Client,
+    Date(Date#([Date facture], 'YYYY-MM-DD'))       as [Date facture],
+    Date(Date#([Date échéance], 'YYYY-MM-DD'))      as [Date échéance],
+    [Délai de paiement (jours)],
+    [Montant TTC],
+    [Jours de retard],
+    Tranche,
+    Échu
+FROM [$(vDossier)creances_clients.csv] $(vFormat);
+
+///$tab Dimensions
+// Les attributs qui décrivent un axe sortent de la table de faits.
+
+Rubriques:
+LOAD DISTINCT
+    Rubrique,
+    Ordre        as [Ordre rubrique],
+    Nature,
+    Agrégat
+FROM [$(vDossier)compte_resultat.csv] $(vFormat);
+
+Postes:
+LOAD DISTINCT
+    Poste,
+    Ordre        as [Ordre poste],
+    Type         as [Type de poste]
+FROM [$(vDossier)ecarts_marge.csv] $(vFormat);
+
+Agences:
+LOAD DISTINCT
+    Agence,
+    Latitude,
+    Longitude,
+    GeoMakePoint(Latitude, Longitude)  as [Point agence]
+FROM [$(vDossier)ventes_agences.csv] $(vFormat);
+
+Tranches:
+LOAD DISTINCT
+    Tranche,
+    [Ordre tranche]
+FROM [$(vDossier)creances_clients.csv] $(vFormat);
+
+///$tab Calendrier
+// Spotfire lisait Exercice et Mois dans chaque table. Ici ils viennent d'un calendrier
+// unique, associé aux faits par la date.
+
+Calendrier:
+LOAD
+    Date,
+    Year(Date)                                          as Exercice,
+    Num(Month(Date))                                    as Mois,
+    Month(Date)                                         as [Mois nom],
+    Dual(Text(Date(Date, 'YYYY-MM')), Year(Date) * 100 + Num(Month(Date)))  as Période,
+    If(Num(Month(Date)) <= $(vDernierMoisClos), 1, 0)   as [Mois clos]
+;
+LOAD DISTINCT
+    Date
+RESIDENT Faits;
+
+///$tab Seuils
+// Table isolée : les seuils d'alerte ne s'associent à aucun axe.
+
+Seuils:
+LOAD
+    Indicateur,
+    Sens,
+    [Seuil vert],
+    [Seuil orange],
+    Unité,
+    Lecture
+FROM [$(vDossier)seuils.csv] $(vFormat);
