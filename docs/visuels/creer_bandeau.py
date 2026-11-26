@@ -1,7 +1,7 @@
 """Compose le bandeau de présentation « Migration Spotfire vers Qlik Sense ».
 
 Deux cartes arrondies (illustration Spotfire, logo Qlik Sense) reliées par un double
-chevron dégradé du bleu Spotfire vers le vert Qlik. Sortie : bandeau_migration.png
+chevron dégradé du bleu Spotfire vers le vert Qlik Sense. Sortie : bandeau_migration.png
 """
 
 from pathlib import Path

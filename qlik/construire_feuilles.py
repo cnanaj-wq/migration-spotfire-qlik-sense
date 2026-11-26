@@ -55,7 +55,7 @@ def ecart_pct(reel, reference):
 
 
 def rvb(couleur):
-    """Couleur hexadécimale écrite pour une expression Qlik."""
+    """Couleur hexadécimale écrite pour une expression Qlik Sense."""
     return "RGB(%d, %d, %d)" % tuple(int(couleur[i : i + 2], 16) for i in (1, 3, 5))
 
 

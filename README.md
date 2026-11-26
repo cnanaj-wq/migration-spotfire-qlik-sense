@@ -63,7 +63,7 @@ Le projet repose sur 14 892 lignes de données fictives réparties dans neuf tab
 
 - Extraction des composants Spotfire.
 - Conversion des expressions par règles.
-- Reconstruction des objets via les API Qlik.
+- Reconstruction des objets via les API Qlik Sense.
 - Contrôle des résultats en SQL.
 - Correction des écarts détectés.
 
