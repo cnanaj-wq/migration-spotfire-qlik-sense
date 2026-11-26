@@ -239,7 +239,7 @@ h3 { font-size: 1.18rem; font-weight: 700; line-height: 1.25; margin-bottom: 8px
 }
 
 /* Réorganisation : chiffres clés, contexte, expérimentation IA, ressources */
-.hero h1 { font-size: clamp(2.1rem, 5vw, 4.1rem); line-height: 1.02; max-width: 22ch; }
+.hero h1 { font-size: clamp(2.1rem, 5vw, 4.1rem); line-height: 1.02; max-width: 24ch; }
 .hero__nature { font-weight: 600; color: var(--marine); }
 .hero__faits { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 40px; }
 .hero__faits li { background: var(--surface); border: 1px solid var(--trait); border-radius: var(--rayon); padding: 18px 20px; }
