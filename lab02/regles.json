@@ -1,0 +1,7 @@
+{
+  "_lecture": "Ce que le script ne peut pas déduire seul et qu'une personne a tranché.",
+  "colonnes_calculees": {
+    "Période": "Mois"
+  },
+  "_colonnes_calculees": "Dans Spotfire, Période est une colonne calculée : le nom du mois, tiré de Mois. Elle n'existe pas dans les fichiers sources. Les axes qui l'utilisent sont rattachés à Mois."
+}

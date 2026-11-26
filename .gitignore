@@ -13,3 +13,6 @@ _sortie.log
 _avertissements.log
 _diagnostic.log
 _securite.log
+
+# Feuilles Qlik du LAB 02 : régénérées par lab02/generer.py
+lab02/sorties/feuilles/

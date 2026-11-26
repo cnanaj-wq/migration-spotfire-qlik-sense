@@ -1,0 +1,557 @@
+{
+  "tables": [
+    "bfr",
+    "compte_resultat",
+    "creances_clients",
+    "ecarts_marge",
+    "resultat_lignes",
+    "securite",
+    "seuils",
+    "tresorerie",
+    "ventes",
+    "ventes_agences"
+  ],
+  "pages": [
+    {
+      "titre": "Synthèse direction",
+      "visuels": [
+        {
+          "titre": "Réel et écart au budget",
+          "type": "KpiChart",
+          "table": "bfr",
+          "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+          "expressions": {},
+          "indicateurs": [
+            {
+              "titre": "CA (M€)",
+              "type": "KpiVisualization",
+              "table": "ventes",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) / 1000000 as [CA réel 2026]",
+                "ColorAxis": "100 * ((Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([CA Budget]) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([CA Budget]) OVER (AllPrevious([Axis.X]))) - 1) as [vs budget 2026]"
+              }
+            },
+            {
+              "titre": "Marge brute (M€)",
+              "type": "KpiVisualization",
+              "table": "ventes",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X]))) / 1000000 as [Marge brute réel 2026]",
+                "ColorAxis": "100 * ((Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Marge brute Budget]) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Marge brute Budget]) OVER (AllPrevious([Axis.X]))) - 1) as [vs budget 2026]"
+              }
+            },
+            {
+              "titre": "Taux de marge (%)",
+              "type": "KpiVisualization",
+              "table": "ventes",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "100 * Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X])) / Sum([CA Réel]) OVER (AllPrevious([Axis.X])) as [Taux de marge réel 2026]",
+                "ColorAxis": "100 * ((100 * Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X])) / Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) / (100 * Sum([Marge brute Budget]) OVER (AllPrevious([Axis.X])) / Sum([CA Budget]) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "(100 * Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X])) / Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) - (100 * Sum([Marge brute Budget]) OVER (AllPrevious([Axis.X])) / Sum([CA Budget]) OVER (AllPrevious([Axis.X]))) as [vs budget 2026]"
+              }
+            },
+            {
+              "titre": "EBITDA (M€)",
+              "type": "KpiVisualization",
+              "table": "compte_resultat",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 7",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum([Réel]) OVER (AllPrevious([Axis.X]))) / 1000000 as [EBITDA réel 2026]",
+                "ColorAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1) as [vs budget 2026]"
+              }
+            },
+            {
+              "titre": "BFR fin de mois (M€)",
+              "type": "KpiVisualization",
+              "table": "bfr",
+              "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum(If([Exercice] = 2026, [BFR]))) / 1000000 as [BFR réel 2026]",
+                "ColorAxis": "100 * ((Sum(If([Exercice] = 2026, [BFR Objectif]))) / (Sum(If([Exercice] = 2026, [BFR]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum(If([Exercice] = 2026, [BFR]))) / (Sum(If([Exercice] = 2026, [BFR Objectif]))) - 1) as [vs objectif 2026]"
+              }
+            }
+          ]
+        },
+        {
+          "titre": "Écart à N-1",
+          "type": "KpiChart",
+          "table": "bfr",
+          "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+          "expressions": {},
+          "indicateurs": [
+            {
+              "titre": "CA vs N-1",
+              "type": "KpiVisualization",
+              "table": "ventes",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "100 * ((Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) / (Sum(Real([CA N-1])) OVER (AllPrevious([Axis.X]))) - 1) as [CA vs 2025]",
+                "ColorAxis": "100 * ((Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) / (Sum(Real([CA N-1])) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "(Sum(Real([CA N-1])) OVER (AllPrevious([Axis.X]))) / 1000000 as [Réel 2025]"
+              }
+            },
+            {
+              "titre": "Marge brute vs N-1",
+              "type": "KpiVisualization",
+              "table": "ventes",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "100 * ((Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X]))) / (Sum(Real([Marge brute N-1])) OVER (AllPrevious([Axis.X]))) - 1) as [Marge brute vs 2025]",
+                "ColorAxis": "100 * ((Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X]))) / (Sum(Real([Marge brute N-1])) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "(Sum(Real([Marge brute N-1])) OVER (AllPrevious([Axis.X]))) / 1000000 as [Réel 2025]"
+              }
+            },
+            {
+              "titre": "Taux de marge vs N-1",
+              "type": "KpiVisualization",
+              "table": "ventes",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(100 * Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X])) / Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) - (100 * Sum(Real([Marge brute N-1])) OVER (AllPrevious([Axis.X])) / Sum(Real([CA N-1])) OVER (AllPrevious([Axis.X]))) as [Taux de marge vs 2025]",
+                "ColorAxis": "100 * ((100 * Sum([Marge brute Réel]) OVER (AllPrevious([Axis.X])) / Sum([CA Réel]) OVER (AllPrevious([Axis.X]))) / (100 * Sum(Real([Marge brute N-1])) OVER (AllPrevious([Axis.X])) / Sum(Real([CA N-1])) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "100 * Sum(Real([Marge brute N-1])) OVER (AllPrevious([Axis.X])) / Sum(Real([CA N-1])) OVER (AllPrevious([Axis.X])) as [Réel 2025]"
+              }
+            },
+            {
+              "titre": "EBITDA vs N-1",
+              "type": "KpiVisualization",
+              "table": "compte_resultat",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 7",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum(Real([N-1])) OVER (AllPrevious([Axis.X]))) - 1) as [EBITDA vs 2025]",
+                "ColorAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum(Real([N-1])) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "(Sum(Real([N-1])) OVER (AllPrevious([Axis.X]))) / 1000000 as [Réel 2025]"
+              }
+            },
+            {
+              "titre": "BFR fin de mois vs N-1",
+              "type": "KpiVisualization",
+              "table": "bfr",
+              "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "100 * ((Sum(If([Exercice] = 2026, [BFR]))) / (Sum(If([Exercice] = 2025, [BFR]))) - 1) as [BFR vs 2025]",
+                "ColorAxis": "100 * ((Sum(If([Exercice] = 2025, [BFR]))) / (Sum(If([Exercice] = 2026, [BFR]))) - 1)",
+                "ComparativeAxis": "(Sum(If([Exercice] = 2025, [BFR]))) / 1000000 as [Réel 2025]"
+              }
+            }
+          ]
+        },
+        {
+          "titre": "Chiffre d'affaires mensuel 2026 - réel, budget, N-1 (k€)",
+          "type": "LineChart",
+          "table": "ventes",
+          "limitation": "[Exercice] = 2026",
+          "expressions": {
+            "X": "<[Période]>",
+            "Y": "Sum([CA Réel]) / 1000 as [Réel], Sum([CA Budget]) / 1000 as [Budget], Sum(Real([CA N-1])) / 1000 as [N-1]",
+            "Color": "<[Axis.Default.Names]>"
+          }
+        },
+        {
+          "titre": "Écart de marge brute vs budget par BU (k€)",
+          "type": "BarChart",
+          "table": "ventes",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "X": "<[BU]>",
+            "Y": "(Sum([Marge brute Réel]) - Sum([Marge brute Budget])) / 1000 as [Écart de marge]",
+            "Color": "(Sum([Marge brute Réel]) - Sum([Marge brute Budget])) / 1000"
+          }
+        },
+        {
+          "titre": "EBITDA mensuel 2026 - réel contre budget (k€)",
+          "type": "CombinationChart",
+          "table": "compte_resultat",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 7",
+          "expressions": {
+            "X": "<[Période]>",
+            "Y": "Sum([Réel]) / 1000 as [Réel], Sum([Budget]) / 1000 as [Budget]",
+            "Color": "<[Axis.Default.Names]>"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Chiffre d'affaires et marge",
+      "visuels": [
+        {
+          "titre": "CA par produit - réel contre budget (k€)",
+          "type": "BarChart",
+          "table": "ventes",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "X": "<[Produit]>",
+            "Y": "Sum([CA Réel]) / 1000 as [Réel], Sum([CA Budget]) / 1000 as [Budget]",
+            "Color": "<[Axis.Default.Names]>"
+          }
+        },
+        {
+          "titre": "Écart de CA vs budget par canal (%)",
+          "type": "BarChart",
+          "table": "ventes",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "X": "<[Canal]>",
+            "Y": "100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1) as [Écart CA (%)]",
+            "Color": "100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1)"
+          }
+        },
+        {
+          "titre": "Taux de marge brute mensuel par BU (%)",
+          "type": "LineChart",
+          "table": "ventes",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "X": "<[Période]>",
+            "Y": "100 * Sum([Marge brute Réel]) / Sum([CA Réel]) as [Taux de marge (%)]",
+            "Color": "<[BU]>"
+          }
+        },
+        {
+          "titre": "Écart de CA vs budget par région et canal (%)",
+          "type": "CrossTablePlot",
+          "table": "ventes",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "ColumnAxis": "<[Canal]>",
+            "RowAxis": "<[Région]>",
+            "MeasureAxis": "Round(100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1), 1) as [Écart CA (%)]"
+          }
+        },
+        {
+          "titre": "Indicateurs clés par BU - cumul 2026 à fin octobre (k€)",
+          "type": "CrossTablePlot",
+          "table": "ventes",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "ColumnAxis": "<[Axis.Default.Names]>",
+            "RowAxis": "<[BU]>",
+            "MeasureAxis": "Integer(Round(Sum([CA Réel]) / 1000, 0)) as [CA réel], Integer(Round(Sum([CA Budget]) / 1000, 0)) as [CA budget], Round(100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1), 1) as [% vs budget], Integer(Round(Sum(Real([CA N-1])) / 1000, 0)) as [CA N-1], Round(100 * (Sum([CA Réel]) / Sum(Real([CA N-1])) - 1), 1) as [% vs N-1], Integer(Round(Sum([Marge brute Réel]) / 1000, 0)) as [Marge réelle], Round(100 * Sum([Marge brute Réel]) / Sum([CA Réel]), 1) as [Taux réel %], Round(100 * Sum([Marge brute Budget]) / Sum([CA Budget]), 1) as [Taux budget %], Integer(Round((Sum([Marge brute Réel]) - Sum([Marge brute Budget])) / 1000, 0)) as [Écart marge]"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Carte des agences",
+      "visuels": [
+        {
+          "titre": "Agences - taille : CA réel 2026, couleur : écart au budget (%)",
+          "type": "Maps.MapChart",
+          "table": "ventes_agences",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "Layers.Items[6].Visualization.ScatterLayer.X": "[Longitude]",
+            "Layers.Items[6].Visualization.ScatterLayer.Y": "[Latitude]",
+            "Layers.Items[6].Visualization.ScatterLayer.Color": "100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1)",
+            "Layers.Items[6].Visualization.ScatterLayer.Size": "Sum([CA Réel])",
+            "Layers.Items[6].Visualization.ScatterLayer.Marker": "<[Agence]>",
+            "Layers.Items[15].WhereClauseExpression": "[Exercice] = 2026 and [Statut] = \"Réel\""
+          }
+        },
+        {
+          "titre": "Écart de CA vs budget par agence (k€)",
+          "type": "BarChart",
+          "table": "ventes_agences",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "X": "<[Agence]>",
+            "Y": "(Sum([CA Réel]) - Sum([CA Budget])) / 1000 as [Écart CA (k€)]",
+            "Color": "(Sum([CA Réel]) - Sum([CA Budget])) / 1000"
+          }
+        },
+        {
+          "titre": "Détail par région et agence (k€)",
+          "type": "CrossTablePlot",
+          "table": "ventes_agences",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "ColumnAxis": "<[Axis.Default.Names]>",
+            "RowAxis": "<[Région] NEST [Agence]>",
+            "MeasureAxis": "Integer(Round(Sum([CA Réel]) / 1000, 0)) as [CA réel], Integer(Round(Sum([CA Budget]) / 1000, 0)) as [CA budget], Integer(Round((Sum([CA Réel]) - Sum([CA Budget])) / 1000, 0)) as [Écart k€], Round(100 * (Sum([CA Réel]) / Sum([CA Budget]) - 1), 1) as [Écart %], Round(100 * Sum([Marge brute Réel]) / Sum([CA Réel]), 1) as [Taux marge %]"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "Écarts et compte de résultat",
+      "visuels": [
+        {
+          "titre": "Soldes intermédiaires",
+          "type": "KpiChart",
+          "table": "compte_resultat",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 8",
+          "expressions": {},
+          "indicateurs": [
+            {
+              "titre": "Chiffre d'affaires (M€)",
+              "type": "KpiVisualization",
+              "table": "compte_resultat",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 1",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum([Réel]) OVER (AllPrevious([Axis.X]))) / 1000000 as [Chiffre d'affaires réel 2026]",
+                "ColorAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1) as [vs budget 2026]"
+              }
+            },
+            {
+              "titre": "Marge brute (M€)",
+              "type": "KpiVisualization",
+              "table": "compte_resultat",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 2",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum([Réel]) OVER (AllPrevious([Axis.X]))) / 1000000 as [Marge brute réel 2026]",
+                "ColorAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1) as [vs budget 2026]"
+              }
+            },
+            {
+              "titre": "EBITDA (M€)",
+              "type": "KpiVisualization",
+              "table": "compte_resultat",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 7",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum([Réel]) OVER (AllPrevious([Axis.X]))) / 1000000 as [EBITDA réel 2026]",
+                "ColorAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1) as [vs budget 2026]"
+              }
+            },
+            {
+              "titre": "Résultat d'exploitation (M€)",
+              "type": "KpiVisualization",
+              "table": "compte_resultat",
+              "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 8",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum([Réel]) OVER (AllPrevious([Axis.X]))) / 1000000 as [Résultat d'exploitation réel 2026]",
+                "ColorAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum([Réel]) OVER (AllPrevious([Axis.X]))) / (Sum([Budget]) OVER (AllPrevious([Axis.X]))) - 1) as [vs budget 2026]"
+              }
+            }
+          ]
+        },
+        {
+          "titre": "De la marge brute budget à la marge brute réelle - cumul 2026 (k€)",
+          "type": "WaterfallChart",
+          "table": "ecarts_marge",
+          "limitation": "[Exercice] = 2026",
+          "expressions": {
+            "X": "<[Poste]>",
+            "Y": "Sum([Montant]) / 1000 as [Marge brute (k€)]",
+            "Color": "Sum([Montant])"
+          }
+        },
+        {
+          "titre": "Effets volume, prix et coûts d'achat par BU (k€)",
+          "type": "BarChart",
+          "table": "ecarts_marge",
+          "limitation": "[Exercice] = 2026 and [Type] = \"Effet\"",
+          "expressions": {
+            "X": "<[BU]>",
+            "Y": "Sum([Montant]) / 1000 as [Effet (k€)]",
+            "Color": "<[Poste]>"
+          }
+        },
+        {
+          "titre": "Compte de résultat analytique - cumul 2026 à fin octobre (k€)",
+          "type": "CrossTablePlot",
+          "table": "resultat_lignes",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
+          "expressions": {
+            "ColumnAxis": "<[Version]>",
+            "RowAxis": "<[Axis.Default.Names]>",
+            "MeasureAxis": "If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] = 1, [Écart base])) / Abs(Sum(If([Ordre] = 1, [Budget base]))), 1), Round(Sum(If([Ordre] = 1, [Montant])) / 1000, 0)) as [Chiffre d'affaires], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] = 2, [Écart base])) / Abs(Sum(If([Ordre] = 2, [Budget base]))), 1), Round(Sum(If([Ordre] = 2, [Montant])) / 1000, 0)) as [Coût des ventes], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] <= 2, [Écart base])) / Abs(Sum(If([Ordre] <= 2, [Budget base]))), 1), Round(Sum(If([Ordre] <= 2, [Montant])) / 1000, 0)) as [MARGE BRUTE], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] = 3, [Écart base])) / Abs(Sum(If([Ordre] = 3, [Budget base]))), 1), Round(Sum(If([Ordre] = 3, [Montant])) / 1000, 0)) as [Frais de personnel], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] = 4, [Écart base])) / Abs(Sum(If([Ordre] = 4, [Budget base]))), 1), Round(Sum(If([Ordre] = 4, [Montant])) / 1000, 0)) as [Marketing & commercial], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] = 5, [Écart base])) / Abs(Sum(If([Ordre] = 5, [Budget base]))), 1), Round(Sum(If([Ordre] = 5, [Montant])) / 1000, 0)) as [Logistique & transport], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] = 6, [Écart base])) / Abs(Sum(If([Ordre] = 6, [Budget base]))), 1), Round(Sum(If([Ordre] = 6, [Montant])) / 1000, 0)) as [Loyers & frais généraux], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] = 7, [Écart base])) / Abs(Sum(If([Ordre] = 7, [Budget base]))), 1), Round(Sum(If([Ordre] = 7, [Montant])) / 1000, 0)) as [IT & systèmes], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] <= 7, [Écart base])) / Abs(Sum(If([Ordre] <= 7, [Budget base]))), 1), Round(Sum(If([Ordre] <= 7, [Montant])) / 1000, 0)) as [EBITDA], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] = 8, [Écart base])) / Abs(Sum(If([Ordre] = 8, [Budget base]))), 1), Round(Sum(If([Ordre] = 8, [Montant])) / 1000, 0)) as [Dotations aux amortissements], If(Max([Version]) = \"Écart %\", Round(100 * Sum(If([Ordre] <= 8, [Écart base])) / Abs(Sum(If([Ordre] <= 8, [Budget base]))), 1), Round(Sum(If([Ordre] <= 8, [Montant])) / 1000, 0)) as [RÉSULTAT D'EXPLOITATION]"
+          }
+        },
+        {
+          "titre": "Écart d'EBITDA vs budget - contribution de chaque rubrique (k€)",
+          "type": "WaterfallChart",
+          "table": "compte_resultat",
+          "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\" and [Ordre] <= 7",
+          "expressions": {
+            "X": "<[Rubrique]>",
+            "Y": "(Sum([Réel]) - Sum([Budget])) / 1000 as [Écart (k€)]",
+            "Color": "Sum([Réel]) - Sum([Budget])"
+          }
+        }
+      ]
+    },
+    {
+      "titre": "BFR, trésorerie et balance âgée",
+      "visuels": [
+        {
+          "titre": "Pilotage du cash",
+          "type": "KpiChart",
+          "table": "tresorerie",
+          "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+          "expressions": {},
+          "indicateurs": [
+            {
+              "titre": "BFR fin de mois (M€)",
+              "type": "KpiVisualization",
+              "table": "bfr",
+              "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum(If([Exercice] = 2026, [BFR]))) / 1000000 as [BFR réel 2026]",
+                "ColorAxis": "100 * ((Sum(If([Exercice] = 2026, [BFR Objectif]))) / (Sum(If([Exercice] = 2026, [BFR]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum(If([Exercice] = 2026, [BFR]))) / (Sum(If([Exercice] = 2026, [BFR Objectif]))) - 1) as [vs objectif 2026]"
+              }
+            },
+            {
+              "titre": "DSO moyen fin de mois (j)",
+              "type": "KpiVisualization",
+              "table": "bfr",
+              "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "Avg(If([Exercice] = 2026, [DSO (jours)])) as [DSO moyen réel 2026]",
+                "ColorAxis": "100 * ((Avg(If([Exercice] = 2026, [DSO Objectif (jours)]))) / (Avg(If([Exercice] = 2026, [DSO (jours)]))) - 1)",
+                "ComparativeAxis": "100 * ((Avg(If([Exercice] = 2026, [DSO (jours)]))) / (Avg(If([Exercice] = 2026, [DSO Objectif (jours)]))) - 1) as [vs objectif 2026]"
+              }
+            },
+            {
+              "titre": "DIO moyen fin de mois (j)",
+              "type": "KpiVisualization",
+              "table": "bfr",
+              "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "Avg(If([Exercice] = 2026, [DIO (jours)])) as [DIO moyen réel 2026]",
+                "ColorAxis": "100 * ((Avg(If([Exercice] = 2026, [DIO Objectif (jours)]))) / (Avg(If([Exercice] = 2026, [DIO (jours)]))) - 1)",
+                "ComparativeAxis": "100 * ((Avg(If([Exercice] = 2026, [DIO (jours)]))) / (Avg(If([Exercice] = 2026, [DIO Objectif (jours)]))) - 1) as [vs objectif 2026]"
+              }
+            },
+            {
+              "titre": "DPO moyen fin de mois (j)",
+              "type": "KpiVisualization",
+              "table": "bfr",
+              "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "Avg(If([Exercice] = 2026, [DPO (jours)])) as [DPO moyen réel 2026]",
+                "ColorAxis": "100 * ((Avg(If([Exercice] = 2026, [DPO (jours)]))) / (Avg(If([Exercice] = 2026, [DPO Objectif (jours)]))) - 1)",
+                "ComparativeAxis": "100 * ((Avg(If([Exercice] = 2026, [DPO (jours)]))) / (Avg(If([Exercice] = 2026, [DPO Objectif (jours)]))) - 1) as [vs objectif 2026]"
+              }
+            },
+            {
+              "titre": "Cycle de conversion fin de mois (j)",
+              "type": "KpiVisualization",
+              "table": "bfr",
+              "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": " Avg(If([Exercice] = 2026, [DSO (jours)])) + Avg(If([Exercice] = 2026, [DIO (jours)])) - Avg(If([Exercice] = 2026, [DPO (jours)])) as [Cycle de conversion réel 2026]",
+                "ColorAxis": "100 * (( Avg(If([Exercice] = 2026, [DSO Objectif (jours)])) + Avg(If([Exercice] = 2026, [DIO Objectif (jours)])) - Avg(If([Exercice] = 2026, [DPO Objectif (jours)]))) / ( Avg(If([Exercice] = 2026, [DSO (jours)])) + Avg(If([Exercice] = 2026, [DIO (jours)])) - Avg(If([Exercice] = 2026, [DPO (jours)]))) - 1)",
+                "ComparativeAxis": "100 * (( Avg(If([Exercice] = 2026, [DSO (jours)])) + Avg(If([Exercice] = 2026, [DIO (jours)])) - Avg(If([Exercice] = 2026, [DPO (jours)]))) / ( Avg(If([Exercice] = 2026, [DSO Objectif (jours)])) + Avg(If([Exercice] = 2026, [DIO Objectif (jours)])) - Avg(If([Exercice] = 2026, [DPO Objectif (jours)]))) - 1) as [vs objectif 2026]"
+              }
+            },
+            {
+              "titre": "Trésorerie",
+              "type": "KpiVisualization",
+              "table": "tresorerie",
+              "limitation": "[Mois] <= 10 and [Exercice] >= 2025",
+              "expressions": {
+                "XAxis": "<[Mois]>",
+                "YAxis": "(Sum(If([Exercice] = 2026, [Trésorerie fin de mois]))) / 1000000 as [Trésorerie disponible 2026]",
+                "ColorAxis": "100 * ((Sum(If([Exercice] = 2026, [Trésorerie fin de mois]))) / (Sum(If([Exercice] = 2025, [Trésorerie fin de mois]))) - 1)",
+                "ComparativeAxis": "100 * ((Sum(If([Exercice] = 2026, [Trésorerie fin de mois]))) / (Sum(If([Exercice] = 2025, [Trésorerie fin de mois]))) - 1) as [vs 2025]"
+              }
+            }
+          ]
+        },
+        {
+          "titre": "Risque client",
+          "type": "KpiChart",
+          "table": "creances_clients",
+          "limitation": "",
+          "expressions": {},
+          "indicateurs": [
+            {
+              "titre": "Créances à plus de 90 jours",
+              "type": "KpiVisualization",
+              "table": "creances_clients",
+              "limitation": "",
+              "expressions": {
+                "YAxis": "(Sum(If([Tranche] = \"Plus de 90 jours\", [Montant TTC]))) / 1000000 as [Créances à plus de 90 jours]",
+                "ComparativeAxis": "100 * Sum(If([Tranche] = \"Plus de 90 jours\", [Montant TTC])) / Sum([Montant TTC]) as [de l'encours clients]"
+              }
+            }
+          ]
+        },
+        {
+          "titre": "DSO 2026 par BU (jours)",
+          "type": "LineChart",
+          "table": "bfr",
+          "limitation": "[Exercice] = 2026",
+          "expressions": {
+            "X": "<[Période]>",
+            "Y": "Avg([DSO (jours)]) as [DSO]",
+            "Color": "<[BU]>"
+          }
+        },
+        {
+          "titre": "BFR 2026 - réel contre objectif (k€)",
+          "type": "CombinationChart",
+          "table": "bfr",
+          "limitation": "[Exercice] = 2026",
+          "expressions": {
+            "X": "<[Période]>",
+            "Y": "Sum([BFR]) / 1000 as [Réel], Sum([BFR Objectif]) / 1000 as [Objectif]",
+            "Color": "<[Axis.Default.Names]>"
+          }
+        },
+        {
+          "titre": "Trésorerie de fin de mois (k€)",
+          "type": "LineChart",
+          "table": "tresorerie",
+          "limitation": "",
+          "expressions": {
+            "X": "<[Exercice] NEST [Période]>",
+            "Y": "Sum([Trésorerie fin de mois]) / 1000 as [Trésorerie]"
+          }
+        },
+        {
+          "titre": "Balance âgée au 31/10/2026 par tranche de retard (k€)",
+          "type": "BarChart",
+          "table": "creances_clients",
+          "limitation": "",
+          "expressions": {
+            "X": "<[Tranche]>",
+            "Y": "Sum([Montant TTC]) / 1000 as [Montant TTC (k€)]",
+            "Color": "<[BU]>"
+          }
+        },
+        {
+          "titre": "Créances échues - les 15 clients les plus exposés (k€)",
+          "type": "BarChart",
+          "table": "creances_clients",
+          "limitation": "[Échu] = \"Échu\" and DenseRank(Sum(If([Échu] = \"Échu\", [Montant TTC], 0)) OVER ([Client]), \"desc\") <= 15",
+          "expressions": {
+            "X": "<[Client]>",
+            "Y": "Sum([Montant TTC]) / 1000 as [Montant échu (k€)]"
+          }
+        }
+      ]
+    }
+  ]
+}
