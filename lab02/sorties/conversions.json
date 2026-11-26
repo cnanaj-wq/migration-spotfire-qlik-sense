@@ -237,7 +237,7 @@
             "qlik": "100 * ((Sum({<Exercice={2026}, Statut={'Réel'}>} [CA Réel])) / (Sum({<Exercice={2026}, Statut={'Réel'}>} [CA N-1])) - 1)",
             "sql": "SELECT 100.0 * ((SUM(\"CA Réel\")) / (SUM(CAST(\"CA N-1\" AS REAL))) - 1.0) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -249,7 +249,7 @@
             "qlik": "100 * ((Sum({<Exercice={2026}, Statut={'Réel'}>} [CA Réel])) / (Sum({<Exercice={2026}, Statut={'Réel'}>} [CA N-1])) - 1)",
             "sql": "SELECT 100.0 * ((SUM(\"CA Réel\")) / (SUM(CAST(\"CA N-1\" AS REAL))) - 1.0) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -261,7 +261,7 @@
             "qlik": "(Sum({<Exercice={2026}, Statut={'Réel'}>} [CA N-1])) / 1000000",
             "sql": "SELECT (SUM(CAST(\"CA N-1\" AS REAL))) / 1000000.0 FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -283,7 +283,7 @@
             "qlik": "100 * ((Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute Réel])) / (Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute N-1])) - 1)",
             "sql": "SELECT 100.0 * ((SUM(\"Marge brute Réel\")) / (SUM(CAST(\"Marge brute N-1\" AS REAL))) - 1.0) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -295,7 +295,7 @@
             "qlik": "100 * ((Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute Réel])) / (Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute N-1])) - 1)",
             "sql": "SELECT 100.0 * ((SUM(\"Marge brute Réel\")) / (SUM(CAST(\"Marge brute N-1\" AS REAL))) - 1.0) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -307,7 +307,7 @@
             "qlik": "(Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute N-1])) / 1000000",
             "sql": "SELECT (SUM(CAST(\"Marge brute N-1\" AS REAL))) / 1000000.0 FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -329,7 +329,7 @@
             "qlik": "(100 * Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute Réel]) / Sum({<Exercice={2026}, Statut={'Réel'}>} [CA Réel])) - (100 * Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute N-1]) / Sum({<Exercice={2026}, Statut={'Réel'}>} [CA N-1]))",
             "sql": "SELECT (100.0 * SUM(\"Marge brute Réel\") / SUM(\"CA Réel\")) - (100.0 * SUM(CAST(\"Marge brute N-1\" AS REAL)) / SUM(CAST(\"CA N-1\" AS REAL))) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -341,7 +341,7 @@
             "qlik": "100 * ((100 * Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute Réel]) / Sum({<Exercice={2026}, Statut={'Réel'}>} [CA Réel])) / (100 * Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute N-1]) / Sum({<Exercice={2026}, Statut={'Réel'}>} [CA N-1])) - 1)",
             "sql": "SELECT 100.0 * ((100.0 * SUM(\"Marge brute Réel\") / SUM(\"CA Réel\")) / (100.0 * SUM(CAST(\"Marge brute N-1\" AS REAL)) / SUM(CAST(\"CA N-1\" AS REAL))) - 1.0) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -353,7 +353,7 @@
             "qlik": "100 * Sum({<Exercice={2026}, Statut={'Réel'}>} [Marge brute N-1]) / Sum({<Exercice={2026}, Statut={'Réel'}>} [CA N-1])",
             "sql": "SELECT 100.0 * SUM(CAST(\"Marge brute N-1\" AS REAL)) / SUM(CAST(\"CA N-1\" AS REAL)) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel'",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
             ]
@@ -375,7 +375,7 @@
             "qlik": "100 * ((Sum({<Exercice={2026}, Statut={'Réel'}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / (Sum({<Exercice={2026}, Statut={'Réel'}, [Ordre rubrique]={\"<=7\"}>} [CR N-1])) - 1)",
             "sql": "SELECT 100.0 * ((SUM(\"Réel\")) / (SUM(CAST(\"N-1\" AS REAL))) - 1.0) FROM \"compte_resultat\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel' AND \"Ordre\" <= 7.0",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "champ renommé d'après le script de chargement",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
@@ -388,7 +388,7 @@
             "qlik": "100 * ((Sum({<Exercice={2026}, Statut={'Réel'}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / (Sum({<Exercice={2026}, Statut={'Réel'}, [Ordre rubrique]={\"<=7\"}>} [CR N-1])) - 1)",
             "sql": "SELECT 100.0 * ((SUM(\"Réel\")) / (SUM(CAST(\"N-1\" AS REAL))) - 1.0) FROM \"compte_resultat\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel' AND \"Ordre\" <= 7.0",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "champ renommé d'après le script de chargement",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
@@ -401,7 +401,7 @@
             "qlik": "(Sum({<Exercice={2026}, Statut={'Réel'}, [Ordre rubrique]={\"<=7\"}>} [CR N-1])) / 1000000",
             "sql": "SELECT (SUM(CAST(\"N-1\" AS REAL))) / 1000000.0 FROM \"compte_resultat\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel' AND \"Ordre\" <= 7.0",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "champ renommé d'après le script de chargement",
               "cumul sur l'axe, lu au dernier point : total de la période",
               "limitation du visuel écrite en ensemble"
@@ -497,7 +497,7 @@
             "qlik": "Sum({<Exercice={2026}>} [CA N-1]) / 1000",
             "sql": "SELECT \"Mois\", SUM(CAST(\"CA N-1\" AS REAL)) / 1000.0 FROM \"ventes\" WHERE \"Exercice\" = 2026.0 GROUP BY \"Mois\"",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "limitation du visuel écrite en ensemble"
             ]
           }
@@ -774,7 +774,7 @@
             "sql": "SELECT \"BU\", CAST(ROUND(SUM(CAST(\"CA N-1\" AS REAL)) / 1000.0, 0.0) AS INTEGER) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel' GROUP BY \"BU\"",
             "regles": [
               "Integer(Round(x)) devient Round(x) : déjà entier",
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "limitation du visuel écrite en ensemble"
             ]
           },
@@ -785,7 +785,7 @@
             "qlik": "Round(100 * (Sum({<Exercice={2026}, Statut={'Réel'}>} [CA Réel]) / Sum({<Exercice={2026}, Statut={'Réel'}>} [CA N-1]) - 1), 0.1)",
             "sql": "SELECT \"BU\", ROUND(100.0 * (SUM(\"CA Réel\") / SUM(CAST(\"CA N-1\" AS REAL)) - 1.0), 1.0) FROM \"ventes\" WHERE \"Exercice\" = 2026.0 AND \"Statut\" = 'Réel' GROUP BY \"BU\"",
             "regles": [
-              "Real() retiré : Qlik n'a pas de type entier à convertir",
+              "Real() retiré : Qlik Sense n'a pas de type entier à convertir",
               "Round(x, n décimales) devient Round(x, pas)",
               "limitation du visuel écrite en ensemble"
             ]
@@ -1270,7 +1270,7 @@
         "limitation": "[Exercice] = 2026 and [Statut] = \"Réel\"",
         "dimensions": [],
         "mesures": [],
-        "arbitrage": "table « resultat_lignes » non chargée dans le modèle Qlik"
+        "arbitrage": "table « resultat_lignes » non chargée dans le modèle Qlik Sense"
       },
       {
         "titre": "Écart d'EBITDA vs budget - contribution de chaque rubrique (k€)",

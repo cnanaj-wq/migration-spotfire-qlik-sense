@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>How do you migrate a BI dashboard while keeping its indicators reliable?</b><br />
-  The same management control dashboard, migrated twice: by hand, then with Python scripts.
+  The same management control dashboard, migrated twice: by hand then with Python scripts.
 </p>
 
 <p align="center">
@@ -63,7 +63,7 @@ The project relies on 14,892 rows of fictional data spread over nine CSV tables.
 
 - Extracting the Spotfire components.
 - Converting expressions with rules.
-- Rebuilding objects through the Qlik APIs.
+- Rebuilding objects through the Qlik Sense APIs.
 - Checking results in SQL.
 - Fixing the gaps found.
 
@@ -107,7 +107,7 @@ Extraction → Conversion → Rebuild → SQL check → Fixing the gaps → New 
 ## 6. Technologies
 
 - Spotfire and IronPython
-- Qlik Sense Cloud and the Qlik APIs
+- Qlik Sense Cloud and the Qlik Sense APIs
 - Python
 - SQL
 - Git and GitHub Actions

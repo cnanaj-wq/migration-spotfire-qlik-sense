@@ -6,7 +6,7 @@
 
 <p align="center">
   <b>Comment migrer un tableau de bord BI tout en préservant la fiabilité de ses indicateurs ?</b><br />
-  Le même tableau de bord de contrôle de gestion, migré deux fois : à la main, puis par scripts Python.
+  Le même tableau de bord de contrôle de gestion migré deux fois : à la main puis par scripts Python.
 </p>
 
 <p align="center">
@@ -107,7 +107,7 @@ Extraction → Conversion → Reconstruction → Contrôle SQL → Correction de
 ## 6. Technologies utilisées
 
 - Spotfire et IronPython
-- Qlik Sense Cloud et API Qlik
+- Qlik Sense Cloud et API Qlik Sense
 - Python
 - SQL
 - Git et GitHub Actions

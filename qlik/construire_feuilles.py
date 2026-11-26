@@ -1,7 +1,7 @@
 """Génère les cinq feuilles de l'application Qlik Sense « Contrôle de gestion Orvane ».
 
 Chaque feuille est écrite dans qlik/feuilles/ sous forme d'un fichier JSON, puis envoyée
-dans l'application avec la ligne de commande Qlik :
+dans l'application avec la ligne de commande Qlik Sense :
 
     python qlik/construire_feuilles.py
     qlik app object set "qlik/feuilles/*.json" --app <identifiant de l'application>

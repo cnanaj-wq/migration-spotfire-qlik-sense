@@ -234,7 +234,7 @@ FROM [$(vDossier)seuils.csv] $(vFormat);
 // masquer des visuels ; ici les données elles-mêmes sont réduites.
 // Un profil régional ne voit pas les données du groupe. Un profil « * » voit tout.
 
-// Adresse Qlik de la personne qui recharge l'application : sans elle dans la table,
+// Adresse Qlik Sense de la personne qui recharge l'application : sans elle dans la table,
 // l'application se ferme à son propre auteur.
 SET vAdministrateur = 'A_REMPLACER_PAR_TON_EMAIL_QLIK';
 

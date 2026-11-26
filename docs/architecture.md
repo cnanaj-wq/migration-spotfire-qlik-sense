@@ -12,7 +12,7 @@ Ce document reprend le détail qui figurait dans le README : le contenu du dép�
 | Tables de données (CSV) | 9 | [`data/`](../data/) |
 | Lignes de données | 14 892 | [`data/`](../data/) |
 | Feuilles de l'application Qlik Sense | 5 | [`img/qlik/`](../img/qlik/) |
-| Onglets du script de chargement Qlik | 7 | [`qlik/chargement.qvs`](../qlik/chargement.qvs) |
+| Onglets du script de chargement Qlik Sense | 7 | [`qlik/chargement.qvs`](../qlik/chargement.qvs) |
 | Totaux comparés entre Spotfire et Qlik Sense | 11 | [qlik/correspondances.md](../qlik/correspondances.md) |
 | Rapprochements contrôlés | 4 | [`controles/verifier_donnees.py`](../controles/verifier_donnees.py) |
 

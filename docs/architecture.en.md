@@ -12,7 +12,7 @@ This document holds the detail that used to sit in the README: what the reposito
 | Data tables (CSV) | 9 | [`data/`](../data/) |
 | Data rows | 14,892 | [`data/`](../data/) |
 | Sheets in the Qlik Sense application | 5 | [`img/qlik/`](../img/qlik/) |
-| Tabs in the Qlik load script | 7 | [`qlik/chargement.qvs`](../qlik/chargement.qvs) |
+| Tabs in the Qlik Sense load script | 7 | [`qlik/chargement.qvs`](../qlik/chargement.qvs) |
 | Totals compared between Spotfire and Qlik Sense | 11 | [qlik/correspondances.md](../qlik/correspondances.md) |
 | Reconciliation checks | 4 | [`controles/verifier_donnees.py`](../controles/verifier_donnees.py) |
 

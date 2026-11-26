@@ -111,7 +111,7 @@
       <p>Quatre scripts font le trajet. Aucun ne devine : une formule qu'aucune règle ne couvre est mise de côté pour une personne.</p>
       <ol>
         <li><code>extraire.py</code> ouvre le fichier Spotfire et fait l'inventaire.</li>
-        <li><code>convertir.py</code> traduit chaque formule en Qlik et en SQL.</li>
+        <li><code>convertir.py</code> traduit chaque formule en Qlik Sense et en SQL.</li>
         <li><code>generer.py</code> crée l'application et pose les objets.</li>
         <li><code>controler.py</code> recalcule chaque chiffre et compare.</li>
       </ol>
@@ -171,7 +171,7 @@
 
 <section class="bloc bloc--teinte" id="differences" aria-labelledby="titre-differences">
   <h2 id="titre-differences">Les différences techniques</h2>
-  <p class="bloc__chapo">Il n'y a pas de bouton « Exporter vers Qlik ». Modélisation, expressions de calcul, interactions et filtres : trois choses changent, et aucune ne se copie.</p>
+  <p class="bloc__chapo">Il n'y a pas de bouton « Exporter vers Qlik Sense ». Modélisation, expressions de calcul, interactions et filtres : trois choses changent, et aucune ne se copie.</p>
 
   <div class="trois">
     <article>
@@ -225,7 +225,7 @@
   <div class="rideau">
     <article>
       <h3>Qlik Sense : une porte</h3>
-      <p>Une liste, dans le script de chargement, dit quelle adresse a droit à quelle région. Qlik reconnaît la personne connectée et retire le reste.</p>
+      <p>Une liste, dans le script de chargement, dit quelle adresse a droit à quelle région. Qlik Sense reconnaît la personne connectée et retire le reste.</p>
     </article>
     <article>
       <h3>Spotfire : un rideau</h3>
@@ -241,7 +241,7 @@
 
 <section class="bloc bloc--sombre" id="ia" aria-labelledby="titre-ia">
   <h2 id="titre-ia">Migration augmentée par Mistral AI</h2>
-  <p class="bloc__chapo">Une expérimentation à part, sur cinq expressions : l'API Mistral propose une formule Qlik, un script Python l'exécute dans Qlik Sense et compare le chiffre obtenu au chiffre attendu.</p>
+  <p class="bloc__chapo">Une expérimentation à part, sur cinq expressions : l'API Mistral propose une formule Qlik Sense, un script Python l'exécute dans Qlik Sense et compare le chiffre obtenu au chiffre attendu.</p>
   <div class="essais">
     <article>
       <h3>Traduction seule</h3>
@@ -251,7 +251,7 @@
     <article>
       <h3>Boucle de correction</h3>
       <p class="essais__score">5 sur 5</p>
-      <p>Après chaque échec, le script renvoie à Mistral ce que Qlik a répondu. 11 demandes au total, 2 corrections au plus par formule.</p>
+      <p>Après chaque échec, le script renvoie à Mistral ce que Qlik Sense a répondu. 11 demandes au total, 2 corrections au plus par formule.</p>
     </article>
     <article>
       <h3>Validation</h3>
@@ -280,8 +280,8 @@
       <ul class="limites">
         <li>Un seul tableau de bord, sur des données fictives : deux labs, pas une migration en production.</li>
         <li>« Le métier pour valider » n'a pas été joué : il n'y a pas de vrai service de contrôle de gestion derrière Orvane.</li>
-        <li>La sécurité Qlik a été vérifiée sur deux profils, pas sur toute la liste.</li>
-        <li>Le contrôle SQL compare Qlik aux fichiers d'origine, pas à Spotfire directement.</li>
+        <li>La sécurité Qlik Sense a été vérifiée sur deux profils, pas sur toute la liste.</li>
+        <li>Le contrôle SQL compare Qlik Sense aux fichiers d'origine, pas à Spotfire directement.</li>
         <li>Le format de fichier de Spotfire n'est pas documenté : le script de lecture n'a été essayé que sur ce fichier.</li>
         <li>Les feuilles générées par scripts ont les bons chiffres, pas encore la charte, la navigation ni les filtres.</li>
       </ul>

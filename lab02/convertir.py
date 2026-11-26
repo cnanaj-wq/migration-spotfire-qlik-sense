@@ -2,8 +2,8 @@
 
 Usage : python lab02/convertir.py
 Part de sorties/inventaire.json. Pour chaque mesure, le script écrit deux traductions de la
-même expression Spotfire : l'expression Qlik (pour l'application) et une requête SQL sur les
-fichiers sources (pour le contrôle). Les noms de champs Qlik sont lus dans qlik/chargement.qvs.
+même expression Spotfire : l'expression Qlik Sense (pour l'application) et une requête SQL sur les
+fichiers sources (pour le contrôle). Les noms de champs Qlik Sense sont lus dans qlik/chargement.qvs.
 Ce qu'aucune règle ne couvre n'est pas deviné : c'est listé « à arbitrer », avec la raison.
 Résultat : sorties/conversions.json
 """
@@ -24,7 +24,7 @@ INVERSE = {"<": ">", ">": "<", "<=": ">=", ">=": "<=", "=": "=", "<>": "<>"}
 
 
 def lire_modele(script):
-    """Ce que le script de chargement Qlik fait de chaque colonne de chaque fichier source."""
+    """Ce que le script de chargement Qlik Sense fait de chaque colonne de chaque fichier source."""
     texte = "\n".join(
         re.sub(r"(^|\s)//.*$", "", ligne) for ligne in script.splitlines()
     )
@@ -54,7 +54,7 @@ class Contexte:
         self.indicateur, self.axe_x = indicateur, axe_x
         self.colonnes = lire_entete(table)
         if table not in self.par_fichier:
-            raise NonConvertible("table « %s » non chargée dans le modèle Qlik" % table)
+            raise NonConvertible("table « %s » non chargée dans le modèle Qlik Sense" % table)
         self.limitation = lire_condition(limitation)
         self.conditions = conditions(self.limitation) if self.limitation else []
         self.appliquees = set()
@@ -69,14 +69,14 @@ class Contexte:
         return colonne
 
     def champ(self, colonne):
-        """Le champ Qlik qui porte cette colonne."""
+        """Le champ Qlik Sense qui porte cette colonne."""
         source = self.source(colonne)
         champ = self.par_fichier[self.table].get(source)
         if champ is None and source in self.champs:
             champ = source  # champ construit par le script (calendrier)
         if champ is None:
             raise NonConvertible(
-                "colonne « %s » sans champ dans le modèle Qlik" % colonne
+                "colonne « %s » sans champ dans le modèle Qlik Sense" % colonne
             )
         if champ != colonne:
             self.appliquees.add("champ renommé d'après le script de chargement")
@@ -212,7 +212,7 @@ def qlik(arbre, ctx, dernier_point=False, dans_agregat=False):
         filtre = ensemble(ctx.conditions + du_si, ctx, dernier_point)
         return "%s(%s%s)" % (AGREGATS[nom], filtre, suite(argument, True))
     if nom == "real" and len(arguments) == 1:
-        ctx.appliquees.add("Real() retiré : Qlik n'a pas de type entier à convertir")
+        ctx.appliquees.add("Real() retiré : Qlik Sense n'a pas de type entier à convertir")
         return suite(arguments[0])
     if nom == "integer" and len(arguments) == 1:
         interne = nu(arguments[0])

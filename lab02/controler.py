@@ -1,9 +1,9 @@
 """Étape 4 : contrôle en SQL chaque valeur que Qlik Sense affichera.
 
-Usage : python lab02/controler.py <identifiant de l'application Qlik>
+Usage : python lab02/controler.py <identifiant de l'application Qlik Sense>
 Pour chaque mesure convertie, deux calculs indépendants de la même expression Spotfire :
 - la requête SQL, exécutée sur les fichiers de data/ (base SQLite en mémoire) ;
-- l'expression Qlik, exécutée dans l'application par l'outil en ligne de commande « qlik ».
+- l'expression Qlik Sense, exécutée dans l'application par l'outil en ligne de commande « qlik ».
 Les deux résultats sont comparés point par point : une valeur par mesure et par valeur de
 dimension (par BU, par mois, par agence...). Résultat : sorties/controle.md
 """
@@ -53,7 +53,7 @@ def cle(valeurs):
 
 
 def evaluer(application, expressions, dimensions):
-    """Les valeurs de plusieurs expressions Qlik, par combinaison de dimensions."""
+    """Les valeurs de plusieurs expressions Qlik Sense, par combinaison de dimensions."""
     commande = ["qlik", "app", "eval", *expressions]
     if dimensions:
         commande += ["by", *dimensions]
@@ -122,7 +122,7 @@ def main():
                 mesures_conformes += not ecarts
                 for point, attendu, obtenu in ecarts[:5]:
                     detail.append(
-                        "- %s / %s %s : SQL %s, Qlik %s"
+                        "- %s / %s %s : SQL %s, Qlik Sense %s"
                         % (
                             visuel["titre"],
                             mesure.get("libelle") or mesure["axe"],

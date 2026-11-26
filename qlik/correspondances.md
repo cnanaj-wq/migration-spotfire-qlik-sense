@@ -1,6 +1,6 @@
 # De Spotfire à Qlik Sense : correspondances
 
-Ce qui change entre les deux outils, sur ce tableau de bord. Chaque expression Qlik de ce
+Ce qui change entre les deux outils, sur ce tableau de bord. Chaque expression Qlik Sense de ce
 document a été exécutée dans l'application et son résultat comparé à celui de Spotfire.
 
 ## Le modèle
@@ -29,7 +29,7 @@ ou BU, n'affichent alors plus rien. Dans Spotfire, ils restaient affichés au ni
 | Trésorerie de fin de mois | `Sum(If([Exercice] = 2026, [Trésorerie fin de mois]))` filtrée sur le dernier mois | `Sum({<Exercice={2026}, Mois={10}>} [Trésorerie fin de mois])` |
 | CA d'un périmètre de régions | clause de limitation ajoutée à chaque visuel | `Sum({<…, Région={'Sud-Est','Sud-Ouest'}>} [CA Réel])`, ou simple sélection |
 
-La condition écrite dans un `If` côté Spotfire devient un ensemble (`{<…>}`) côté Qlik :
+La condition écrite dans un `If` côté Spotfire devient un ensemble (`{<…>}`) côté Qlik Sense :
 le filtre sort de l'agrégation et se lit avant elle.
 
 ## La sécurité par région

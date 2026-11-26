@@ -5,9 +5,9 @@ Usage :
     python lab02/generer.py --creer          crée une application, charge les données, envoie
     python lab02/generer.py <identifiant>    envoie les feuilles dans une application existante
 
-Chaque visuel Spotfire donne un objet Qlik du type correspondant, posé sur une grille
+Chaque visuel Spotfire donne un objet Qlik Sense du type correspondant, posé sur une grille
 régulière. Les briques d'objets (gabarits JSON, dimension, mesure) sont celles du LAB 01.
-L'envoi passe par l'outil en ligne de commande « qlik », qui appelle les API de Qlik Cloud.
+L'envoi passe par l'outil en ligne de commande « qlik », qui appelle les API de Qlik Sense Cloud.
 Avec --creer, la variable d'environnement QLIK_ADMINISTRATEUR donne l'adresse e-mail de la
 personne qui recharge : elle remplace le texte à compléter du script, sans être écrite ici.
 """
@@ -53,7 +53,7 @@ def poser_dimensions(visuel, garder=None):
 
 
 def objet(visuel):
-    """L'objet Qlik d'un visuel converti, ou None s'il n'y a pas de règle pour ce type."""
+    """L'objet Qlik Sense d'un visuel converti, ou None s'il n'y a pas de règle pour ce type."""
     sorte, titre = visuel["type"], visuel["titre"]
     if "arbitrage" in visuel or not mesures_de(visuel, "Y", "Measure", "Size"):
         return None
