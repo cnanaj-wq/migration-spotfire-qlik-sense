@@ -34,7 +34,9 @@
 </p>
 
 <p align="center">
-  <a href="#quick-start"><b>Quick start</b></a>
+  <a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/"><b>Project page</b></a>
+  &nbsp;·&nbsp; <a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/processus.html">Interactive diagram</a>
+  &nbsp;·&nbsp; <a href="#quick-start"><b>Quick start</b></a>
   &nbsp;·&nbsp; <a href="#architecture">Architecture</a>
   &nbsp;·&nbsp; <a href="#flowchart">Flowchart</a>
   &nbsp;·&nbsp; <a href="docs/reproduire.md">Rebuild in Spotfire (French)</a>
@@ -226,6 +228,8 @@ data/                   9 CSV tables and the same content as an Excel workbook
 controles/              consistency check across tables
 spotfire/               the Spotfire document and its build scripts
 qlik/                   the Qlik Sense load script and the mappings between the two tools
+index.html, processus.html  the project page (GitHub Pages) and its interactive diagram
+design/                 the interactive diagram specification
 lab02/                  the automated migration: .dxp extraction, rule-based conversion, generation, SQL check
 docs/                   Spotfire how-to, banner script
 img/                    README visuals and screenshots

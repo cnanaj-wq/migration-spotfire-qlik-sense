@@ -1,0 +1,349 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "De Spotfire à Qlik Sense",
+    "animation": "trace",
+    "quality_profile": "showcase",
+    "views": [
+      {
+        "id": "lab01",
+        "label": "LAB 01 : à la main",
+        "focus": [
+          "spotfire",
+          "charger",
+          "reecrire",
+          "totaux",
+          "feuilles",
+          "securite",
+          "qlik"
+        ],
+        "note": "Chaque étape est refaite à la main, et comparée à Spotfire avant de passer à la suivante."
+      },
+      {
+        "id": "lab02",
+        "label": "LAB 02 : par scripts Python",
+        "focus": [
+          "spotfire",
+          "extraire",
+          "convertir",
+          "generer",
+          "arbitrage",
+          "sql",
+          "qlik"
+        ],
+        "note": "Quatre scripts font le trajet. Ce qu'aucune règle ne couvre part à l'arbitrage."
+      },
+      {
+        "id": "controles",
+        "label": "Les contrôles",
+        "focus": [
+          "totaux",
+          "securite",
+          "sql"
+        ],
+        "note": "11 totaux comparés à Spotfire, 611 valeurs recalculées en SQL, la sécurité vérifiée sur un profil régional."
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "spotfire",
+      "type": "frontend",
+      "label": "Spotfire",
+      "sublabel": "5 pages, 9 fichiers",
+      "pos": [
+        40,
+        196
+      ],
+      "size": [
+        170,
+        68
+      ],
+      "tag": "départ"
+    },
+    {
+      "id": "charger",
+      "type": "database",
+      "label": "Charger les données",
+      "sublabel": "chargement.qvs",
+      "pos": [
+        260,
+        60
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "reecrire",
+      "type": "backend",
+      "label": "Réécrire les formules",
+      "sublabel": "une par une",
+      "pos": [
+        480,
+        60
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "feuilles",
+      "type": "frontend",
+      "label": "Construire 5 feuilles",
+      "sublabel": "filtres, navigation",
+      "pos": [
+        700,
+        60
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "securite",
+      "type": "security",
+      "label": "Section Access",
+      "sublabel": "sécurité par région",
+      "pos": [
+        920,
+        60
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "totaux",
+      "type": "security",
+      "label": "Comparer à Spotfire",
+      "sublabel": "11 totaux sur 11",
+      "pos": [
+        480,
+        196
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "qlik",
+      "type": "cloud",
+      "label": "Qlik Sense",
+      "sublabel": "mêmes chiffres",
+      "pos": [
+        1140,
+        196
+      ],
+      "size": [
+        170,
+        68
+      ],
+      "tag": "arrivée"
+    },
+    {
+      "id": "extraire",
+      "type": "backend",
+      "label": "extraire.py",
+      "sublabel": "41 visuels lus",
+      "pos": [
+        260,
+        332
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "convertir",
+      "type": "backend",
+      "label": "convertir.py",
+      "sublabel": "103 formules",
+      "pos": [
+        480,
+        332
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "generer",
+      "type": "backend",
+      "label": "generer.py",
+      "sublabel": "39 objets sur 41",
+      "pos": [
+        700,
+        332
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "sql",
+      "type": "security",
+      "label": "controler.py",
+      "sublabel": "611 valeurs en SQL",
+      "pos": [
+        920,
+        332
+      ],
+      "size": [
+        170,
+        68
+      ]
+    },
+    {
+      "id": "arbitrage",
+      "type": "external",
+      "label": "À arbitrer",
+      "sublabel": "2 visuels sans règle",
+      "pos": [
+        480,
+        456
+      ],
+      "size": [
+        170,
+        68
+      ]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "LAB 01 : à la main",
+      "wraps": [
+        "charger",
+        "reecrire",
+        "feuilles",
+        "securite"
+      ]
+    },
+    {
+      "kind": "region",
+      "label": "LAB 02 : par scripts Python",
+      "wraps": [
+        "extraire",
+        "convertir",
+        "generer",
+        "sql"
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "id": "s-charger",
+      "from": "spotfire",
+      "to": "charger",
+      "variant": "emphasis",
+      "fromSide": "top",
+      "toSide": "left"
+    },
+    {
+      "id": "charger-reecrire",
+      "from": "charger",
+      "to": "reecrire"
+    },
+    {
+      "id": "reecrire-feuilles",
+      "from": "reecrire",
+      "to": "feuilles"
+    },
+    {
+      "id": "feuilles-securite",
+      "from": "feuilles",
+      "to": "securite"
+    },
+    {
+      "id": "securite-qlik",
+      "from": "securite",
+      "to": "qlik",
+      "variant": "emphasis",
+      "fromSide": "right",
+      "toSide": "top"
+    },
+    {
+      "id": "reecrire-totaux",
+      "from": "reecrire",
+      "to": "totaux",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top"
+    },
+    {
+      "id": "s-extraire",
+      "from": "spotfire",
+      "to": "extraire",
+      "variant": "emphasis",
+      "fromSide": "bottom",
+      "toSide": "left"
+    },
+    {
+      "id": "extraire-convertir",
+      "from": "extraire",
+      "to": "convertir"
+    },
+    {
+      "id": "convertir-generer",
+      "from": "convertir",
+      "to": "generer"
+    },
+    {
+      "id": "generer-sql",
+      "from": "generer",
+      "to": "sql"
+    },
+    {
+      "id": "sql-qlik",
+      "from": "sql",
+      "to": "qlik",
+      "variant": "emphasis",
+      "fromSide": "right",
+      "toSide": "bottom"
+    },
+    {
+      "id": "convertir-arbitrage",
+      "from": "convertir",
+      "to": "arbitrage",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "LAB 01 : comprendre",
+      "items": [
+        "Tout est refait à la main, étape par étape",
+        "2 erreurs trouvées au contrôle, 11 totaux identiques"
+      ]
+    },
+    {
+      "dot": "violet",
+      "title": "LAB 02 : répéter",
+      "items": [
+        "103 formules traduites par règles, 39 objets sur 41",
+        "Premier contrôle : 518 sur 611, puis 611 après correction"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Ce qui reste à une personne",
+      "items": [
+        "2 visuels sans règle, la mise en forme des feuilles",
+        "La validation par le métier, non jouée ici"
+      ]
+    }
+  ]
+}

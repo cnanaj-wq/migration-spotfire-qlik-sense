@@ -34,7 +34,9 @@
 </p>
 
 <p align="center">
-  <a href="#démarrage-rapide"><b>Démarrage</b></a>
+  <a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/"><b>Page du projet</b></a>
+  &nbsp;·&nbsp; <a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/processus.html">Schéma interactif</a>
+  &nbsp;·&nbsp; <a href="#démarrage-rapide"><b>Démarrage</b></a>
   &nbsp;·&nbsp; <a href="#architecture">Architecture</a>
   &nbsp;·&nbsp; <a href="#logigramme">Logigramme</a>
   &nbsp;·&nbsp; <a href="docs/reproduire.md">Reproduire dans Spotfire</a>
@@ -224,6 +226,8 @@ data/                   9 tables CSV et le même contenu en classeur Excel
 controles/              contrôle de cohérence entre les tables
 spotfire/               le document Spotfire et ses scripts de construction
 qlik/                   le script de chargement Qlik Sense et les correspondances entre les deux outils
+index.html, processus.html  la page du projet (GitHub Pages) et son schéma interactif
+design/                 la description du schéma interactif
 lab02/                  la migration automatisée : extraction du .dxp, conversion par règles, génération, contrôle SQL
 docs/                   mode d'emploi Spotfire, script du bandeau
 img/                    visuels du README et captures d'écran
