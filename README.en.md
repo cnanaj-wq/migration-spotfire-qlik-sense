@@ -152,16 +152,8 @@ docs/, img/          documentation, diagrams and screenshots
 
 ## 9. Limitations
 
-- The experiment covers a single dashboard and fictional data.
-- Two objects were not rebuilt automatically.
-- Matching values at the checked points does not guarantee equivalence in every selection context.
-- The SQL check compares Qlik Sense with the source files, not with Spotfire directly.
-- The layout of the generated visuals still needs work.
-- Qlik Sense security was tested on two profiles.
-- The Qlik Sense application is not shipped in the repository.
-- The Spotfire display restriction is not real data access control.
-
-This project is a technical demonstrator, not a production-ready migration solution.
+- The project covers one dashboard built on fictional data. It consists of two technical demonstrators.
+- Business validation is an essential step before any move to production.
 
 ## License
 

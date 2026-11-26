@@ -152,16 +152,8 @@ docs/, img/          documentation, schémas et captures
 
 ## 9. Limites
 
-- L'expérimentation porte sur un seul tableau de bord et des données fictives.
-- Deux objets n'ont pas été reconstruits automatiquement.
-- La conformité des valeurs contrôlées ne garantit pas leur équivalence dans tous les contextes de sélection.
-- Le contrôle SQL compare Qlik Sense aux fichiers d'origine, pas à Spotfire directement.
-- La mise en forme des visuels générés reste à affiner.
-- La sécurité Qlik Sense a été testée sur deux profils.
-- L'application Qlik Sense n'est pas fournie directement dans le dépôt.
-- La restriction d'affichage Spotfire ne constitue pas un véritable contrôle d'accès aux données.
-
-Ce projet est un démonstrateur technique et non une solution de migration prête pour la production.
+- Le projet porte sur un tableau de bord de données fictives. Il s'agit de deux démonstrateurs techniques.
+- La validation métier est une étape indispensable avant toute mise en production.
 
 ## Licence
 
