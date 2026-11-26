@@ -26,9 +26,9 @@ Les cinq onglets, repris en cinq feuilles Qlik Sense :
 | Écarts et compte de résultat | Effets volume, prix et coûts d'achat, compte de résultat avec soldes intermédiaires |
 | BFR, trésorerie et balance âgée | BFR, DSO, DIO, DPO contre objectif, trésorerie, créances échues |
 
-Deux comptes de visuels circulent, et ils décrivent le même tableau de bord. Les scripts Spotfire créent 25 visuels : 20 graphiques, tableaux et carte, plus 5 rangées de tuiles. Le LAB 02 compte chaque tuile séparément : 20 + 21 cartes d'indicateur, soit 41.
+Deux comptes de visuels circulent et ils décrivent le même tableau de bord. Les scripts Spotfire créent 25 visuels : 20 graphiques, tableaux et carte, plus 5 rangées de tuiles. Le LAB 02 compte chaque tuile séparément : 20 + 21 cartes d'indicateur, soit 41.
 
-De même pour les fichiers : `data/` contient 9 tables CSV, et un classeur Excel qui reprend le même contenu. Les 14 892 lignes sont celles des 9 tables.
+De même pour les fichiers : `data/` contient 9 tables CSV et un classeur Excel qui reprend le même contenu. Les 14 892 lignes sont celles des 9 tables.
 
 ## Architecture
 

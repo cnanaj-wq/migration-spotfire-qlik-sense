@@ -82,7 +82,7 @@ Le projet repose sur 14 892 lignes de données fictives réparties dans neuf tab
 
 Le premier contrôle SQL a permis de détecter une erreur de conversion affectant neuf indicateurs. Le contrôle admet un écart de 0,005 par valeur.
 
-Les 41 objets du LAB 02 sont les 41 visuels lus dans le fichier Spotfire : 20 graphiques, tableaux et carte, et 21 cartes d'indicateur. Les scripts Spotfire, eux, en créent 25, parce qu'ils posent les 21 cartes en 5 rangées.
+Les 41 objets du LAB 02 sont les 41 visuels lus dans le fichier Spotfire : 20 graphiques, tableaux et carte et 21 cartes d'indicateur. Les scripts Spotfire, eux, en créent 25, parce qu'ils posent les 21 cartes en 5 rangées.
 
 Cette expérimentation souligne un point essentiel : automatiser une migration ne suffit pas. Il faut également vérifier la fiabilité des résultats produits.
 
@@ -124,7 +124,7 @@ python generer_donnees.py
 python controles/verifier_donnees.py
 ```
 
-Résultat attendu : les 9 tables de `data/` sont régénérées à l'identique, puis le contrôle affiche 4 lignes `OK` et `Tout concorde`.
+Résultat attendu : les 9 tables de `data/` sont régénérées à l'identique puis le contrôle affiche 4 lignes `OK` et `Tout concorde`.
 
 ## 8. Choisir sa prochaine étape
 
@@ -161,7 +161,7 @@ docs/, img/          documentation, schémas et captures
 - L'application Qlik Sense n'est pas fournie directement dans le dépôt.
 - La restriction d'affichage Spotfire ne constitue pas un véritable contrôle d'accès aux données.
 
-Ce projet est un démonstrateur technique, et non une solution de migration prête pour la production.
+Ce projet est un démonstrateur technique et non une solution de migration prête pour la production.
 
 ## Licence
 

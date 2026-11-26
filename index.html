@@ -59,7 +59,7 @@
 <section class="ecrans" id="ecrans" aria-labelledby="titre-ecrans">
   <div class="ecrans__tete">
     <h2 id="titre-ecrans">Comparaison avant / après</h2>
-    <p>Choisir une page, puis passer d'une version à l'autre. Les chiffres ne bougent pas, la forme oui.</p>
+    <p>Choisir une page puis passer d'une version à l'autre. Les chiffres ne bougent pas, la forme oui.</p>
   </div>
 
   <div class="visionneuse">
@@ -171,7 +171,7 @@
 
 <section class="bloc bloc--teinte" id="differences" aria-labelledby="titre-differences">
   <h2 id="titre-differences">Les différences techniques</h2>
-  <p class="bloc__chapo">Il n'y a pas de bouton « Exporter vers Qlik Sense ». Modélisation, expressions de calcul, interactions et filtres : trois choses changent, et aucune ne se copie.</p>
+  <p class="bloc__chapo">Il n'y a pas de bouton « Exporter vers Qlik Sense ». Modélisation, expressions de calcul, interactions et filtres : trois choses changent et aucune ne se copie.</p>
 
   <div class="trois">
     <article>
@@ -186,9 +186,9 @@
     <article>
       <h3>L'écriture des formules</h3>
       <div class="formules">
-        <p class="formules__outil">Spotfire : « additionne, si c'est 2026 »</p>
+        <p class="formules__outil">Spotfire : « additionne si c'est 2026 »</p>
         <pre><code>Sum(If(<mark>[Exercice] = 2026 and [Mois] &lt;= 10</mark>, [CA Réel]))</code></pre>
-        <p class="formules__outil">Qlik Sense : « dans 2026, additionne »</p>
+        <p class="formules__outil">Qlik Sense : « dans 2026 additionne »</p>
         <pre><code>Sum(<mark>{&lt;Exercice={2026}, [Mois clos]={1}&gt;}</mark> [CA Réel])</code></pre>
       </div>
       <p>La condition sort de la somme et se lit avant elle. Même résultat, grammaire différente.</p>

@@ -18,7 +18,7 @@
           "securite",
           "qlik"
         ],
-        "note": "Chaque étape est refaite à la main, et comparée à Spotfire avant de passer à la suivante."
+        "note": "Chaque étape est refaite à la main et comparée à Spotfire avant de passer à la suivante."
       },
       {
         "id": "lab02",
@@ -334,7 +334,7 @@
       "title": "LAB 02 : répéter",
       "items": [
         "103 formules traduites par règles, 39 objets sur 41",
-        "Premier contrôle : 518 sur 611, puis 611 après correction"
+        "Premier contrôle : 518 sur 611 puis 611 après correction"
       ]
     },
     {

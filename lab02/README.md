@@ -5,7 +5,7 @@ Ici, quatre scripts font le même trajet : ils lisent le fichier Spotfire, tradu
 formules, construisent l'application Qlik Sense et vérifient chaque chiffre.
 
 Aucun script ne devine. Une formule que les règles ne couvrent pas n'est pas traduite : elle
-est listée « à arbitrer », avec la raison, pour qu'une personne décide.
+est listée « à arbitrer », avec la raison pour qu'une personne décide.
 
 ## Le trajet
 
@@ -48,7 +48,7 @@ déposés dans `DataFiles/Orvane/`. Avant `--creer`, la variable d'environnement
 
 ## Résultats
 
-Relevés sur les sorties de ce dossier, pour le fichier `spotfire/controle_gestion_orvane.dxp`.
+Relevés sur les sorties de ce dossier pour le fichier `spotfire/controle_gestion_orvane.dxp`.
 
 | Mesure | Résultat |
 |---|---|
@@ -69,7 +69,7 @@ Les deux visuels laissés à l'arbitrage :
   règle ne traduit.
 
 Le premier contrôle n'a pas donné 611 sur 611, mais 518. Deux causes, toutes deux dans les
-scripts : une règle traduisait `Integer()` par une fonction qui n'existe pas dans Qlik Sense, et le
+scripts : une règle traduisait `Integer()` par une fonction qui n'existe pas dans Qlik Sense et le
 script de contrôle lisait mal certaines valeurs nulles. Le contrôle SQL a montré les neuf
 mesures touchées ; la règle a été corrigée.
 
