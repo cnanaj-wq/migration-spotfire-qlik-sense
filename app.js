@@ -137,7 +137,7 @@
   var jauges = document.getElementById("jauges");
   var remplir = function () {
     jauges.querySelectorAll(".jauge__barre").forEach(function (barre) {
-      barre.style.width = (100 * Number(barre.dataset.part) / total).toFixed(1) + "%";
+      barre.style.transform = "scaleX(" + (Number(barre.dataset.part) / total).toFixed(3) + ")";
     });
   };
   if ("IntersectionObserver" in window) {
