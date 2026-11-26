@@ -138,8 +138,8 @@ h3 { font-size: 1.18rem; font-weight: 700; line-height: 1.25; margin-bottom: 8px
 .lab { background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: var(--rayon); padding: 26px; }
 .lab > p { color: #c5d0e2; }
 .lab ol { counter-reset: etape; margin: 18px 0; display: grid; gap: 10px; }
-.lab li { counter-increment: etape; display: grid; grid-template-columns: 30px 1fr; gap: 10px; align-items: baseline; }
-.lab li::before { content: counter(etape); font-weight: 800; color: var(--ocre); font-variant-numeric: tabular-nums; }
+.lab li { counter-increment: etape; position: relative; padding-left: 34px; }
+.lab li::before { content: counter(etape); position: absolute; left: 0; top: 0; font-weight: 800; color: var(--ocre); font-variant-numeric: tabular-nums; }
 .lab code { color: #ffd9a3; }
 .lab .lab__bilan { color: #fff; font-weight: 700; border-top: 1px solid rgba(255, 255, 255, 0.14); padding-top: 14px; }
 .lab figure { margin-top: 18px; }
