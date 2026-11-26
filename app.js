@@ -6,7 +6,7 @@
 
   /* ---------- Visionneuse : 5 pages, 3 versions ---------- */
   var VERSIONS = {
-    spotfire: { dossier: "spotfire", l: 1520, h: 661, nom: "Spotfire", legende: "Spotfire, l'application de départ : 5 pages construites par scripts sur les 9 fichiers de données." },
+    spotfire: { dossier: "spotfire", l: 1520, h: 661, nom: "Spotfire", legende: "Spotfire, l'application d'origine : 5 pages construites par scripts sur les 9 fichiers de données." },
     qlik: { dossier: "qlik", l: 1780, h: 1120, nom: "Qlik Sense, LAB 01", legende: "Qlik Sense, LAB 01 : la page refaite à la main, avec la navigation, les cinq filtres et la charte de couleurs." },
     lab02: { dossier: "lab02", l: 1780, h: 1115, nom: "Qlik Sense, LAB 02", legende: "Qlik Sense, LAB 02 : la page générée par les scripts, sans retouche. Les chiffres sont justes, la mise en forme reste à faire." }
   };
