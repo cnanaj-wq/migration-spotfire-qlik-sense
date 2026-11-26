@@ -1,54 +1,122 @@
 <p align="center">
-  <img src="img/entete.png" alt="Banner: migrating a management control dashboard from Spotfire to Qlik Sense Cloud" width="100%" />
+  <img src="img/entete.png" alt="Banner: migration of a management control dashboard from Spotfire to Qlik Sense Cloud" width="100%" />
 </p>
 
-<h1 align="center">Migrating a management control dashboard<br />from Spotfire to Qlik Sense</h1>
+<h1 align="center">BI migration: from Spotfire to Qlik Sense Cloud</h1>
 
 <p align="center">
-  A 5-tab Spotfire dashboard, built from versioned scripts on a fictional 14,892-row dataset,
-  then migrated to Qlik Sense Cloud: data model, expressions, 5 sheets and security by region.
-</p>
-
-<p align="center">
-  <a href="README.md"><img src="img/langue-fr.svg" alt="FR · Français" height="36"></a>&nbsp;<a href="README.en.md"><img src="img/langue-us-actif.svg" alt="EN · English (current language)" height="36"></a>
+  <b>How do you migrate a BI dashboard while keeping its indicators reliable?</b><br />
+  The same management control dashboard, migrated twice: by hand, then with Python scripts.
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-1f3a5f" alt="MIT license" /></a>
+  <a href="README.md"><img src="img/langue-fr.svg" alt="FR · Français" height="36"></a>&nbsp;<a href="README.en.md"><img src="img/langue-us-actif.svg" alt="EN · English (displayed language)" height="36"></a>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-1f3a5f" alt="MIT license" /></a>
   <a href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/actions/workflows/controle.yml"><img src="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/actions/workflows/controle.yml/badge.svg" alt="Automated check" /></a>
-  <img src="https://img.shields.io/badge/data-synthetic-1f3a5f" alt="Synthetic data" />
-  <img src="https://img.shields.io/badge/Qlik%20Sense%20Cloud-5%20sheets-009845" alt="Qlik Sense Cloud: 5 sheets" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Spotfire-15.1-3a4cf0" alt="Spotfire 15.1" />
-  <img src="https://img.shields.io/badge/IronPython-scripts%20Spotfire-1f3a5f" alt="IronPython" />
+  <img src="https://img.shields.io/badge/synthetic-data-1f3a5f" alt="Synthetic data" />
+  <img src="https://img.shields.io/badge/Qlik%20Sense%20Cloud-5%20sheets-009845" alt="Qlik Sense Cloud" />
   <img src="https://img.shields.io/badge/Python-3.12-3776ab?logo=python&logoColor=white" alt="Python 3.12" />
-  <img src="https://img.shields.io/badge/Ruff-lint%20%2B%20format-d7ff64?logo=ruff&logoColor=black" alt="Ruff" />
-  <img src="https://img.shields.io/badge/openpyxl-Excel-1d6f42" alt="openpyxl" />
-  <img src="https://img.shields.io/badge/Pillow-images-8c6bb1" alt="Pillow" />
-  <img src="https://img.shields.io/badge/Git-version%20control-f05032?logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-CI-2088ff?logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Mermaid-diagrams-ff3670?logo=mermaid&logoColor=white" alt="Mermaid" />
-  <img src="https://img.shields.io/badge/VS%20Code-editor-007acc" alt="VS Code" />
 </p>
 
 <p align="center">
-  <a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/"><b>Project page</b></a>
+  <a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/"><b>Discover the project</b></a> (in French)
   &nbsp;·&nbsp; <a href="https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/processus.html">Interactive diagram</a>
-  &nbsp;·&nbsp; <a href="#quick-start"><b>Quick start</b></a>
-  &nbsp;·&nbsp; <a href="#architecture">Architecture</a>
-  &nbsp;·&nbsp; <a href="#flowchart">Flowchart</a>
-  &nbsp;·&nbsp; <a href="docs/reproduire.md">Rebuild in Spotfire (French)</a>
-  &nbsp;·&nbsp; <a href="qlik/correspondances.md">From Spotfire to Qlik (French)</a>
-  &nbsp;·&nbsp; <a href="#limitations">Limitations</a>
+  &nbsp;·&nbsp; <a href="#3-results">Results</a>
+  &nbsp;·&nbsp; <a href="#7-quick-start">Reproduce</a>
+  &nbsp;·&nbsp; <a href="#9-limitations">Limitations</a>
 </p>
 
-## Quick start
+This project explores two ways of migrating a management control dashboard: a manual migration and a migration automated with scripts.
 
-Prerequisite: Python 3.12. Spotfire is only needed to open the dashboard.
+The goal is to identify what can be automated, what must be checked, and what still needs a person.
 
-```powershell
+## 1. Business context
+
+Orvane Distribution is a fictional company that wants to move its management control dashboard from Spotfire to Qlik Sense Cloud.
+
+The dashboard covers five areas:
+
+- Executive summary
+- Revenue and margin
+- Branch performance
+- Budget variances and income statement
+- Working capital and cash
+
+The project relies on 14,892 rows of fictional data spread over nine CSV tables. The dashboard, the data columns and the scripts are in French.
+
+## 2. The solution in two approaches
+
+### LAB 01: manual migration
+
+- Adapting the data model.
+- Rewriting the calculation expressions.
+- Rebuilding the dashboards.
+- Setting up security by region.
+- Comparing results between the two tools.
+
+[Read the LAB 01 mappings](qlik/correspondances.md) (in French)
+
+### LAB 02: automated migration
+
+- Extracting the Spotfire components.
+- Converting expressions with rules.
+- Rebuilding objects through the Qlik APIs.
+- Checking results in SQL.
+- Fixing the gaps found.
+
+[Read LAB 02](lab02/README.md) (in French)
+
+## 3. Results
+
+| Indicator | Result |
+|---|---:|
+| Sheets migrated by hand | 5 |
+| Indicators compared between the two tools (LAB 01) | 11 of 11 identical |
+| Formulas converted (LAB 02) | 103 of 103 |
+| Objects generated (LAB 02) | 39 of 41 |
+| Values matching at the first SQL check | 518 of 611 |
+| Values matching after the fix | 611 of 611 |
+
+The first SQL check exposed a conversion error that affected nine indicators. The check allows a gap of 0.005 per value.
+
+The 41 objects of LAB 02 are the 41 visuals read from the Spotfire file: 20 charts, tables and map, and 21 KPI cards. The Spotfire scripts create 25, because they lay the 21 cards out in 5 rows.
+
+This experiment makes one point: automating a migration is not enough. The results it produces must also be verified.
+
+## 4. Before and after the migration
+
+**Spotfire, the source application**
+
+![Spotfire screenshot of the Executive summary page](img/spotfire/01_synthese_direction.png)
+
+**Qlik Sense Cloud, the target application**
+
+![Qlik Sense screenshot of the Executive summary sheet](img/qlik/01_synthese_direction.png)
+
+All five pages, in their three versions (Spotfire, LAB 01, LAB 02), can be browsed on [the project page](https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/#ecrans).
+
+## 5. Process and architecture
+
+Extraction → Conversion → Rebuild → SQL check → Fixing the gaps → New check
+
+[Open the interactive diagram](https://cnanaj-wq.github.io/migration-spotfire-qlik-sense/processus.html) · [Detailed architecture and flowchart](docs/architecture.en.md)
+
+## 6. Technologies
+
+- Spotfire and IronPython
+- Qlik Sense Cloud and the Qlik APIs
+- Python
+- SQL
+- Git and GitHub Actions
+
+## 7. Quick start
+
+Prerequisites: Git and Python 3.12. Spotfire is only needed to open the dashboard.
+
+```bash
 git clone https://github.com/cnanaj-wq/migration-spotfire-qlik-sense.git
 cd migration-spotfire-qlik-sense
 pip install -r requirements.txt
@@ -56,192 +124,51 @@ python generer_donnees.py
 python controles/verifier_donnees.py
 ```
 
-Expected result: the 9 files in `data/` are regenerated identically, then the check prints 4 `OK` lines and `Tout concorde` ("everything reconciles").
+Expected result: the 9 tables in `data/` are regenerated identically, then the check prints 4 `OK` lines and `Tout concorde` ("everything reconciles").
 
-## Choose your next step
+## 8. Choose your next step
 
-| You want to… | Go here |
+| Resource | Description |
 |---|---|
-| Open the dashboard in Spotfire | [docs/reproduire.md](docs/reproduire.md) |
-| Read how a tab is built | [`spotfire/scripts/`](spotfire/scripts/) |
-| Understand the dataset | [`generer_donnees.py`](generer_donnees.py) |
-| Change the assumptions (budget, security, thresholds) | [`parametres/parametres.xlsx`](parametres/) |
-| See what changes between Spotfire and Qlik Sense | [qlik/correspondances.md](qlik/correspondances.md) |
-| Load the data into Qlik Sense | [`qlik/chargement.qvs`](qlik/chargement.qvs) |
-| Redo the migration with scripts, not by hand (LAB 02, in French) | [lab02/README.md](lab02/README.md) |
-| Check that the tables reconcile | [`controles/verifier_donnees.py`](controles/verifier_donnees.py) |
+| [Architecture](docs/architecture.en.md) | Repository content, architecture, flowchart, folder map |
+| [Spotfire](docs/reproduire.md) | Reproduce the source application (in French) |
+| [Qlik Sense](qlik/correspondances.md) | Mappings between the two tools (in French) |
+| [LAB 02](lab02/README.md) | Automated migration (in French) |
+| [Data](data/) | Fictional dataset |
+| [Checks](controles/) | Data consistency check |
+| [Parameters](parametres/) | Assumptions and business rules |
 
-## Why this project
-
-Migrating a dashboard from one tool to another is more than redrawing charts: the two engines do not compute or select data the same way. Showing that on a complete case required a realistic starting application that can be rebuilt and holds no confidential data.
-
-This repository holds that application: the steering of a fictional company, Orvane Distribution, as seen by its management control team. It answers four questions: which indicators drift, where, why, and which lever to act on.
-
-It also holds its migration to Qlik Sense Cloud, with what had to change along the way and the reconciliation of totals between the two tools.
-
-## What is inside
-
-| Item | Count | Where |
-|---|---|---|
-| Dashboard tabs | 5 | [`spotfire/controle_gestion_orvane.dxp`](spotfire/) |
-| Visuals (including 5 rows of 21 KPI tiles) | 25 | [`spotfire/scripts/`](spotfire/scripts/) |
-| IronPython build scripts | 7 | [`spotfire/scripts/`](spotfire/scripts/) |
-| Data tables (CSV) | 9 | [`data/`](data/) |
-| Data rows | 14,892 | [`data/`](data/) |
-| Sheets in the Qlik Sense application | 5 | [`img/qlik/`](img/qlik/) |
-| Tabs in the Qlik load script | 7 | [`qlik/chargement.qvs`](qlik/chargement.qvs) |
-| Totals compared between Spotfire and Qlik Sense | 11 | [qlik/correspondances.md](qlik/correspondances.md) |
-| Reconciliation checks | 4 | [`controles/verifier_donnees.py`](controles/verifier_donnees.py) |
-
-The five tabs, carried over as five Qlik Sense sheets:
-
-| Tab | What it shows |
-|---|---|
-| Executive summary | Revenue, gross margin, margin rate, EBITDA and working capital: actual, gap to budget, gap to prior year |
-| Revenue and margin | Revenue by product, gap by channel, indicators by business unit, monthly margin rate |
-| Branch map | 24 branches on a map, ranking of revenue gaps in value |
-| Variances and income statement | Volume, price and purchase cost effects, income statement with intermediate balances |
-| Working capital, cash and aged balance | Working capital, DSO, DIO, DPO against target, cash, overdue receivables |
-
-The dashboard, the data columns and the scripts are in French.
-
-## Preview
-
-The same page, "Executive summary", before and after the migration.
-
-**Spotfire, the starting application**
-
-<p align="center">
-  <img src="img/spotfire/01_synthese_direction.png" alt="Spotfire screenshot of the tab : Executive summary" width="100%" />
-</p>
-
-**Qlik Sense, the migrated application**
-
-<p align="center">
-  <img src="img/qlik/01_synthese_direction.png" alt="Qlik Sense screenshot of the sheet : Executive summary" width="100%" />
-</p>
-
-In Qlik Sense, navigation and the five filters sit in the same place on every sheet, and the colour of a card follows the gap it displays.
-
-<details>
-<summary>See the other four Qlik Sense sheets</summary>
-
-**Revenue and margin**
-
-<img src="img/qlik/02_chiffre_affaires_marge.png" alt="Qlik Sense screenshot of the sheet : Revenue and margin" width="100%" />
-
-**Branch map**
-
-<img src="img/qlik/03_carte_agences.png" alt="Qlik Sense screenshot of the sheet : Branch map" width="100%" />
-
-**Variances and income statement**
-
-<img src="img/qlik/04_ecarts_compte_resultat.png" alt="Qlik Sense screenshot of the sheet : Variances and income statement" width="100%" />
-
-**Working capital, cash and aged balance**
-
-<img src="img/qlik/05_bfr_tresorerie.png" alt="Qlik Sense screenshot of the sheet : Working capital, cash and aged balance" width="100%" />
-
-</details>
-
-<details>
-<summary>See the other four Spotfire tabs</summary>
-
-**Revenue and margin**
-
-<img src="img/spotfire/02_chiffre_affaires_marge.png" alt="Spotfire screenshot of the tab : Revenue and margin" width="100%" />
-
-**Branch map**
-
-<img src="img/spotfire/03_carte_agences.png" alt="Spotfire screenshot of the tab : Branch map" width="100%" />
-
-**Variances and income statement**
-
-<img src="img/spotfire/04_ecarts_compte_resultat.png" alt="Spotfire screenshot of the tab : Variances and income statement" width="100%" />
-
-**Working capital, cash and aged balance**
-
-<img src="img/spotfire/05_bfr_tresorerie.png" alt="Spotfire screenshot of the tab : Working capital, cash and aged balance" width="100%" />
-
-</details>
-
-## Architecture
-
-```mermaid
-flowchart LR
-  P[parametres.xlsx<br/>assumptions, security, thresholds] --> G[generer_donnees.py]
-  G --> D[data/<br/>9 CSV tables + 1 workbook]
-  D --> C[controles/verifier_donnees.py<br/>4 reconciliations]
-  D --> S[Spotfire<br/>controle_gestion_orvane.dxp]
-  I[spotfire/scripts/<br/>7 IronPython scripts] --> S
-  D --> L[qlik/chargement.qvs<br/>load script]
-  L --> Q[Qlik Sense Cloud<br/>5 sheets, security by region]
-  S -. mappings and reconciliation of totals .-> Q
-```
-
-The dashboard is not drawn by hand. A launcher script, stored in the Spotfire document, runs [`construire_tout.py`](spotfire/scripts/construire_tout.py), which recreates the five tabs from the scripts in this repository. Every change to a visual is therefore a code change, reviewed and versioned.
-
-On the Qlik Sense side, the nine files in `data/` are loaded by [`chargement.qvs`](qlik/chargement.qvs) into a single fact table surrounded by five dimension tables. [correspondances.md](qlik/correspondances.md) (in French) describes what changes: the model, how expressions are written, and security.
-
-## Flowchart
-
-The migration steps, with the checks that decide what happens next:
-
-```mermaid
-flowchart TD
-  A[Spotfire dashboard<br/>5 tabs] --> B[Load the 9 files into Qlik Sense<br/>chargement.qvs]
-  B --> C{Do the totals match<br/>Spotfire?}
-  C -- no --> D[Fix the script<br/>decimals, calendar]
-  D --> B
-  C -- yes --> E[Rewrite the expressions<br/>the limitation becomes a set]
-  E --> F{Does each expression return<br/>the Spotfire value?}
-  F -- no --> E
-  F -- yes --> G[Build the 5 sheets<br/>navigation, filters, cards]
-  G --> H[Add security by region<br/>Section Access]
-  H --> I{Does a regional profile see<br/>only its regions?}
-  I -- no --> H
-  I -- yes --> J[Migrated application]
-```
-
-## Results
-
-Year-to-date figures at the end of October 2026, read in the dashboard and reconciled with the files in `data/`:
-
-| Indicator | Actual | Budget | Gap |
-|---|---|---|---|
-| Revenue | 74,216 k€ | 73,426 k€ | +790 k€ |
-| Gross margin | 21,858 k€ | 22,930 k€ | −1,072 k€ |
-| EBITDA | 5,312 k€ | 6,550 k€ | −1,238 k€ |
-| Operating income | 3,863 k€ | 5,102 k€ | −1,238 k€ |
-
-The scenario is deliberate: the company sells more than planned, but its margin deteriorates. To recompute revenue and the margin gap: `python controles/verifier_donnees.py`.
-
-The Qlik Sense application returns the same totals: 11 indicators compared, listed in [correspondances.md](qlik/correspondances.md).
-
-## Repository map
+### Repository map
 
 ```
-generer_donnees.py      generates the fictional dataset from the parameters
-creer_parametres.py     creates the initial parameter workbook (once)
-parametres/             assumptions, security by region, alert thresholds
-data/                   9 CSV tables and the same content as an Excel workbook
-controles/              consistency check across tables
-spotfire/               the Spotfire document and its build scripts
-qlik/                   the Qlik Sense load script and the mappings between the two tools
-index.html, processus.html  the project page (GitHub Pages) and its interactive diagram
-design/                 the interactive diagram specification
-lab02/                  the automated migration: .dxp extraction, rule-based conversion, generation, SQL check
-docs/                   Spotfire how-to, banner script
-img/                    README visuals and screenshots
+data/, parametres/   the fictional dataset and its assumptions
+spotfire/            the source application and its build scripts
+qlik/                LAB 01: load script, sheets, mappings
+lab02/               LAB 02: extraction, conversion, generation, SQL check
+controles/           data consistency check
+index.html, processus.html   the project page and its interactive diagram
+docs/, img/          documentation, diagrams and screenshots
 ```
 
-## Limitations
+## 9. Limitations
 
-- **The Qlik Sense application is not in the repository.** The repository holds its load script, the mappings and screenshots of the five sheets. Rebuilding it requires a Qlik Sense Cloud tenant, uploading the files in `data/` and recreating the sheets.
-- **Qlik Sense security checked on two profiles.** The administrator and the "Direction de zone Sud" profile were verified; the other regional profiles follow the same rule but were not opened one by one. A regional profile cannot see the income statement, working capital or cash, which only exist at group level.
-- **Spotfire security: display restriction, not access control.** The [`06_securite.py`](spotfire/scripts/06_securite.py) script limits the visuals to the regions of the profile chosen in the `securite` table. The data stays embedded in the document: real isolation requires Spotfire Server. Tables without a region (income statement, working capital, cash) remain fully visible.
-- **The build cannot run outside Spotfire.** IronPython scripts only run inside Spotfire; the repository's automated check only verifies their syntax.
+- The experiment covers a single dashboard and fictional data.
+- Two objects were not rebuilt automatically.
+- Matching values at the checked points does not guarantee equivalence in every selection context.
+- The SQL check compares Qlik Sense with the source files, not with Spotfire directly.
+- The layout of the generated visuals still needs work.
+- Qlik Sense security was tested on two profiles.
+- The Qlik Sense application is not shipped in the repository.
+- The Spotfire display restriction is not real data access control.
+
+This project is a technical demonstrator, not a production-ready migration solution.
+
+## License
+
+Code under the [MIT license](LICENSE). To propose a fix: [CONTRIBUTING.md](CONTRIBUTING.md). To report a security issue: [SECURITY.md](SECURITY.md).
 
 ## Author
 
-**Cédric NANA** · BI & Data consultant · [GitHub](https://github.com/cnanaj-wq)
+**Cédric NANA** · BI & Data Consultant
+
+[GitHub](https://github.com/cnanaj-wq) · [Professional website](https://cedricnana.fr)
