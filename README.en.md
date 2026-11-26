@@ -169,6 +169,6 @@ Code under the [MIT license](LICENSE). To propose a fix: [CONTRIBUTING.md](CONTR
 
 ## Author
 
-**Cédric NANA** · BI & Data Consultant
+**Cédric NANA** — Expert BI & Data | Analytics & AI Automation
 
 [GitHub](https://github.com/cnanaj-wq) · [Professional website](https://cedricnana.fr)
