@@ -5,8 +5,8 @@
 <h1 align="center">Migrer un tableau de bord de contrôle de gestion<br />de Spotfire vers Qlik Sense</h1>
 
 <p align="center">
-  Un tableau de bord Spotfire de 5 onglets, construit entièrement par scripts versionnés,
-  sur un jeu de données fictif de 14 892 lignes, pour servir de point de départ à une migration vers Qlik Sense Cloud.
+  Un tableau de bord Spotfire de 5 onglets, construit par scripts versionnés sur un jeu de données
+  fictif de 14 892 lignes, puis migré vers Qlik Sense Cloud : modèle, expressions, 5 feuilles et sécurité par région.
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MIT-1f3a5f" alt="Licence MIT" /></a>
   <a href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/actions/workflows/controle.yml"><img src="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/actions/workflows/controle.yml/badge.svg" alt="Contrôle automatique" /></a>
   <img src="https://img.shields.io/badge/donn%C3%A9es-synth%C3%A9tiques-1f3a5f" alt="Données synthétiques" />
-  <img src="https://img.shields.io/badge/Qlik%20Sense%20Cloud-%C3%A0%20venir-a7b1bd" alt="Qlik Sense Cloud : à venir" />
+  <img src="https://img.shields.io/badge/Qlik%20Sense%20Cloud-5%20feuilles-009845" alt="Qlik Sense Cloud : 5 feuilles" />
 </p>
 
 <p align="center">
@@ -36,7 +36,9 @@
 <p align="center">
   <a href="#démarrage-rapide"><b>Démarrage</b></a>
   &nbsp;·&nbsp; <a href="#architecture">Architecture</a>
+  &nbsp;·&nbsp; <a href="#logigramme">Logigramme</a>
   &nbsp;·&nbsp; <a href="docs/reproduire.md">Reproduire dans Spotfire</a>
+  &nbsp;·&nbsp; <a href="qlik/correspondances.md">De Spotfire à Qlik</a>
   &nbsp;·&nbsp; <a href="#limites">Limites</a>
 </p>
 
@@ -62,6 +64,9 @@ Résultat attendu : les 9 fichiers de `data/` sont régénérés à l'identique,
 | Lire comment un onglet est construit | [`spotfire/scripts/`](spotfire/scripts/) |
 | Comprendre le jeu de données | [`generer_donnees.py`](generer_donnees.py) |
 | Changer les hypothèses (budget, sécurité, seuils) | [`parametres/parametres.xlsx`](parametres/) |
+| Voir ce qui change entre Spotfire et Qlik Sense | [qlik/correspondances.md](qlik/correspondances.md) |
+| Charger les données dans Qlik Sense | [`qlik/chargement.qvs`](qlik/chargement.qvs) |
+| Refaire la migration par scripts, sans la main (LAB 02) | [lab02/README.md](lab02/README.md) |
 | Vérifier que les tables se recoupent | [`controles/verifier_donnees.py`](controles/verifier_donnees.py) |
 
 ## Pourquoi ce projet
@@ -69,6 +74,8 @@ Résultat attendu : les 9 fichiers de `data/` sont régénérés à l'identique,
 Migrer un tableau de bord d'un outil à un autre ne se résume pas à redessiner des graphiques : les deux moteurs ne calculent pas et ne sélectionnent pas de la même façon. Pour le montrer sur un cas complet, il fallait une application de départ réaliste, reconstructible et sans donnée confidentielle.
 
 Ce dépôt contient cette application : le pilotage d'une société fictive, Orvane Distribution, vu par son contrôle de gestion. Elle répond à quatre questions : quels indicateurs dérivent, où, pourquoi, et sur quel levier agir.
+
+Il contient aussi sa migration vers Qlik Sense Cloud, avec ce qui a dû changer en route et le contrôle des totaux entre les deux outils.
 
 ## Ce qu'il y a dedans
 
@@ -79,9 +86,12 @@ Ce dépôt contient cette application : le pilotage d'une société fictive, Orv
 | Scripts IronPython de construction | 7 | [`spotfire/scripts/`](spotfire/scripts/) |
 | Tables de données (CSV) | 9 | [`data/`](data/) |
 | Lignes de données | 14 892 | [`data/`](data/) |
+| Feuilles de l'application Qlik Sense | 5 | [`img/qlik/`](img/qlik/) |
+| Onglets du script de chargement Qlik | 7 | [`qlik/chargement.qvs`](qlik/chargement.qvs) |
+| Totaux comparés entre Spotfire et Qlik Sense | 11 | [qlik/correspondances.md](qlik/correspondances.md) |
 | Rapprochements contrôlés | 4 | [`controles/verifier_donnees.py`](controles/verifier_donnees.py) |
 
-Les cinq onglets :
+Les cinq onglets, repris en cinq feuilles Qlik Sense :
 
 | Onglet | Ce qu'il montre |
 |---|---|
@@ -93,14 +103,45 @@ Les cinq onglets :
 
 ## Aperçu
 
-L'application de départ dans Spotfire, onglet « Synthèse direction ». Les captures de l'application migrée dans Qlik Sense viendront en regard.
+La même page, « Synthèse direction », avant et après la migration.
+
+**Spotfire, l'application de départ**
 
 <p align="center">
   <img src="img/spotfire/01_synthese_direction.png" alt="Capture Spotfire de l'onglet : Synthèse direction" width="100%" />
 </p>
 
+**Qlik Sense, l'application migrée**
+
+<p align="center">
+  <img src="img/qlik/01_synthese_direction.png" alt="Capture Qlik Sense de la feuille : Synthèse direction" width="100%" />
+</p>
+
+Dans Qlik Sense, la navigation et les cinq filtres sont au même endroit sur chaque feuille, et la couleur d'une carte suit l'écart qu'elle affiche.
+
 <details>
-<summary>Voir les quatre autres onglets</summary>
+<summary>Voir les quatre autres feuilles Qlik Sense</summary>
+
+**Chiffre d'affaires et marge**
+
+<img src="img/qlik/02_chiffre_affaires_marge.png" alt="Capture Qlik Sense de la feuille : Chiffre d'affaires et marge" width="100%" />
+
+**Carte des agences**
+
+<img src="img/qlik/03_carte_agences.png" alt="Capture Qlik Sense de la feuille : Carte des agences" width="100%" />
+
+**Écarts et compte de résultat**
+
+<img src="img/qlik/04_ecarts_compte_resultat.png" alt="Capture Qlik Sense de la feuille : Écarts et compte de résultat" width="100%" />
+
+**BFR, trésorerie et balance âgée**
+
+<img src="img/qlik/05_bfr_tresorerie.png" alt="Capture Qlik Sense de la feuille : BFR, trésorerie et balance âgée" width="100%" />
+
+</details>
+
+<details>
+<summary>Voir les quatre autres onglets Spotfire</summary>
 
 **Chiffre d'affaires et marge**
 
@@ -129,10 +170,34 @@ flowchart LR
   D --> C[controles/verifier_donnees.py<br/>4 rapprochements]
   D --> S[Spotfire<br/>controle_gestion_orvane.dxp]
   I[spotfire/scripts/<br/>7 scripts IronPython] --> S
-  S -. migration à venir .-> Q[Qlik Sense Cloud]
+  D --> L[qlik/chargement.qvs<br/>script de chargement]
+  L --> Q[Qlik Sense Cloud<br/>5 feuilles, sécurité par région]
+  S -. correspondances et contrôle des totaux .-> Q
 ```
 
 Le tableau de bord n'est pas dessiné à la main. Un script lanceur, enregistré dans le document Spotfire, exécute [`construire_tout.py`](spotfire/scripts/construire_tout.py), qui recrée les cinq onglets à partir des scripts du dépôt. Chaque changement d'un visuel est donc un changement de code, relu et versionné.
+
+Côté Qlik Sense, les neuf fichiers de `data/` sont chargés par [`chargement.qvs`](qlik/chargement.qvs) dans une table de faits unique, entourée de cinq tables de dimensions. [correspondances.md](qlik/correspondances.md) décrit ce qui change : le modèle, l'écriture des expressions et la sécurité.
+
+## Logigramme
+
+Les étapes de la migration, avec les contrôles qui décident de la suite :
+
+```mermaid
+flowchart TD
+  A[Tableau de bord Spotfire<br/>5 onglets] --> B[Charger les 9 fichiers dans Qlik Sense<br/>chargement.qvs]
+  B --> C{Les totaux égalent<br/>ceux de Spotfire ?}
+  C -- non --> D[Corriger le script<br/>décimales, calendrier]
+  D --> B
+  C -- oui --> E[Réécrire les expressions<br/>la limitation devient un ensemble]
+  E --> F{Chaque expression donne<br/>la valeur de Spotfire ?}
+  F -- non --> E
+  F -- oui --> G[Construire les 5 feuilles<br/>navigation, filtres, cartes]
+  G --> H[Ajouter la sécurité par région<br/>Section Access]
+  H --> I{Un profil régional ne voit<br/>que ses régions ?}
+  I -- non --> H
+  I -- oui --> J[Application migrée]
+```
 
 ## Résultats
 
@@ -147,6 +212,8 @@ Chiffres du cumul 2026 à fin octobre, lus dans le tableau de bord et recoupés 
 
 Le scénario est volontaire : l'entreprise vend plus que prévu, mais sa marge se dégrade. Pour retrouver le chiffre d'affaires et l'écart de marge : `python controles/verifier_donnees.py`.
 
+L'application Qlik Sense donne les mêmes totaux : 11 indicateurs comparés, listés dans [correspondances.md](qlik/correspondances.md).
+
 ## Plan du dépôt
 
 ```
@@ -156,14 +223,17 @@ parametres/             hypothèses, sécurité par région, seuils d'alerte
 data/                   9 tables CSV et le même contenu en classeur Excel
 controles/              contrôle de cohérence entre les tables
 spotfire/               le document Spotfire et ses scripts de construction
+qlik/                   le script de chargement Qlik Sense et les correspondances entre les deux outils
+lab02/                  la migration automatisée : extraction du .dxp, conversion par règles, génération, contrôle SQL
 docs/                   mode d'emploi Spotfire, script du bandeau
 img/                    visuels du README et captures d'écran
 ```
 
 ## Limites
 
-- **La migration vers Qlik Sense n'est pas encore faite.** Le dépôt contient aujourd'hui l'application de départ. Le modèle, les expressions et les feuilles Qlik viendront ensuite.
-- **Sécurité par région : restriction d'affichage, pas contrôle d'accès.** Le script [`06_securite.py`](spotfire/scripts/06_securite.py) limite les visuels aux régions du profil choisi dans la table `securite`. Les données restent embarquées dans le document : un vrai cloisonnement demande Spotfire Server. Les tables sans région (compte de résultat, BFR, trésorerie) restent visibles en entier.
+- **L'application Qlik Sense n'est pas dans le dépôt.** Le dépôt contient son script de chargement, les correspondances et les captures des cinq feuilles. Pour la reconstruire, il faut un tenant Qlik Sense Cloud, y déposer les fichiers de `data/` et recréer les feuilles.
+- **Sécurité Qlik Sense contrôlée sur deux profils.** L'administrateur et le profil « Direction de zone Sud » ont été vérifiés ; les autres profils régionaux suivent la même règle mais n'ont pas été ouverts un par un. Un profil régional ne voit pas le compte de résultat, le BFR ni la trésorerie, qui n'existent qu'au niveau du groupe.
+- **Sécurité Spotfire : restriction d'affichage, pas contrôle d'accès.** Le script [`06_securite.py`](spotfire/scripts/06_securite.py) limite les visuels aux régions du profil choisi dans la table `securite`. Les données restent embarquées dans le document : un vrai cloisonnement demande Spotfire Server. Les tables sans région (compte de résultat, BFR, trésorerie) restent visibles en entier.
 - **Construction non automatisable hors de Spotfire.** Les scripts IronPython ne s'exécutent que dans Spotfire ; le contrôle automatique du dépôt ne vérifie que leur syntaxe.
 
 ## Auteur

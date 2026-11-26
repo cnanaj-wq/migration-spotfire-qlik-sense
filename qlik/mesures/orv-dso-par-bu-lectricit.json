@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-dso-par-bu-lectricit",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "DSO par BU - Électricité",
+  "qDef": "Avg({<BU*={'Électricité'}, Exercice={$(=Max(Exercice))}>} [DSO (jours)])",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Électricité'",
+  "coloring": {
+   "baseColor": {
+    "color": "#E0A458",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 1,
+   "qUseThou": 1,
+   "qFmt": "# ##0,0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "DSO par BU - Électricité",
+  "description": "Délai moyen de règlement des clients, en jours",
+  "tags": []
+ }
+}

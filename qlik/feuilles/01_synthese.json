@@ -1,0 +1,3011 @@
+{
+ "qProperty": {
+  "qInfo": {
+   "qId": "orv-synthese",
+   "qType": "sheet"
+  },
+  "qMetaDef": {
+   "title": "Synthèse direction",
+   "description": "Réel, écart au budget et à l'exercice précédent."
+  },
+  "rank": 0,
+  "thumbnail": {
+   "qStaticContentUrlDef": {}
+  },
+  "columns": 24,
+  "rows": 24,
+  "gridResolution": "small",
+  "layoutOptions": {
+   "mobileLayout": "LIST",
+   "extendable": false
+  },
+  "components": [
+   {
+    "key": "general",
+    "bgColor": {
+     "useExpression": false,
+     "color": {
+      "index": -1,
+      "color": "#ffffff"
+     }
+    }
+   }
+  ],
+  "cells": [
+   {
+    "name": "5ed9277cbadf",
+    "type": "action-button",
+    "col": 0.0,
+    "row": 0,
+    "colspan": 4.8,
+    "rowspan": 1.5,
+    "bounds": {
+     "x": 0.0,
+     "y": 0.0,
+     "width": 20.0,
+     "height": 6.25
+    }
+   },
+   {
+    "name": "c44849a2dfde",
+    "type": "action-button",
+    "col": 4.8,
+    "row": 0,
+    "colspan": 4.8,
+    "rowspan": 1.5,
+    "bounds": {
+     "x": 20.0,
+     "y": 0.0,
+     "width": 20.0,
+     "height": 6.25
+    }
+   },
+   {
+    "name": "1b002684f087",
+    "type": "action-button",
+    "col": 9.6,
+    "row": 0,
+    "colspan": 4.8,
+    "rowspan": 1.5,
+    "bounds": {
+     "x": 40.0,
+     "y": 0.0,
+     "width": 20.0,
+     "height": 6.25
+    }
+   },
+   {
+    "name": "e9fd276a0c24",
+    "type": "action-button",
+    "col": 14.399999999999999,
+    "row": 0,
+    "colspan": 4.8,
+    "rowspan": 1.5,
+    "bounds": {
+     "x": 59.99999999999999,
+     "y": 0.0,
+     "width": 20.0,
+     "height": 6.25
+    }
+   },
+   {
+    "name": "e08ef837b0ab",
+    "type": "action-button",
+    "col": 19.2,
+    "row": 0,
+    "colspan": 4.8,
+    "rowspan": 1.5,
+    "bounds": {
+     "x": 80.0,
+     "y": 0.0,
+     "width": 20.0,
+     "height": 6.25
+    }
+   },
+   {
+    "name": "c33871e881b9",
+    "type": "filterpane",
+    "col": 0,
+    "row": 1.5,
+    "colspan": 24,
+    "rowspan": 2,
+    "bounds": {
+     "x": 0.0,
+     "y": 6.25,
+     "width": 100.0,
+     "height": 8.333333333333334
+    }
+   },
+   {
+    "name": "dc548ffa107a",
+    "type": "kpi",
+    "col": 0.0,
+    "row": 3.5,
+    "colspan": 4.8,
+    "rowspan": 5,
+    "bounds": {
+     "x": 0.0,
+     "y": 14.583333333333334,
+     "width": 20.0,
+     "height": 20.833333333333332
+    }
+   },
+   {
+    "name": "045ab560d6ec",
+    "type": "kpi",
+    "col": 4.8,
+    "row": 3.5,
+    "colspan": 4.8,
+    "rowspan": 5,
+    "bounds": {
+     "x": 20.0,
+     "y": 14.583333333333334,
+     "width": 20.0,
+     "height": 20.833333333333332
+    }
+   },
+   {
+    "name": "3531682e37de",
+    "type": "kpi",
+    "col": 9.6,
+    "row": 3.5,
+    "colspan": 4.8,
+    "rowspan": 5,
+    "bounds": {
+     "x": 40.0,
+     "y": 14.583333333333334,
+     "width": 20.0,
+     "height": 20.833333333333332
+    }
+   },
+   {
+    "name": "e5fce0918634",
+    "type": "kpi",
+    "col": 14.399999999999999,
+    "row": 3.5,
+    "colspan": 4.8,
+    "rowspan": 5,
+    "bounds": {
+     "x": 59.99999999999999,
+     "y": 14.583333333333334,
+     "width": 20.0,
+     "height": 20.833333333333332
+    }
+   },
+   {
+    "name": "ee85a6c32046",
+    "type": "kpi",
+    "col": 19.2,
+    "row": 3.5,
+    "colspan": 4.8,
+    "rowspan": 5,
+    "bounds": {
+     "x": 80.0,
+     "y": 14.583333333333334,
+     "width": 20.0,
+     "height": 20.833333333333332
+    }
+   },
+   {
+    "name": "1549474933e2",
+    "type": "linechart",
+    "col": 0,
+    "row": 8.5,
+    "colspan": 10,
+    "rowspan": 15.5,
+    "bounds": {
+     "x": 0.0,
+     "y": 35.416666666666664,
+     "width": 41.666666666666664,
+     "height": 64.58333333333333
+    }
+   },
+   {
+    "name": "412209bd5a6c",
+    "type": "barchart",
+    "col": 10,
+    "row": 8.5,
+    "colspan": 6,
+    "rowspan": 15.5,
+    "bounds": {
+     "x": 41.666666666666664,
+     "y": 35.416666666666664,
+     "width": 25.0,
+     "height": 64.58333333333333
+    }
+   },
+   {
+    "name": "f3d6e1d886bc",
+    "type": "combochart",
+    "col": 16,
+    "row": 8.5,
+    "colspan": 8,
+    "rowspan": 15.5,
+    "bounds": {
+     "x": 66.66666666666667,
+     "y": 35.416666666666664,
+     "width": 33.333333333333336,
+     "height": 64.58333333333333
+    }
+   }
+  ],
+  "qChildListDef": {
+   "qData": {
+    "title": "/title"
+   }
+  }
+ },
+ "qChildren": [
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "5ed9277cbadf",
+     "qType": "action-button"
+    },
+    "qMetaDef": {},
+    "visualization": "action-button",
+    "version": "1.0.0",
+    "showTitles": false,
+    "useEnabledCondition": false,
+    "enabledCondition": 1,
+    "actions": [],
+    "runtimeExpressionEvaluation": true,
+    "navigation": {
+     "action": "goToSheet",
+     "sheet": "orv-synthese"
+    },
+    "style": {
+     "label": "Synthèse direction",
+     "showLabel": true,
+     "font": {
+      "fontFamily": "Arial",
+      "size": 0.4,
+      "sizeFixed": 13,
+      "sizeBehavior": "fixed",
+      "color": {
+       "index": -1,
+       "color": "#1F3A5F"
+      },
+      "align": "center",
+      "style": {
+       "bold": true
+      }
+     },
+     "background": {
+      "color": {
+       "index": -1,
+       "color": "#E0A458"
+      },
+      "mode": "none"
+     },
+     "border": {
+      "radius": 0.25,
+      "useBorder": false
+     },
+     "icon": {
+      "useIcon": false
+     }
+    }
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "c44849a2dfde",
+     "qType": "action-button"
+    },
+    "qMetaDef": {},
+    "visualization": "action-button",
+    "version": "1.0.0",
+    "showTitles": false,
+    "useEnabledCondition": false,
+    "enabledCondition": 1,
+    "actions": [],
+    "runtimeExpressionEvaluation": true,
+    "navigation": {
+     "action": "goToSheet",
+     "sheet": "orv-ca-marge"
+    },
+    "style": {
+     "label": "Chiffre d'affaires et marge",
+     "showLabel": true,
+     "font": {
+      "fontFamily": "Arial",
+      "size": 0.4,
+      "sizeFixed": 13,
+      "sizeBehavior": "fixed",
+      "color": {
+       "index": -1,
+       "color": "#ffffff"
+      },
+      "align": "center",
+      "style": {
+       "bold": true
+      }
+     },
+     "background": {
+      "color": {
+       "index": -1,
+       "color": "#1F3A5F"
+      },
+      "mode": "none"
+     },
+     "border": {
+      "radius": 0.25,
+      "useBorder": false
+     },
+     "icon": {
+      "useIcon": false
+     }
+    }
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "1b002684f087",
+     "qType": "action-button"
+    },
+    "qMetaDef": {},
+    "visualization": "action-button",
+    "version": "1.0.0",
+    "showTitles": false,
+    "useEnabledCondition": false,
+    "enabledCondition": 1,
+    "actions": [],
+    "runtimeExpressionEvaluation": true,
+    "navigation": {
+     "action": "goToSheet",
+     "sheet": "orv-agences"
+    },
+    "style": {
+     "label": "Carte des agences",
+     "showLabel": true,
+     "font": {
+      "fontFamily": "Arial",
+      "size": 0.4,
+      "sizeFixed": 13,
+      "sizeBehavior": "fixed",
+      "color": {
+       "index": -1,
+       "color": "#ffffff"
+      },
+      "align": "center",
+      "style": {
+       "bold": true
+      }
+     },
+     "background": {
+      "color": {
+       "index": -1,
+       "color": "#1F3A5F"
+      },
+      "mode": "none"
+     },
+     "border": {
+      "radius": 0.25,
+      "useBorder": false
+     },
+     "icon": {
+      "useIcon": false
+     }
+    }
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "e9fd276a0c24",
+     "qType": "action-button"
+    },
+    "qMetaDef": {},
+    "visualization": "action-button",
+    "version": "1.0.0",
+    "showTitles": false,
+    "useEnabledCondition": false,
+    "enabledCondition": 1,
+    "actions": [],
+    "runtimeExpressionEvaluation": true,
+    "navigation": {
+     "action": "goToSheet",
+     "sheet": "orv-ecarts"
+    },
+    "style": {
+     "label": "Écarts et compte de résultat",
+     "showLabel": true,
+     "font": {
+      "fontFamily": "Arial",
+      "size": 0.4,
+      "sizeFixed": 13,
+      "sizeBehavior": "fixed",
+      "color": {
+       "index": -1,
+       "color": "#ffffff"
+      },
+      "align": "center",
+      "style": {
+       "bold": true
+      }
+     },
+     "background": {
+      "color": {
+       "index": -1,
+       "color": "#1F3A5F"
+      },
+      "mode": "none"
+     },
+     "border": {
+      "radius": 0.25,
+      "useBorder": false
+     },
+     "icon": {
+      "useIcon": false
+     }
+    }
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "e08ef837b0ab",
+     "qType": "action-button"
+    },
+    "qMetaDef": {},
+    "visualization": "action-button",
+    "version": "1.0.0",
+    "showTitles": false,
+    "useEnabledCondition": false,
+    "enabledCondition": 1,
+    "actions": [],
+    "runtimeExpressionEvaluation": true,
+    "navigation": {
+     "action": "goToSheet",
+     "sheet": "orv-bfr"
+    },
+    "style": {
+     "label": "BFR, trésorerie et balance âgée",
+     "showLabel": true,
+     "font": {
+      "fontFamily": "Arial",
+      "size": 0.4,
+      "sizeFixed": 13,
+      "sizeBehavior": "fixed",
+      "color": {
+       "index": -1,
+       "color": "#ffffff"
+      },
+      "align": "center",
+      "style": {
+       "bold": true
+      }
+     },
+     "background": {
+      "color": {
+       "index": -1,
+       "color": "#1F3A5F"
+      },
+      "mode": "none"
+     },
+     "border": {
+      "radius": 0.25,
+      "useBorder": false
+     },
+     "icon": {
+      "useIcon": false
+     }
+    }
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "c33871e881b9",
+     "qType": "filterpane"
+    },
+    "qMetaDef": {},
+    "visualization": "filterpane",
+    "showTitles": false,
+    "qChildListDef": {
+     "qData": {}
+    }
+   },
+   "qChildren": [
+    {
+     "qProperty": {
+      "qInfo": {
+       "qId": "9a4acbf48d47",
+       "qType": "listbox"
+      },
+      "qMetaDef": {},
+      "visualization": "listbox",
+      "showTitles": true,
+      "title": {
+       "qStringExpression": {
+        "qExpr": "'Exercice' & Chr(10) & If(GetSelectedCount([Exercice])=0, 'Tout', If(GetSelectedCount([Exercice])<=2, GetFieldSelections([Exercice],', '), GetSelectedCount([Exercice]) & ' sélectionnés'))"
+       }
+      },
+      "qListObjectDef": {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "Exercice"
+        ],
+        "qFieldLabels": [
+         "Exercice"
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByState": 1,
+          "qSortByNumeric": 1,
+          "qSortByAscii": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": false
+       },
+       "qFrequencyMode": "N",
+       "qShowAlternatives": true,
+       "qInitialDataFetch": [
+        {
+         "qLeft": 0,
+         "qTop": 0,
+         "qWidth": 1,
+         "qHeight": 500
+        }
+       ],
+       "qExpressions": []
+      }
+     },
+     "qChildren": []
+    },
+    {
+     "qProperty": {
+      "qInfo": {
+       "qId": "44f38faa72ee",
+       "qType": "listbox"
+      },
+      "qMetaDef": {},
+      "visualization": "listbox",
+      "showTitles": true,
+      "title": {
+       "qStringExpression": {
+        "qExpr": "'Mois' & Chr(10) & If(GetSelectedCount([Mois nom])=0, 'Tout', If(GetSelectedCount([Mois nom])<=2, GetFieldSelections([Mois nom],', '), GetSelectedCount([Mois nom]) & ' sélectionnés'))"
+       }
+      },
+      "qListObjectDef": {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "Mois nom"
+        ],
+        "qFieldLabels": [
+         "Mois"
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByState": 1,
+          "qSortByNumeric": 1,
+          "qSortByAscii": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": false
+       },
+       "qFrequencyMode": "N",
+       "qShowAlternatives": true,
+       "qInitialDataFetch": [
+        {
+         "qLeft": 0,
+         "qTop": 0,
+         "qWidth": 1,
+         "qHeight": 500
+        }
+       ],
+       "qExpressions": []
+      }
+     },
+     "qChildren": []
+    },
+    {
+     "qProperty": {
+      "qInfo": {
+       "qId": "0d36c51e4d9d",
+       "qType": "listbox"
+      },
+      "qMetaDef": {},
+      "visualization": "listbox",
+      "showTitles": true,
+      "title": {
+       "qStringExpression": {
+        "qExpr": "'BU' & Chr(10) & If(GetSelectedCount([BU])=0, 'Tout', If(GetSelectedCount([BU])<=2, GetFieldSelections([BU],', '), GetSelectedCount([BU]) & ' sélectionnés'))"
+       }
+      },
+      "qListObjectDef": {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "BU"
+        ],
+        "qFieldLabels": [
+         "BU"
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByState": 1,
+          "qSortByNumeric": 1,
+          "qSortByAscii": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": false
+       },
+       "qFrequencyMode": "N",
+       "qShowAlternatives": true,
+       "qInitialDataFetch": [
+        {
+         "qLeft": 0,
+         "qTop": 0,
+         "qWidth": 1,
+         "qHeight": 500
+        }
+       ],
+       "qExpressions": []
+      }
+     },
+     "qChildren": []
+    },
+    {
+     "qProperty": {
+      "qInfo": {
+       "qId": "877997d67e41",
+       "qType": "listbox"
+      },
+      "qMetaDef": {},
+      "visualization": "listbox",
+      "showTitles": true,
+      "title": {
+       "qStringExpression": {
+        "qExpr": "'Région' & Chr(10) & If(GetSelectedCount([Région])=0, 'Tout', If(GetSelectedCount([Région])<=2, GetFieldSelections([Région],', '), GetSelectedCount([Région]) & ' sélectionnés'))"
+       }
+      },
+      "qListObjectDef": {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "Région"
+        ],
+        "qFieldLabels": [
+         "Région"
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByState": 1,
+          "qSortByNumeric": 1,
+          "qSortByAscii": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": false
+       },
+       "qFrequencyMode": "N",
+       "qShowAlternatives": true,
+       "qInitialDataFetch": [
+        {
+         "qLeft": 0,
+         "qTop": 0,
+         "qWidth": 1,
+         "qHeight": 500
+        }
+       ],
+       "qExpressions": []
+      }
+     },
+     "qChildren": []
+    },
+    {
+     "qProperty": {
+      "qInfo": {
+       "qId": "244a3f64780b",
+       "qType": "listbox"
+      },
+      "qMetaDef": {},
+      "visualization": "listbox",
+      "showTitles": true,
+      "title": {
+       "qStringExpression": {
+        "qExpr": "'Canal' & Chr(10) & If(GetSelectedCount([Canal])=0, 'Tout', If(GetSelectedCount([Canal])<=2, GetFieldSelections([Canal],', '), GetSelectedCount([Canal]) & ' sélectionnés'))"
+       }
+      },
+      "qListObjectDef": {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "Canal"
+        ],
+        "qFieldLabels": [
+         "Canal"
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByState": 1,
+          "qSortByNumeric": 1,
+          "qSortByAscii": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": false
+       },
+       "qFrequencyMode": "N",
+       "qShowAlternatives": true,
+       "qInitialDataFetch": [
+        {
+         "qLeft": 0,
+         "qTop": 0,
+         "qWidth": 1,
+         "qHeight": 500
+        }
+       ],
+       "qExpressions": []
+      }
+     },
+     "qChildren": []
+    }
+   ]
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "dc548ffa107a",
+     "qType": "kpi"
+    },
+    "qMetaDef": {},
+    "visualization": "kpi",
+    "showTitles": true,
+    "title": "Chiffre d'affaires",
+    "subtitle": "Réel, cumul de l'exercice sur les mois clôturés",
+    "footnote": {
+     "qStringExpression": {
+      "qExpr": "'vs N-1 : ' & Num((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA N-1])) - 1, '+0,0 %;-0,0 %')"
+     }
+    },
+    "showMeasureTitle": false,
+    "textAlign": "left",
+    "layoutBehavior": "fixed",
+    "fontSize": "S",
+    "qHyperCubeDef": {
+     "qDimensions": [],
+     "qMeasures": [
+      {
+       "qDef": {
+        "qLabel": "Chiffre d'affaires",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel])) / 1000000",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "7c73d85786e5",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "# ##0,0 M€",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": false,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#1F3A5F"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      },
+      {
+       "qDef": {
+        "qLabel": "vs budget",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget])) - 1",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "5eef7096ede5",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "+0,0 %;-0,0 %",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": true,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [
+           {
+            "value": 0,
+            "gradient": false,
+            "normal": 0
+           }
+          ],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#D64541"
+           },
+           {
+            "index": -1,
+            "color": "#228B5E"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      }
+     ],
+     "qInterColumnSortOrder": [],
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 2,
+       "qHeight": 1
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "S",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": []
+    },
+    "components": [
+     {
+      "key": "general",
+      "title": {
+       "main": {
+        "fontSize": "16px",
+        "color": {
+         "index": -1,
+         "color": "#1F3A5F"
+        }
+       },
+       "subTitle": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       },
+       "footer": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       }
+      },
+      "borderRadius": "12px",
+      "borderWidth": "2px",
+      "borderColor": {
+       "index": -1,
+       "color": {
+        "qStringExpression": {
+         "qExpr": "If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget])) - 1) >= 0, '#228B5E', If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget])) - 1) >= -0.05, '#E0A458', '#D64541'))"
+        }
+       }
+      },
+      "bgColor": {
+       "useColor": true,
+       "color": {
+        "index": -1,
+        "color": {
+         "qStringExpression": {
+          "qExpr": "If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget])) - 1) >= 0, '#E3F3EA', If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget])) - 1) >= -0.05, '#FBF0DD', '#FADFDD'))"
+         }
+        }
+       }
+      }
+     }
+    ]
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "045ab560d6ec",
+     "qType": "kpi"
+    },
+    "qMetaDef": {},
+    "visualization": "kpi",
+    "showTitles": true,
+    "title": "Marge brute",
+    "subtitle": "Réel, cumul de l'exercice sur les mois clôturés",
+    "footnote": {
+     "qStringExpression": {
+      "qExpr": "'vs N-1 : ' & Num((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute N-1])) - 1, '+0,0 %;-0,0 %')"
+     }
+    },
+    "showMeasureTitle": false,
+    "textAlign": "left",
+    "layoutBehavior": "fixed",
+    "fontSize": "S",
+    "qHyperCubeDef": {
+     "qDimensions": [],
+     "qMeasures": [
+      {
+       "qDef": {
+        "qLabel": "Marge brute",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / 1000000",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "1348ddac37aa",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "# ##0,0 M€",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": false,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#1F3A5F"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      },
+      {
+       "qDef": {
+        "qLabel": "vs budget",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) - 1",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "9b9644a54947",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "+0,0 %;-0,0 %",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": true,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [
+           {
+            "value": 0,
+            "gradient": false,
+            "normal": 0
+           }
+          ],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#D64541"
+           },
+           {
+            "index": -1,
+            "color": "#228B5E"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      }
+     ],
+     "qInterColumnSortOrder": [],
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 2,
+       "qHeight": 1
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "S",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": []
+    },
+    "components": [
+     {
+      "key": "general",
+      "title": {
+       "main": {
+        "fontSize": "16px",
+        "color": {
+         "index": -1,
+         "color": "#1F3A5F"
+        }
+       },
+       "subTitle": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       },
+       "footer": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       }
+      },
+      "borderRadius": "12px",
+      "borderWidth": "2px",
+      "borderColor": {
+       "index": -1,
+       "color": {
+        "qStringExpression": {
+         "qExpr": "If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) - 1) >= 0, '#228B5E', If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) - 1) >= -0.05, '#E0A458', '#D64541'))"
+        }
+       }
+      },
+      "bgColor": {
+       "useColor": true,
+       "color": {
+        "index": -1,
+        "color": {
+         "qStringExpression": {
+          "qExpr": "If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) - 1) >= 0, '#E3F3EA', If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) - 1) >= -0.05, '#FBF0DD', '#FADFDD'))"
+         }
+        }
+       }
+      }
+     }
+    ]
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "3531682e37de",
+     "qType": "kpi"
+    },
+    "qMetaDef": {},
+    "visualization": "kpi",
+    "showTitles": true,
+    "title": "Taux de marge",
+    "subtitle": "Marge brute rapportée au chiffre d'affaires",
+    "footnote": {
+     "qStringExpression": {
+      "qExpr": "'vs N-1 : ' & Num(100 * (((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))) - ((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute N-1])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA N-1])))), '+0,0;-0,0') & ' pts'"
+     }
+    },
+    "showMeasureTitle": false,
+    "textAlign": "left",
+    "layoutBehavior": "fixed",
+    "fontSize": "S",
+    "qHyperCubeDef": {
+     "qDimensions": [],
+     "qMeasures": [
+      {
+       "qDef": {
+        "qLabel": "Taux de marge",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "89b629bacd11",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "0,0 %",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": false,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#1F3A5F"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      },
+      {
+       "qDef": {
+        "qLabel": "vs budget",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "100 * (((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))) - ((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget]))))",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "456246a273e9",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "+0,0 pts;-0,0 pts",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": true,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [
+           {
+            "value": 0,
+            "gradient": false,
+            "normal": 0
+           }
+          ],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#D64541"
+           },
+           {
+            "index": -1,
+            "color": "#228B5E"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      }
+     ],
+     "qInterColumnSortOrder": [],
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 2,
+       "qHeight": 1
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "S",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": []
+    },
+    "components": [
+     {
+      "key": "general",
+      "title": {
+       "main": {
+        "fontSize": "16px",
+        "color": {
+         "index": -1,
+         "color": "#1F3A5F"
+        }
+       },
+       "subTitle": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       },
+       "footer": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       }
+      },
+      "borderRadius": "12px",
+      "borderWidth": "2px",
+      "borderColor": {
+       "index": -1,
+       "color": {
+        "qStringExpression": {
+         "qExpr": "If((100 * (((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))) - ((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget]))))) >= 0, '#228B5E', If((100 * (((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))) - ((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget]))))) >= -1, '#E0A458', '#D64541'))"
+        }
+       }
+      },
+      "bgColor": {
+       "useColor": true,
+       "color": {
+        "index": -1,
+        "color": {
+         "qStringExpression": {
+          "qExpr": "If((100 * (((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))) - ((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget]))))) >= 0, '#E3F3EA', If((100 * (((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))) - ((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget]))))) >= -1, '#FBF0DD', '#FADFDD'))"
+         }
+        }
+       }
+      }
+     }
+    ]
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "e5fce0918634",
+     "qType": "kpi"
+    },
+    "qMetaDef": {},
+    "visualization": "kpi",
+    "showTitles": true,
+    "title": "EBITDA",
+    "subtitle": "Réel, cumul de l'exercice sur les mois clôturés",
+    "footnote": {
+     "qStringExpression": {
+      "qExpr": "'vs N-1 : ' & Num((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR N-1])) - 1, '+0,0 %;-0,0 %')"
+     }
+    },
+    "showMeasureTitle": false,
+    "textAlign": "left",
+    "layoutBehavior": "fixed",
+    "fontSize": "S",
+    "qHyperCubeDef": {
+     "qDimensions": [],
+     "qMeasures": [
+      {
+       "qDef": {
+        "qLabel": "EBITDA",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / 1000000",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "ffe776113b34",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "# ##0,0 M€",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": false,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#1F3A5F"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      },
+      {
+       "qDef": {
+        "qLabel": "vs budget",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Budget])) - 1",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "d14be649ce2d",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "+0,0 %;-0,0 %",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": true,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [
+           {
+            "value": 0,
+            "gradient": false,
+            "normal": 0
+           }
+          ],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#D64541"
+           },
+           {
+            "index": -1,
+            "color": "#228B5E"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      }
+     ],
+     "qInterColumnSortOrder": [],
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 2,
+       "qHeight": 1
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "S",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": []
+    },
+    "components": [
+     {
+      "key": "general",
+      "title": {
+       "main": {
+        "fontSize": "16px",
+        "color": {
+         "index": -1,
+         "color": "#1F3A5F"
+        }
+       },
+       "subTitle": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       },
+       "footer": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       }
+      },
+      "borderRadius": "12px",
+      "borderWidth": "2px",
+      "borderColor": {
+       "index": -1,
+       "color": {
+        "qStringExpression": {
+         "qExpr": "If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Budget])) - 1) >= 0, '#228B5E', If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Budget])) - 1) >= -0.05, '#E0A458', '#D64541'))"
+        }
+       }
+      },
+      "bgColor": {
+       "useColor": true,
+       "color": {
+        "index": -1,
+        "color": {
+         "qStringExpression": {
+          "qExpr": "If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Budget])) - 1) >= 0, '#E3F3EA', If(((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Réel])) / (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Budget])) - 1) >= -0.05, '#FBF0DD', '#FADFDD'))"
+         }
+        }
+       }
+      }
+     }
+    ]
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "ee85a6c32046",
+     "qType": "kpi"
+    },
+    "qMetaDef": {},
+    "visualization": "kpi",
+    "showTitles": true,
+    "title": "BFR",
+    "subtitle": "À la fin du dernier mois clôturé",
+    "footnote": {
+     "qStringExpression": {
+      "qExpr": "'vs N-1 : ' & Num((Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} BFR)) / (Sum({<Exercice={$(=Max(Exercice)-1)}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} BFR)) - 1, '+0,0 %;-0,0 %')"
+     }
+    },
+    "showMeasureTitle": false,
+    "textAlign": "left",
+    "layoutBehavior": "fixed",
+    "fontSize": "S",
+    "qHyperCubeDef": {
+     "qDimensions": [],
+     "qMeasures": [
+      {
+       "qDef": {
+        "qLabel": "BFR",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} BFR)) / 1000000",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "eab3e845e053",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "# ##0,0 M€",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": false,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#1F3A5F"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      },
+      {
+       "qDef": {
+        "qLabel": "vs objectif",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} BFR)) / (Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} [BFR Objectif])) - 1",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "141cc7ec9d19",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 1,
+         "qUseThou": 1,
+         "qFmt": "+0,0 %;-0,0 %",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "conditionalColoring": {
+         "useConditionalColoring": true,
+         "singleColor": 3,
+         "paletteSingleColor": {
+          "index": -1,
+          "color": "#1F3A5F"
+         },
+         "segments": {
+          "limits": [
+           {
+            "value": 0,
+            "gradient": false,
+            "normal": 0
+           }
+          ],
+          "paletteColors": [
+           {
+            "index": -1,
+            "color": "#228B5E"
+           },
+           {
+            "index": -1,
+            "color": "#D64541"
+           }
+          ]
+         }
+        }
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      }
+     ],
+     "qInterColumnSortOrder": [],
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 2,
+       "qHeight": 1
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "S",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": []
+    },
+    "components": [
+     {
+      "key": "general",
+      "title": {
+       "main": {
+        "fontSize": "16px",
+        "color": {
+         "index": -1,
+         "color": "#1F3A5F"
+        }
+       },
+       "subTitle": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       },
+       "footer": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       }
+      },
+      "borderRadius": "12px",
+      "borderWidth": "2px",
+      "borderColor": {
+       "index": -1,
+       "color": {
+        "qStringExpression": {
+         "qExpr": "If(-((Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} BFR)) / (Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} [BFR Objectif])) - 1) >= 0, '#228B5E', If(-((Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} BFR)) / (Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} [BFR Objectif])) - 1) >= -0.05, '#E0A458', '#D64541'))"
+        }
+       }
+      },
+      "bgColor": {
+       "useColor": true,
+       "color": {
+        "index": -1,
+        "color": {
+         "qStringExpression": {
+          "qExpr": "If(-((Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} BFR)) / (Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} [BFR Objectif])) - 1) >= 0, '#E3F3EA', If(-((Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} BFR)) / (Sum({<Exercice={$(=Max(Exercice))}, Mois={$(=Max({<[Mois clos]={1}>} Mois))}>} [BFR Objectif])) - 1) >= -0.05, '#FBF0DD', '#FADFDD'))"
+         }
+        }
+       }
+      }
+     }
+    ]
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "1549474933e2",
+     "qType": "linechart"
+    },
+    "qMetaDef": {},
+    "qHyperCubeDef": {
+     "qDimensions": [
+      {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "Mois nom"
+        ],
+        "qFieldLabels": [
+         "Mois"
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByNumeric": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": false,
+        "cId": "05e5abc4466a"
+       },
+       "qOtherTotalSpec": {
+        "qOtherMode": "OTHER_OFF",
+        "qOtherCounted": {},
+        "qOtherLimit": {},
+        "qOtherLimitMode": "OTHER_GT_LIMIT",
+        "qForceBadValueKeeping": true,
+        "qApplyEvenWhenPossiblyWrongResult": true,
+        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+        "qTotalMode": "TOTAL_OFF",
+        "qReferencedExpression": {}
+       },
+       "qOtherLabel": {},
+       "qTotalLabel": {},
+       "qCalcCond": {},
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       }
+      }
+     ],
+     "qMeasures": [
+      {
+       "qDef": {
+        "qTags": [],
+        "qGrouping": "N",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "92f946cc7739",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 0,
+         "qUseThou": 1,
+         "qFmt": "# ##0",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "qLabelExpression": "'Réel'"
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       },
+       "qLibraryId": "orv-chiffre-d-affaires-mensuel-r-el"
+      },
+      {
+       "qDef": {
+        "qTags": [],
+        "qGrouping": "N",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "84005a42ecf6",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 0,
+         "qUseThou": 1,
+         "qFmt": "# ##0",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "qLabelExpression": "'Budget'"
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       },
+       "qLibraryId": "orv-chiffre-d-affaires-mensuel-budget"
+      },
+      {
+       "qDef": {
+        "qTags": [],
+        "qGrouping": "N",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "56e33960a53b",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 0,
+         "qUseThou": 1,
+         "qFmt": "# ##0",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "qLabelExpression": "'N-1'"
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       },
+       "qLibraryId": "orv-chiffre-d-affaires-mensuel-n-1"
+      }
+     ],
+     "qInterColumnSortOrder": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "qSuppressMissing": true,
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 4,
+       "qHeight": 500
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "K",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qAlwaysFullyExpanded": true,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": [],
+     "qSuppressZero": true
+    },
+    "visualization": "linechart",
+    "title": "Chiffre d'affaires mensuel",
+    "showDetails": true,
+    "showTitles": true,
+    "subtitle": "Réel, budget et exercice précédent, en k€",
+    "footnote": "",
+    "version": "2.15.0",
+    "showDetailsExpression": false,
+    "disableNavMenu": false,
+    "color": {
+     "auto": true,
+     "mode": "primary",
+     "formatting": {
+      "numFormatFromTemplate": true
+     },
+     "useBaseColors": "measure",
+     "paletteColor": {
+      "index": 6
+     },
+     "useDimColVal": true,
+     "useMeasureGradient": true,
+     "persistent": true,
+     "expressionIsColor": true,
+     "expressionLabel": "",
+     "measureScheme": "sg",
+     "reverseScheme": false,
+     "dimensionScheme": "12",
+     "autoMinMax": true,
+     "measureMin": 0,
+     "measureMax": 10
+    },
+    "dataPoint": {
+     "show": true,
+     "showLabels": "none"
+    },
+    "dimensionAxis": {
+     "axisDisplayMode": "auto",
+     "continuousAuto": true,
+     "dock": "near",
+     "label": "auto",
+     "maxVisibleItems": 10,
+     "show": "labels"
+    },
+    "gridLine": {
+     "auto": true,
+     "spacing": 2
+    },
+    "legend": {
+     "dock": "auto",
+     "show": true,
+     "showTitle": false
+    },
+    "lineType": "line",
+    "measureAxis": {
+     "autoMinMax": true,
+     "dock": "near",
+     "logarithmic": false,
+     "max": 10,
+     "min": 0,
+     "minMax": "min",
+     "show": "labels",
+     "spacing": 1
+    },
+    "nullMode": "gap",
+    "orientation": "horizontal",
+    "preferContinuousAxis": false,
+    "refLine": {
+     "refLines": [],
+     "dimRefLines": []
+    },
+    "scrollbar": "none",
+    "scrollStartPos": 0,
+    "separateStacking": true,
+    "showDisclaimer": true,
+    "showMiniChartForContinuousAxis": true,
+    "stackedArea": false,
+    "tooltip": {
+     "auto": true,
+     "hideBasic": false
+    },
+    "components": [
+     {
+      "key": "general",
+      "title": {
+       "main": {
+        "fontSize": "16px",
+        "color": {
+         "index": -1,
+         "color": "#1F3A5F"
+        }
+       },
+       "subTitle": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       },
+       "footer": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       }
+      },
+      "borderRadius": "12px",
+      "borderWidth": "1px",
+      "borderColor": {
+       "color": "#DCE3EA",
+       "index": -1
+      },
+      "bgColor": {
+       "useColor": true,
+       "color": {
+        "color": "#FFFFFF",
+        "index": -1
+       }
+      }
+     }
+    ]
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "412209bd5a6c",
+     "qType": "barchart"
+    },
+    "qMetaDef": {},
+    "qHyperCubeDef": {
+     "qDimensions": [
+      {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "BU"
+        ],
+        "qFieldLabels": [
+         "BU"
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByNumeric": 1,
+          "qSortByAscii": 1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": false,
+        "cId": "c7bb5ecf089a"
+       },
+       "qOtherTotalSpec": {
+        "qOtherMode": "OTHER_OFF",
+        "qOtherCounted": {},
+        "qOtherLimit": {},
+        "qOtherLimitMode": "OTHER_GT_LIMIT",
+        "qForceBadValueKeeping": true,
+        "qApplyEvenWhenPossiblyWrongResult": true,
+        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+        "qTotalMode": "TOTAL_OFF",
+        "qReferencedExpression": {}
+       },
+       "qOtherLabel": {},
+       "qTotalLabel": {},
+       "qCalcCond": {},
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qNullSuppression": true
+      }
+     ],
+     "qMeasures": [
+      {
+       "qDef": {
+        "qLabel": "Écart de marge",
+        "qTags": [],
+        "qGrouping": "N",
+        "qDef": "((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) - (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget]))) / 1000",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": false,
+        "cId": "359c88f6a70e",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 0,
+         "qUseThou": 1,
+         "qFmt": "# ##0",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [
+        {
+         "qExpression": "If((((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) - (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget]))) / 1000) >= 0, '#228B5E', '#D64541')",
+         "id": "colorByExpression"
+        }
+       ],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       }
+      }
+     ],
+     "qInterColumnSortOrder": [
+      1,
+      0
+     ],
+     "qSuppressMissing": true,
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 2,
+       "qHeight": 500
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "S",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": []
+    },
+    "visualization": "barchart",
+    "title": "Écart de marge brute par BU",
+    "showDetails": true,
+    "showTitles": true,
+    "subtitle": "Réel moins budget, en k€",
+    "footnote": "",
+    "version": "2.15.0",
+    "disableNavMenu": false,
+    "barGrouping": {
+     "grouping": "grouped"
+    },
+    "color": {
+     "auto": false,
+     "mode": "byExpression",
+     "formatting": {
+      "numFormatFromTemplate": true
+     },
+     "useBaseColors": "off",
+     "paletteColor": {
+      "index": 6
+     },
+     "useDimColVal": true,
+     "useMeasureGradient": true,
+     "persistent": true,
+     "expressionIsColor": true,
+     "expressionLabel": "",
+     "measureScheme": "sg",
+     "reverseScheme": false,
+     "dimensionScheme": "12",
+     "autoMinMax": true,
+     "measureMin": 0,
+     "measureMax": 10,
+     "colorExpression": "If((((Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) - (Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Budget]))) / 1000) >= 0, '#228B5E', '#D64541')"
+    },
+    "dataPoint": {
+     "showLabels": true,
+     "showSegmentLabels": false,
+     "showTotalLabels": true
+    },
+    "dimensionAxis": {
+     "axisDisplayMode": "auto",
+     "continuousAuto": true,
+     "maxVisibleItems": 10,
+     "show": "labels",
+     "dock": "near",
+     "label": "auto"
+    },
+    "gridLine": {
+     "auto": true,
+     "spacing": 2
+    },
+    "legend": {
+     "dock": "auto",
+     "show": true,
+     "showTitle": false
+    },
+    "measureAxis": {
+     "show": "labels",
+     "dock": "near",
+     "max": 10,
+     "min": 0,
+     "minMax": "min",
+     "autoMinMax": true,
+     "spacing": 1
+    },
+    "orientation": "vertical",
+    "preferContinuousAxis": true,
+    "refLine": {
+     "refLines": [],
+     "dimRefLines": []
+    },
+    "scrollbar": "bar",
+    "scrollStartPos": 0,
+    "showDisclaimer": true,
+    "showMiniChartForContinuousAxis": true,
+    "tooltip": {
+     "auto": true,
+     "hideBasic": false
+    },
+    "components": [
+     {
+      "key": "general",
+      "title": {
+       "main": {
+        "fontSize": "16px",
+        "color": {
+         "index": -1,
+         "color": "#1F3A5F"
+        }
+       },
+       "subTitle": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       },
+       "footer": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       }
+      },
+      "borderRadius": "12px",
+      "borderWidth": "1px",
+      "borderColor": {
+       "color": "#DCE3EA",
+       "index": -1
+      },
+      "bgColor": {
+       "useColor": true,
+       "color": {
+        "color": "#FFFFFF",
+        "index": -1
+       }
+      }
+     }
+    ]
+   },
+   "qChildren": []
+  },
+  {
+   "qProperty": {
+    "qInfo": {
+     "qId": "f3d6e1d886bc",
+     "qType": "combochart"
+    },
+    "qMetaDef": {},
+    "qHyperCubeDef": {
+     "qDimensions": [
+      {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "Mois nom"
+        ],
+        "qFieldLabels": [
+         "Mois"
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByNumeric": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": false,
+        "cId": "e9c3939f83fa"
+       },
+       "qOtherTotalSpec": {
+        "qOtherMode": "OTHER_OFF",
+        "qOtherCounted": {},
+        "qOtherLimit": {},
+        "qOtherLimitMode": "OTHER_GT_LIMIT",
+        "qForceBadValueKeeping": true,
+        "qApplyEvenWhenPossiblyWrongResult": true,
+        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+        "qTotalMode": "TOTAL_OFF",
+        "qReferencedExpression": {}
+       },
+       "qOtherLabel": {},
+       "qTotalLabel": {},
+       "qCalcCond": {},
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       }
+      }
+     ],
+     "qMeasures": [
+      {
+       "qDef": {
+        "qTags": [],
+        "qGrouping": "N",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "a41f7380f180",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 0,
+         "qUseThou": 1,
+         "qFmt": "# ##0",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "series": {
+         "type": "bar",
+         "axis": 0
+        },
+        "qLabelExpression": "'Réel'"
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       },
+       "qLibraryId": "orv-ebitda-mensuel-r-el"
+      },
+      {
+       "qDef": {
+        "qTags": [],
+        "qGrouping": "N",
+        "qAccumulate": 0,
+        "qActiveExpression": 0,
+        "qExpressions": [],
+        "autoSort": true,
+        "cId": "6dbca6cc1822",
+        "qNumFormat": {
+         "qType": "F",
+         "qnDec": 0,
+         "qUseThou": 1,
+         "qFmt": "# ##0",
+         "qDec": ",",
+         "qThou": " "
+        },
+        "isCustomFormatted": true,
+        "numFormatFromTemplate": false,
+        "series": {
+         "type": "line",
+         "axis": 0
+        },
+        "qLabelExpression": "'Budget'"
+       },
+       "qSortBy": {
+        "qSortByNumeric": -1,
+        "qSortByLoadOrder": 1,
+        "qExpression": {}
+       },
+       "qAttributeExpressions": [],
+       "qAttributeDimensions": [],
+       "qCalcCond": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qTrendLines": [],
+       "qMiniChartDef": {
+        "qSortBy": {
+         "qExpression": {}
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qMaxNumberPoints": -1,
+        "qAttributeExpressions": []
+       },
+       "qLibraryId": "orv-ebitda-mensuel-budget"
+      }
+     ],
+     "qInterColumnSortOrder": [
+      0,
+      1,
+      2
+     ],
+     "qSuppressMissing": true,
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 3,
+       "qHeight": 500
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "S",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qAlwaysFullyExpanded": true,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": []
+    },
+    "visualization": "combochart",
+    "title": "EBITDA mensuel",
+    "showDetails": true,
+    "showTitles": true,
+    "subtitle": "Réel en barres, budget en ligne, en k€",
+    "footnote": "",
+    "version": "1.51.0",
+    "showDetailsExpression": false,
+    "disableNavMenu": false,
+    "showDisclaimer": true,
+    "barGrouping": {
+     "grouping": "grouped"
+    },
+    "color": {
+     "auto": true,
+     "mode": "primary",
+     "formatting": {
+      "numFormatFromTemplate": true
+     },
+     "useBaseColors": "measure",
+     "paletteColor": {
+      "index": 6
+     },
+     "useDimColVal": true,
+     "useMeasureGradient": true,
+     "persistent": false,
+     "expressionIsColor": true,
+     "expressionLabel": "",
+     "measureScheme": "sg",
+     "reverseScheme": false,
+     "dimensionScheme": "12",
+     "autoMinMax": true,
+     "measureMin": 0,
+     "measureMax": 10
+    },
+    "components": [
+     {
+      "key": "line",
+      "style": {
+       "dataPointSize": 5.0,
+       "lineCurve": "linear",
+       "lineThickness": 1.0,
+       "lineType": "solid"
+      }
+     },
+     {
+      "key": "general",
+      "title": {
+       "main": {
+        "fontSize": "16px",
+        "color": {
+         "index": -1,
+         "color": "#1F3A5F"
+        }
+       },
+       "subTitle": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       },
+       "footer": {
+        "fontSize": "12px",
+        "color": {
+         "index": -1,
+         "color": "#617386"
+        }
+       }
+      },
+      "borderRadius": "12px",
+      "borderWidth": "1px",
+      "borderColor": {
+       "color": "#DCE3EA",
+       "index": -1
+      },
+      "bgColor": {
+       "useColor": true,
+       "color": {
+        "color": "#FFFFFF",
+        "index": -1
+       }
+      }
+     }
+    ],
+    "dataPoint": {
+     "show": false,
+     "showBarLabels": false,
+     "showBarSegmentLabels": false,
+     "showBarTotalLabels": true,
+     "showLineLabels": false,
+     "showMarkerLabels": false
+    },
+    "dimensionAxis": {
+     "axisDisplayMode": "auto",
+     "continuousAuto": true,
+     "dock": "near",
+     "label": "auto",
+     "maxVisibleItems": 10,
+     "show": "labels"
+    },
+    "gridLine": {
+     "auto": true,
+     "axis": 0,
+     "spacing": 2
+    },
+    "legend": {
+     "dock": "auto",
+     "show": true,
+     "showTitle": false
+    },
+    "lineType": "line",
+    "measureAxes": [
+     {
+      "autoMinMax": true,
+      "dock": "near",
+      "show": "labels",
+      "spacing": 1.0
+     },
+     {
+      "autoMinMax": true,
+      "dock": "far",
+      "show": "labels",
+      "spacing": 1.0
+     }
+    ],
+    "nullMode": "gap",
+    "orientation": "vertical",
+    "preferContinuousAxis": true,
+    "refLine": {
+     "refLines": [],
+     "dimRefLines": []
+    },
+    "scrollStartPos": 0.0,
+    "separateStacking": true,
+    "showMiniChartForContinuousAxis": true,
+    "stackedArea": false,
+    "tooltip": {
+     "auto": true,
+     "hideBasic": false
+    },
+    "scrollbar": "none"
+   },
+   "qChildren": []
+  }
+ ]
+}

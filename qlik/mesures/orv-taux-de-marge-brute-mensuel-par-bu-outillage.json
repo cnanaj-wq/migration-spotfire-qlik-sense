@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-taux-de-marge-brute-mensuel-par-bu-outillage",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Taux de marge brute mensuel par BU - Outillage",
+  "qDef": "(Sum({<BU*={'Outillage'}, Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<BU*={'Outillage'}, Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Outillage'",
+  "coloring": {
+   "baseColor": {
+    "color": "#2A9D8F",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 1,
+   "qUseThou": 1,
+   "qFmt": "0,0 %",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Taux de marge brute mensuel par BU - Outillage",
+  "description": "Marge brute rapportée au chiffre d'affaires",
+  "tags": []
+ }
+}

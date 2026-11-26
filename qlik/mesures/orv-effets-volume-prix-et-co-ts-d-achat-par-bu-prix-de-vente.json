@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-effets-volume-prix-et-co-ts-d-achat-par-bu-prix-de-vente",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Effets volume, prix et coûts d'achat par BU - Prix de vente",
+  "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Effet prix])) / 1000",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Prix de vente'",
+  "coloring": {
+   "baseColor": {
+    "color": "#2A9D8F",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 0,
+   "qUseThou": 1,
+   "qFmt": "# ##0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Effets volume, prix et coûts d'achat par BU - Prix de vente",
+  "description": "Contribution de chaque effet à l'écart de marge, en k€",
+  "tags": []
+ }
+}

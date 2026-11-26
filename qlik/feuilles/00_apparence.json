@@ -1,0 +1,20 @@
+{
+ "qInfo": {
+  "qId": "orv-apparence",
+  "qType": "appprops"
+ },
+ "qMetaDef": {},
+ "sheetTitleBgColor": "#1F3A5F",
+ "sheetTitleGradientColor": "#1F3A5F",
+ "sheetTitleColor": "#ffffff",
+ "sheetLogoThumbnail": {
+  "qStaticContentUrlDef": {}
+ },
+ "sheetLogoPosition": "",
+ "rtl": false,
+ "theme": "breeze",
+ "disableCellNavMenu": false,
+ "disableCellContextMenu": false,
+ "chartAnimations": true,
+ "defaultSheet": "orv-synthese"
+}

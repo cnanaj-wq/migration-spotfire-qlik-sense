@@ -26,12 +26,15 @@ LET vDernierMoisClos = 10;
 ///$tab Faits
 // Une seule table de faits. Chaque source y garde ses propres mesures ; les axes communs
 // (Date, BU, Région, Canal) portent le même nom et font l'association.
+// PERIMETRE sert à la sécurité : la région de la ligne, ou GROUPE pour les données qui
+// n'existent qu'au niveau du groupe (compte de résultat, BFR, trésorerie).
 // Les deux tables de ventes ont les mêmes mesures à deux mailles différentes (produit et
 // agence) : celles de la maille agence sont préfixées pour ne jamais s'additionner.
 
 Faits:
 LOAD
     'Ventes'                          as Source,
+    Upper(Région)                     as PERIMETRE,
     Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
     Statut,
     BU,
@@ -61,6 +64,7 @@ FROM [$(vDossier)ventes.csv] $(vFormat);
 Concatenate (Faits)
 LOAD
     'Agences'                         as Source,
+    Upper(Région)                     as PERIMETRE,
     Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
     Statut,
     BU,
@@ -79,6 +83,7 @@ FROM [$(vDossier)ventes_agences.csv] $(vFormat);
 Concatenate (Faits)
 LOAD
     'Compte de résultat'              as Source,
+    'GROUPE'                          as PERIMETRE,
     Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
     Statut,
     BU,
@@ -92,6 +97,7 @@ FROM [$(vDossier)compte_resultat.csv] $(vFormat);
 Concatenate (Faits)
 LOAD
     'Écarts de marge'                 as Source,
+    Upper(Région)                     as PERIMETRE,
     Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
     BU,
     Région,
@@ -102,6 +108,7 @@ FROM [$(vDossier)ecarts_marge.csv] $(vFormat);
 Concatenate (Faits)
 LOAD
     'BFR'                             as Source,
+    'GROUPE'                          as PERIMETRE,
     Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
     BU,
     [Créances clients],
@@ -122,6 +129,7 @@ FROM [$(vDossier)bfr.csv] $(vFormat);
 Concatenate (Faits)
 LOAD
     'Trésorerie'                      as Source,
+    'GROUPE'                          as PERIMETRE,
     Date(Date#(Date, 'YYYY-MM-DD'))   as Date,
     EBITDA                            as [Flux EBITDA],
     [Variation de BFR],
@@ -136,6 +144,7 @@ FROM [$(vDossier)tresorerie.csv] $(vFormat);
 Concatenate (Faits)
 LOAD
     'Créances clients'                              as Source,
+    Upper(Région)                                   as PERIMETRE,
     MakeDate($(vExercice), $(vDernierMoisClos), 1)  as Date,
     BU,
     Région,
@@ -218,6 +227,48 @@ LOAD
     Unité,
     Lecture
 FROM [$(vDossier)seuils.csv] $(vFormat);
+
+///$tab Sécurité
+// Chaque profil de securite.csv ne reçoit que les lignes de ses régions : les autres sont
+// retirées de l'application à l'ouverture. Dans Spotfire, la même table ne faisait que
+// masquer des visuels ; ici les données elles-mêmes sont réduites.
+// Un profil régional ne voit pas les données du groupe. Un profil « * » voit tout.
+
+// Adresse Qlik de la personne qui recharge l'application : sans elle dans la table,
+// l'application se ferme à son propre auteur.
+SET vAdministrateur = 'A_REMPLACER_PAR_TON_EMAIL_QLIK';
+
+Profils:
+LOAD
+    Upper(ACCESS)                                                                      as ACCESS,
+    Upper(If([USER.EMAIL] = 'A_REMPLACER_PAR_TON_EMAIL_QLIK', '$(vAdministrateur)', [USER.EMAIL]))  as [USER.EMAIL],
+    Upper(Région)                                                                      as PERIMETRE
+FROM [$(vDossier)securite.csv] $(vFormat)
+WHERE Région <> '*';
+
+// Les profils « * » reçoivent explicitement tous les périmètres, groupe compris.
+ProfilsComplets:
+LOAD
+    Upper(ACCESS)                                                                      as ACCESS,
+    Upper(If([USER.EMAIL] = 'A_REMPLACER_PAR_TON_EMAIL_QLIK', '$(vAdministrateur)', [USER.EMAIL]))  as [USER.EMAIL]
+FROM [$(vDossier)securite.csv] $(vFormat)
+WHERE Région = '*';
+
+Join (ProfilsComplets)
+LOAD DISTINCT PERIMETRE RESIDENT Faits;
+
+Concatenate (Profils)
+LOAD ACCESS, [USER.EMAIL], PERIMETRE RESIDENT ProfilsComplets;
+
+DROP TABLE ProfilsComplets;
+
+Section Access;
+Acces:
+NoConcatenate
+LOAD ACCESS, [USER.EMAIL], PERIMETRE RESIDENT Profils;
+Section Application;
+
+DROP TABLE Profils;
 
 ///$tab Affichage
 // Le point décimal ne servait qu'à lire les fichiers. Une fois les données chargées,

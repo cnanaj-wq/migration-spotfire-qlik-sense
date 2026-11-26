@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-dso-par-bu-services",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "DSO par BU - Services",
+  "qDef": "Avg({<BU*={'Services'}, Exercice={$(=Max(Exercice))}>} [DSO (jours)])",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Services'",
+  "coloring": {
+   "baseColor": {
+    "color": "#E76F51",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 1,
+   "qUseThou": 1,
+   "qFmt": "# ##0,0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "DSO par BU - Services",
+  "description": "Délai moyen de règlement des clients, en jours",
+  "tags": []
+ }
+}

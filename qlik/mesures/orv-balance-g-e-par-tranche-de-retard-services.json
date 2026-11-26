@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-balance-g-e-par-tranche-de-retard-services",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Balance âgée par tranche de retard - Services",
+  "qDef": "Sum({<BU*={'Services'}, Source={'Créances clients'}>} [Montant TTC]) / 1000",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Services'",
+  "coloring": {
+   "baseColor": {
+    "color": "#E76F51",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 0,
+   "qUseThou": 1,
+   "qFmt": "# ##0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Balance âgée par tranche de retard - Services",
+  "description": "Créances clients au 31/10/2026 par BU, en k€",
+  "tags": []
+ }
+}

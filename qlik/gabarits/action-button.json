@@ -1,0 +1,52 @@
+{
+ "qProperty": {
+  "qInfo": {
+   "qId": "anav0",
+   "qType": "action-button"
+  },
+  "qMetaDef": {},
+  "visualization": "action-button",
+  "version": "1.0.0",
+  "showTitles": false,
+  "useEnabledCondition": false,
+  "enabledCondition": 1,
+  "actions": [],
+  "runtimeExpressionEvaluation": true,
+  "navigation": {
+   "action": "goToSheet",
+   "sheet": "UHHjXj"
+  },
+  "style": {
+   "label": "01 · PILOTER",
+   "showLabel": true,
+   "font": {
+    "fontFamily": "Arial",
+    "size": 0.4,
+    "sizeFixed": 14,
+    "sizeBehavior": "fixed",
+    "color": {
+     "index": -1,
+     "color": "#ffffff"
+    },
+    "align": "center",
+    "style": {
+     "bold": true
+    }
+   },
+   "background": {
+    "color": {
+     "index": -1,
+     "color": "#142E49"
+    },
+    "mode": "none"
+   },
+   "border": {
+    "radius": 0.2,
+    "useBorder": false
+   },
+   "icon": {
+    "useIcon": false
+   }
+  }
+ }
+}

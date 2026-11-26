@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-taux-de-marge-brute-mensuel-par-bu-chauffage-climatisation",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Taux de marge brute mensuel par BU - Chauffage & Climatisation",
+  "qDef": "(Sum({<BU*={'Chauffage & Climatisation'}, Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<BU*={'Chauffage & Climatisation'}, Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Chauffage & Climatisation'",
+  "coloring": {
+   "baseColor": {
+    "color": "#1F3A5F",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 1,
+   "qUseThou": 1,
+   "qFmt": "0,0 %",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Taux de marge brute mensuel par BU - Chauffage & Climatisation",
+  "description": "Marge brute rapportée au chiffre d'affaires",
+  "tags": []
+ }
+}

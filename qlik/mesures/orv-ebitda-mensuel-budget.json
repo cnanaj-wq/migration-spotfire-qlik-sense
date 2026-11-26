@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-ebitda-mensuel-budget",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "EBITDA mensuel - Budget",
+  "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}, [Ordre rubrique]={\"<=7\"}>} [CR Budget])) / 1000",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Budget'",
+  "coloring": {
+   "baseColor": {
+    "color": "#E0A458",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 0,
+   "qUseThou": 1,
+   "qFmt": "# ##0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "EBITDA mensuel - Budget",
+  "description": "Réel en barres, budget en ligne, en k€",
+  "tags": []
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-taux-de-marge-brute-mensuel-par-bu-services",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Taux de marge brute mensuel par BU - Services",
+  "qDef": "(Sum({<BU*={'Services'}, Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [Marge brute Réel])) / (Sum({<BU*={'Services'}, Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Réel]))",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Services'",
+  "coloring": {
+   "baseColor": {
+    "color": "#E76F51",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 1,
+   "qUseThou": 1,
+   "qFmt": "0,0 %",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Taux de marge brute mensuel par BU - Services",
+  "description": "Marge brute rapportée au chiffre d'affaires",
+  "tags": []
+ }
+}

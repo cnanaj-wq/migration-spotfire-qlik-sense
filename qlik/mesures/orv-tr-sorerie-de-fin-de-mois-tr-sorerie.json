@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-tr-sorerie-de-fin-de-mois-tr-sorerie",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Trésorerie de fin de mois - Trésorerie",
+  "qDef": "Sum([Trésorerie fin de mois]) / 1000",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Trésorerie'",
+  "coloring": {
+   "baseColor": {
+    "color": "#1F3A5F",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 0,
+   "qUseThou": 1,
+   "qFmt": "# ##0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Trésorerie de fin de mois - Trésorerie",
+  "description": "Depuis le début de l'historique, en k€",
+  "tags": []
+ }
+}

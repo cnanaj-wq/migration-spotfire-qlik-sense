@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-chiffre-d-affaires-par-produit-budget",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Chiffre d'affaires par produit - Budget",
+  "qDef": "(Sum({<Exercice={$(=Max(Exercice))}, [Mois clos]={1}>} [CA Budget])) / 1000",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Budget'",
+  "coloring": {
+   "baseColor": {
+    "color": "#E0A458",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 0,
+   "qUseThou": 1,
+   "qFmt": "# ##0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Chiffre d'affaires par produit - Budget",
+  "description": "Réel contre budget, en k€",
+  "tags": []
+ }
+}

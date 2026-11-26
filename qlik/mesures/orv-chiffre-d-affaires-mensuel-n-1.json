@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-chiffre-d-affaires-mensuel-n-1",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Chiffre d'affaires mensuel - N-1",
+  "qDef": "Sum({<Exercice={$(=Max(Exercice))}>} [CA N-1]) / 1000",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'N-1'",
+  "coloring": {
+   "baseColor": {
+    "color": "#A7B1BD",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 0,
+   "qUseThou": 1,
+   "qFmt": "# ##0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Chiffre d'affaires mensuel - N-1",
+  "description": "Réel, budget et exercice précédent, en k€",
+  "tags": []
+ }
+}

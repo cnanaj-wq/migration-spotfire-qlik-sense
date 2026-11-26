@@ -1,0 +1,485 @@
+{
+ "qProperty": {
+  "qInfo": {
+   "qId": "wNYU",
+   "qType": "map"
+  },
+  "qMetaDef": {},
+  "gaLayers": [
+   {
+    "type": "PointLayer",
+    "locationOrLatitude": {
+     "key": "[PdvPoint]",
+     "label": "PdvPoint",
+     "type": "expression"
+    },
+    "locationDefault": "[PdvPoint]",
+    "locationNamesAuto": true,
+    "locationType": "",
+    "locationCountry": {
+     "key": "",
+     "label": "",
+     "type": ""
+    },
+    "locationAdmin1": {
+     "key": "",
+     "label": "",
+     "type": ""
+    },
+    "locationAdmin2": {
+     "key": "",
+     "label": "",
+     "type": ""
+    },
+    "maxObjects": 20000,
+    "showLayer": true,
+    "hideCalcCond": false,
+    "exclFromAutozoom": false,
+    "layerSelectionsDisabled": false,
+    "color": {
+     "outline": {
+      "index": -1,
+      "color": "#7b7a78"
+     },
+     "outlineOpacity": 0,
+     "opacity": 0.85,
+     "auto": false,
+     "mode": "byExpression",
+     "paletteColor": {
+      "index": 6,
+      "color": "#ffffff"
+     },
+     "measureScheme": "sg",
+     "dimensionScheme": "12",
+     "colorExpression": "=If(MaxString(Famille)='Tabac','#F5B700','#2563C9')",
+     "expressionIsColor": true,
+     "measureMin": 0,
+     "measureMax": 10,
+     "useDimColVal": false,
+     "useMeasureGradient": false
+    },
+    "displayLegend": "none",
+    "showSizeLegend": false,
+    "showToolTip": true,
+    "showInAllLevels": true,
+    "zoomRange": [
+     0,
+     20
+    ],
+    "showPopUp": "custom",
+    "displayUnselected": false,
+    "label": {
+     "show": false,
+     "expression": {
+      "key": "[PdvPoint]",
+      "label": "dimension.qDef.qFieldDefs[0]",
+      "type": "expression"
+     },
+     "position": "TOP",
+     "showInAllLevels": true,
+     "visibleRange": [
+      0,
+      20
+     ],
+     "style": {
+      "color": {
+       "index": -1,
+       "color": ""
+      }
+     }
+    },
+    "drillDown": {
+     "auto": true,
+     "showLevel0": true,
+     "showLevel1": true,
+     "showLevel2": true,
+     "showLevel3": true,
+     "showLevel4": true,
+     "showLevel5": true,
+     "showLevel6": true,
+     "showLevel7": true
+    },
+    "qHyperCubeDef": {
+     "qDimensions": [
+      {
+       "qDef": {
+        "qGrouping": "N",
+        "qFieldDefs": [
+         "PdvPoint"
+        ],
+        "qFieldLabels": [
+         ""
+        ],
+        "qSortCriterias": [
+         {
+          "qSortByNumeric": 1,
+          "qSortByAscii": 1,
+          "qSortByLoadOrder": 1,
+          "qExpression": {}
+         }
+        ],
+        "qNumberPresentations": [],
+        "qActiveField": 0,
+        "autoSort": true,
+        "cId": "pqGjen"
+       },
+       "qOtherTotalSpec": {
+        "qOtherMode": "OTHER_OFF",
+        "qOtherCounted": {},
+        "qOtherLimit": {},
+        "qOtherLimitMode": "OTHER_GT_LIMIT",
+        "qForceBadValueKeeping": true,
+        "qApplyEvenWhenPossiblyWrongResult": true,
+        "qOtherSortMode": "OTHER_SORT_DESCENDING",
+        "qTotalMode": "TOTAL_OFF",
+        "qReferencedExpression": {}
+       },
+       "qOtherLabel": {},
+       "qTotalLabel": {},
+       "qCalcCond": {},
+       "qAttributeExpressions": [
+        {
+         "qExpression": "=If(MaxString(Famille)='Tabac','#F5B700','#2563C9')",
+         "id": "colorByExpression"
+        },
+        {
+         "qExpression": "If(Len(MaxString(Enseigne))>0,MaxString(Enseigne),MaxString(Famille)&' sans enseigne')",
+         "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+         },
+         "cId": "pmzEyPF",
+         "autoSort": true,
+         "id": "customTooltipTitle"
+        },
+        {
+         "qExpression": "MaxString(Famille)&' · '&MaxString(Commune)&' · créé le '&Date(Max(DateCreation),'DD/MM/YYYY')",
+         "qNumFormat": {
+          "qType": "U",
+          "qnDec": 10,
+          "qUseThou": 0
+         },
+         "cId": "KctLj",
+         "autoSort": true,
+         "id": "customTooltipDescription"
+        }
+       ],
+       "qAttributeDimensions": [],
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       }
+      }
+     ],
+     "qMeasures": [],
+     "qInterColumnSortOrder": [
+      0
+     ],
+     "qInitialDataFetch": [
+      {
+       "qLeft": 0,
+       "qTop": 0,
+       "qWidth": 1,
+       "qHeight": 0
+      }
+     ],
+     "qReductionMode": "N",
+     "qMode": "S",
+     "qPseudoDimPos": -1,
+     "qNoOfLeftDims": -1,
+     "qMaxStackedCells": 5000,
+     "qCalcCond": {},
+     "qTitle": {},
+     "qCalcCondition": {
+      "qCond": {},
+      "qMsg": {}
+     },
+     "qColumnOrder": [],
+     "qExpansionState": [],
+     "qDynamicScript": [],
+     "qLayoutExclude": {
+      "qHyperCubeDef": {
+       "qDimensions": [],
+       "qMeasures": [],
+       "qInterColumnSortOrder": [],
+       "qInitialDataFetch": [],
+       "qReductionMode": "N",
+       "qMode": "S",
+       "qPseudoDimPos": -1,
+       "qNoOfLeftDims": -1,
+       "qMaxStackedCells": 5000,
+       "qCalcCond": {},
+       "qTitle": {},
+       "qCalcCondition": {
+        "qCond": {},
+        "qMsg": {}
+       },
+       "qColumnOrder": [],
+       "qExpansionState": [],
+       "qDynamicScript": []
+      }
+     }
+    },
+    "tooltip": {
+     "auto": true,
+     "title": {
+      "qStringExpression": {
+       "qExpr": "If(Len(MaxString(Enseigne))>0,MaxString(Enseigne),MaxString(Famille)&' sans enseigne')"
+      }
+     },
+     "description": {
+      "qStringExpression": {
+       "qExpr": "MaxString(Famille)&' · '&MaxString(Commune)&' · créé le '&Date(Max(DateCreation),'DD/MM/YYYY')"
+      }
+     },
+     "hideBasic": true
+    },
+    "size": {
+     "radiusMin": 0,
+     "radiusMax": 3,
+     "radiusValueMin": 0,
+     "radiusValueMax": 1,
+     "autoRadiusValueRange": true,
+     "expression": {
+      "key": "",
+      "label": "",
+      "type": "",
+      "qNumFormat": {
+       "qType": "U"
+      }
+     },
+     "label": "",
+     "slider": [
+      8,
+      24
+     ],
+     "sliderSingle": 3,
+     "shape": "points",
+     "formatting": {
+      "qNumFormat": {
+       "qType": "U"
+      }
+     }
+    },
+    "cId": "qmGCmvg",
+    "id": "qmGCmvg"
+   }
+  ],
+  "mapSettings": {
+   "_layerType": "",
+   "baseMap": "default",
+   "projection": "default",
+   "mapLanguage": "auto",
+   "useImperialUnits": false,
+   "selectionType": "lasso",
+   "zoom": {
+    "behaviour": "none",
+    "selectVisibleField": ""
+   },
+   "initialView": {
+    "center": [
+     46.4,
+     2.4
+    ],
+    "resolution": 5200,
+    "bounds": {
+     "min": [
+      41.2,
+      -5.2
+     ],
+     "max": [
+      51.2,
+      9.9
+     ]
+    }
+   },
+   "showLegend": false,
+   "sidebarAlignment": "auto",
+   "showFindLocationButton": false,
+   "showScaleBar": true,
+   "zoomLimitSwitch": false,
+   "zoomLimit": {
+    "range": [
+     0,
+     20
+    ]
+   },
+   "panLimitSwitch": false,
+   "panLimits": null,
+   "showDebugInfo": false,
+   "labelColoring": "auto",
+   "selection": {
+    "color": {
+     "index": -1,
+     "color": "#ff41ff"
+    }
+   }
+  },
+  "showTitles": true,
+  "title": "",
+  "subtitle": "",
+  "footnote": "",
+  "disableNavMenu": false,
+  "showDetails": true,
+  "showDetailsExpression": false,
+  "navigation": false,
+  "visualization": "map",
+  "gaVersion": 2,
+  "layers": [],
+  "qUndoExclude": {
+   "hashCode": 1804543667,
+   "gaLayers": [
+    {
+     "qHyperCubeDef": {
+      "qDimensions": [
+       {
+        "qDef": {
+         "qGrouping": "N",
+         "qFieldDefs": [
+          "PdvPoint"
+         ],
+         "qFieldLabels": [
+          ""
+         ],
+         "qSortCriterias": [
+          {
+           "qSortByNumeric": 1,
+           "qSortByAscii": 1,
+           "qSortByLoadOrder": 1,
+           "qExpression": {}
+          }
+         ],
+         "qNumberPresentations": [],
+         "qActiveField": 0,
+         "autoSort": true,
+         "cId": "pqGjen"
+        },
+        "qOtherTotalSpec": {
+         "qOtherMode": "OTHER_OFF",
+         "qOtherCounted": {},
+         "qOtherLimit": {},
+         "qOtherLimitMode": "OTHER_GT_LIMIT",
+         "qForceBadValueKeeping": true,
+         "qApplyEvenWhenPossiblyWrongResult": true,
+         "qOtherSortMode": "OTHER_SORT_DESCENDING",
+         "qTotalMode": "TOTAL_OFF",
+         "qReferencedExpression": {}
+        },
+        "qOtherLabel": {},
+        "qTotalLabel": {},
+        "qCalcCond": {},
+        "qAttributeExpressions": [
+         {
+          "qExpression": "=If(MaxString(Famille)='Tabac','#F5B700','#2563C9')",
+          "id": "colorByExpression"
+         },
+         {
+          "qExpression": "If(Len(MaxString(Enseigne))>0,MaxString(Enseigne),MaxString(Famille)&' sans enseigne')",
+          "qNumFormat": {
+           "qType": "U",
+           "qnDec": 10,
+           "qUseThou": 0
+          },
+          "cId": "pmzEyPF",
+          "autoSort": true,
+          "id": "customTooltipTitle"
+         },
+         {
+          "qExpression": "MaxString(Famille)&' · '&MaxString(Commune)&' · créé le '&Date(Max(DateCreation),'DD/MM/YYYY')",
+          "qNumFormat": {
+           "qType": "U",
+           "qnDec": 10,
+           "qUseThou": 0
+          },
+          "cId": "KctLj",
+          "autoSort": true,
+          "id": "customTooltipDescription"
+         }
+        ],
+        "qAttributeDimensions": [],
+        "qCalcCondition": {
+         "qCond": {},
+         "qMsg": {}
+        }
+       }
+      ],
+      "qMeasures": [],
+      "qInterColumnSortOrder": [
+       0
+      ],
+      "qInitialDataFetch": [
+       {
+        "qLeft": 0,
+        "qTop": 0,
+        "qWidth": 1,
+        "qHeight": 1000
+       }
+      ],
+      "qReductionMode": "N",
+      "qMode": "S",
+      "qPseudoDimPos": -1,
+      "qNoOfLeftDims": -1,
+      "qMaxStackedCells": 5000,
+      "qCalcCond": {},
+      "qTitle": {},
+      "qCalcCondition": {
+       "qCond": {},
+       "qMsg": {}
+      },
+      "qColumnOrder": [],
+      "qExpansionState": [],
+      "qDynamicScript": [],
+      "qLayoutExclude": {
+       "qHyperCubeDef": {
+        "qDimensions": [],
+        "qMeasures": [],
+        "qInterColumnSortOrder": [],
+        "qInitialDataFetch": [],
+        "qReductionMode": "N",
+        "qMode": "S",
+        "qPseudoDimPos": -1,
+        "qNoOfLeftDims": -1,
+        "qMaxStackedCells": 5000,
+        "qCalcCond": {},
+        "qTitle": {},
+        "qCalcCondition": {
+         "qCond": {},
+         "qMsg": {}
+        },
+        "qColumnOrder": [],
+        "qExpansionState": [],
+        "qDynamicScript": []
+       }
+      }
+     },
+     "color": {
+      "outline": {
+       "index": -1,
+       "color": "#7b7a78"
+      },
+      "outlineOpacity": 0,
+      "opacity": 0.85,
+      "auto": false,
+      "mode": "byExpression",
+      "paletteColor": {
+       "index": 6,
+       "color": "#ffffff"
+      },
+      "measureScheme": "sg",
+      "dimensionScheme": "12",
+      "colorExpression": "=If(MaxString(Famille)='Tabac','#F5B700','#2563C9')",
+      "expressionIsColor": true,
+      "measureMin": 0,
+      "measureMax": 10,
+      "useDimColVal": false,
+      "useMeasureGradient": false
+     },
+     "useDimLoc1": 0
+    }
+   ]
+  },
+  "autoZoomOnSelection": false
+ },
+ "qChildren": []
+}

@@ -1,0 +1,34 @@
+{
+ "qInfo": {
+  "qId": "orv-balance-g-e-par-tranche-de-retard-outillage",
+  "qType": "measure"
+ },
+ "qMeasure": {
+  "qLabel": "Balance âgée par tranche de retard - Outillage",
+  "qDef": "Sum({<BU*={'Outillage'}, Source={'Créances clients'}>} [Montant TTC]) / 1000",
+  "qGrouping": "N",
+  "qExpressions": [],
+  "qActiveExpression": 0,
+  "qLabelExpression": "'Outillage'",
+  "coloring": {
+   "baseColor": {
+    "color": "#2A9D8F",
+    "index": -1
+   }
+  },
+  "qNumFormat": {
+   "qType": "F",
+   "qnDec": 0,
+   "qUseThou": 1,
+   "qFmt": "# ##0",
+   "qDec": ",",
+   "qThou": " "
+  },
+  "isCustomFormatted": true
+ },
+ "qMetaDef": {
+  "title": "Balance âgée par tranche de retard - Outillage",
+  "description": "Créances clients au 31/10/2026 par BU, en k€",
+  "tags": []
+ }
+}

@@ -32,6 +32,30 @@ ou BU, n'affichent alors plus rien. Dans Spotfire, ils restaient affichés au ni
 La condition écrite dans un `If` côté Spotfire devient un ensemble (`{<…>}`) côté Qlik :
 le filtre sort de l'agrégation et se lit avant elle.
 
+## La sécurité par région
+
+Les deux outils lisent la même table, `data/securite.csv`.
+
+| Sujet | Spotfire | Qlik Sense |
+|---|---|---|
+| Mécanisme | clause de limitation ajoutée à chaque visuel par script | `Section Access` dans le script de chargement |
+| Portée | affichage : les données restent dans le document | données : les lignes hors périmètre sont retirées à l'ouverture |
+| Utilisateur | choisi à la main dans le script | reconnu à sa connexion, par son adresse e-mail |
+| Données sans région (compte de résultat, BFR, trésorerie) | visibles par tous les profils | réservées aux profils « * » |
+| Profil absent de la table | aucune ligne affichée | accès refusé |
+
+Chaque ligne de faits porte un champ `PERIMETRE` : sa région, ou `GROUPE` quand la donnée
+n'existe qu'au niveau du groupe. Un profil « * » reçoit tous les périmètres, groupe compris.
+
+Avant de charger, remplacer `A_REMPLACER_PAR_TON_EMAIL_QLIK` dans la variable
+`vAdministrateur` du script : sans l'adresse de la personne qui recharge, l'application se
+ferme à son propre auteur.
+
+Contrôle fait sur une copie de l'application, en se connectant avec le profil « Direction de
+zone Sud » : deux régions visibles (Sud-Est, Sud-Ouest), 9 agences, chiffre d'affaires cumulé
+de 26 283 259,77, compte de résultat vide. Avec le profil administrateur, les totaux
+ci-dessous sont inchangés.
+
 ## Contrôle des totaux
 
 Cumul 2026 à fin octobre, sans sélection.
