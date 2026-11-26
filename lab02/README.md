@@ -68,7 +68,7 @@ Les deux visuels laissés à l'arbitrage :
 - les 15 clients les plus exposés, dont le filtre est un classement (`DenseRank`) qu'aucune
   règle ne traduit.
 
-Le premier contrôle n'a pas donné 611 sur 611, mais 518. Deux causes, toutes deux dans les
+Le premier contrôle n'a pas donné 611 sur 611 mais 518. Deux causes, toutes deux dans les
 scripts : une règle traduisait `Integer()` par une fonction qui n'existe pas dans Qlik Sense et le
 script de contrôle lisait mal certaines valeurs nulles. Le contrôle SQL a montré les neuf
 mesures touchées ; la règle a été corrigée.

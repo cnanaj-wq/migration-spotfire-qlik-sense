@@ -79,7 +79,7 @@ Chiffres du cumul 2026 à fin octobre, lus dans le tableau de bord et recoupés 
 | EBITDA | 5 312 k€ | 6 550 k€ | −1 238 k€ |
 | Résultat d'exploitation | 3 863 k€ | 5 102 k€ | −1 238 k€ |
 
-Le scénario est volontaire : l'entreprise vend plus que prévu, mais sa marge se dégrade. Pour retrouver le chiffre d'affaires et l'écart de marge : `python controles/verifier_donnees.py`.
+Le scénario est volontaire : l'entreprise vend plus que prévu mais sa marge se dégrade. Pour retrouver le chiffre d'affaires et l'écart de marge : `python controles/verifier_donnees.py`.
 
 L'application Qlik Sense donne les mêmes totaux : 11 indicateurs comparés, listés dans [correspondances.md](../qlik/correspondances.md).
 
