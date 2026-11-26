@@ -237,3 +237,41 @@ h3 { font-size: 1.18rem; font-weight: 700; line-height: 1.25; margin-bottom: 8px
   .schema iframe { height: 620px; }
   .totaux th, .totaux td { padding: 10px; font-size: 0.9rem; }
 }
+
+/* Réorganisation : chiffres clés, contexte, expérimentation IA, ressources */
+.hero h1 { font-size: clamp(2.1rem, 5vw, 4.1rem); line-height: 1.02; max-width: 22ch; }
+.hero__nature { font-weight: 600; color: var(--marine); }
+.hero__faits { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin-top: 40px; }
+.hero__faits li { background: var(--surface); border: 1px solid var(--trait); border-radius: var(--rayon); padding: 18px 20px; }
+.hero__faits b { display: block; font-size: clamp(1.7rem, 3.2vw, 2.5rem); line-height: 1.1; margin: 0 0 4px; }
+.hero__faits li:first-child { background: var(--marine); border-color: var(--marine); color: #c5d0e2; }
+.hero__faits li:first-child b { color: #fff; }
+.hero__faits span { font-size: 0.93rem; }
+.contexte { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 5vw, 64px); margin-top: 20px; }
+.contexte p + p { margin-top: 14px; }
+.contexte p { color: #2b3b55; max-width: 60ch; }
+.jauge__valeur { color: var(--doux); }
+.jauge__valeur b { color: var(--encre); margin-right: 10px; }
+.essais { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.essais article { background: rgba(255, 255, 255, 0.06); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: var(--rayon); padding: 24px; }
+.essais article p { color: #c5d0e2; font-size: 0.98rem; }
+.essais .essais__score { font-size: clamp(1.6rem, 3vw, 2.3rem); font-weight: 800; font-stretch: 82%; color: var(--ocre); line-height: 1.15; margin-bottom: 10px; }
+.essais article:first-child .essais__score { color: #ff9c98; }
+.fin__chapo { color: var(--doux); }
+.fin__suite { margin-top: 32px; }
+.ressources { display: grid; grid-template-columns: 0.8fr 1.4fr; gap: clamp(24px, 5vw, 64px); margin-top: 20px; align-items: start; }
+.ressources__nom { font-size: clamp(1.6rem, 3vw, 2.3rem); font-weight: 800; font-stretch: 82%; line-height: 1.1; margin-bottom: 6px; }
+.ressources__liens { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.ressources__liens a { background: var(--marine); color: #fff; text-decoration: none; padding: 8px 16px; border-radius: 999px; font-size: 0.92rem; font-weight: 600; }
+.ressources__liens a:hover { background: var(--marine-fonce); }
+.ressources__docs { display: grid; gap: 0; }
+.ressources__docs li { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--trait); }
+.ressources__docs a { font-weight: 700; }
+.ressources__docs span { color: var(--doux); font-size: 0.95rem; }
+@media (max-width: 960px) {
+  .hero__faits { grid-template-columns: 1fr 1fr; }
+  .contexte, .essais, .ressources { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .ressources__docs li { grid-template-columns: 1fr; gap: 2px; }
+}

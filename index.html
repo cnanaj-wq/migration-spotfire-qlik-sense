@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; frame-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>De Spotfire à Qlik Sense : le même tableau de bord, migré deux fois</title>
+<title>De Spotfire à Qlik Sense : automatiser sans compromettre la fiabilité des données</title>
 <meta name="description" content="Un tableau de bord de contrôle de gestion migré de Spotfire vers Qlik Sense, une fois à la main, une fois par scripts Python. Captures avant et après, sécurité par région, contrôle de chaque chiffre. Données fictives.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=3">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 <a class="evitement" href="#contenu">Aller au contenu</a>
@@ -18,33 +18,47 @@
 <header class="entete">
   <a class="entete__marque" href="#haut">Spotfire <span aria-hidden="true">›</span> Qlik Sense</a>
   <nav class="entete__nav" aria-label="Sections de la page">
-    <a href="#ecrans">Les écrans</a>
-    <a href="#differences">Ce qui change</a>
-    <a href="#processus">Le trajet</a>
-    <a href="#securite">La sécurité</a>
-    <a href="#controle">Le contrôle</a>
-    <a href="#limites">Les limites</a>
+    <a href="#haut">Accueil</a>
+    <a href="#ecrans">Démonstration</a>
+    <a href="#processus">Migration</a>
+    <a href="#controle">Validation</a>
+    <a href="#securite">Gouvernance</a>
+    <a href="#ia">IA</a>
   </nav>
-  <a class="entete__depot" href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense">Le dépôt GitHub</a>
+  <a class="entete__depot" href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense">GitHub</a>
 </header>
 
 <main id="contenu">
 
 <section class="hero" id="haut">
-  <p class="hero__nature">Lab sur données fictives : la société Orvane Distribution n'existe pas.</p>
-  <h1>Le même tableau de bord, migré deux fois.</h1>
-  <p class="hero__chapo">Un tableau de bord de contrôle de gestion passe de Spotfire à Qlik Sense. Une première fois à la main, pour comprendre. Une seconde fois par scripts Python, pour répéter. Dans les deux cas, chaque chiffre est recompté.</p>
+  <p class="hero__nature">Migration BI, automatisation et intelligence artificielle</p>
+  <h1>De Spotfire à Qlik Sense : automatiser sans compromettre la fiabilité des données.</h1>
+  <p class="hero__chapo">Un même tableau de bord de contrôle de gestion, migré selon deux approches : manuellement et par scripts Python.</p>
   <ul class="hero__faits">
-    <li><b>5</b> pages</li>
-    <li><b>103</b> formules</li>
-    <li><b id="fait-lignes">14 892</b> lignes de données</li>
-    <li><b>611</b> valeurs contrôlées</li>
+    <li><b>611 / 611</b><span>valeurs conformes après correction</span></li>
+    <li><b>103</b><span>formules converties</span></li>
+    <li><b>39 / 41</b><span>objets générés</span></li>
+    <li><b>14 892</b><span>lignes de données fictives</span></li>
   </ul>
+</section>
+
+<section class="bloc bloc--teinte" id="contexte" aria-labelledby="titre-contexte">
+  <h2 id="titre-contexte">Contexte et enjeux métier</h2>
+  <div class="contexte">
+    <div>
+      <p>Orvane Distribution, société fictive, pilote son activité avec un tableau de bord de contrôle de gestion sous Spotfire : 24 agences, 5 régions, 5 pages qui comparent le réel au budget. Elle veut le retrouver dans Qlik Sense Cloud.</p>
+      <p>Changer d'outil ne doit rien changer aux chiffres. Or les deux outils ne rangent pas les données, n'écrivent pas les formules et ne filtrent pas de la même façon : il n'existe pas d'export.</p>
+    </div>
+    <div>
+      <p>L'objectif est d'évaluer les possibilités d'automatisation d'une migration BI, tout en contrôlant la conformité des indicateurs, la sécurité des données et les règles métier.</p>
+      <p>Une expérimentation complémentaire avec Mistral AI explore la conversion semi-automatisée des expressions de calcul.</p>
+    </div>
+  </div>
 </section>
 
 <section class="ecrans" id="ecrans" aria-labelledby="titre-ecrans">
   <div class="ecrans__tete">
-    <h2 id="titre-ecrans">Avant, après, et après encore</h2>
+    <h2 id="titre-ecrans">Comparaison avant / après</h2>
     <p>Choisir une page, puis passer d'une version à l'autre. Les chiffres ne bougent pas, la forme oui.</p>
   </div>
 
@@ -71,44 +85,9 @@
   </div>
 </section>
 
-<section class="bloc" id="differences" aria-labelledby="titre-differences">
-  <h2 id="titre-differences">Pourquoi il n'y a pas de bouton « Exporter vers Qlik »</h2>
-  <p class="bloc__chapo">Les deux outils font le même métier avec deux mécaniques. Trois choses changent, et aucune ne se copie.</p>
-
-  <div class="trois">
-    <article>
-      <h3>Le rangement des données</h3>
-      <div class="rangement" aria-hidden="true">
-        <div class="rangement__neuf"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-        <span class="rangement__fleche">devient</span>
-        <div class="rangement__etoile"><i></i><i></i><b></b><i></i><i></i><i></i></div>
-      </div>
-      <p>Dans Spotfire, 9 fichiers restent 9 tableaux reliés un à un. Dans Qlik Sense, ils forment une grande table centrale entourée de 5 tables de description.</p>
-    </article>
-    <article>
-      <h3>L'écriture des formules</h3>
-      <div class="formules">
-        <p class="formules__outil">Spotfire : « additionne, si c'est 2026 »</p>
-        <pre><code>Sum(If(<mark>[Exercice] = 2026 and [Mois] &lt;= 10</mark>, [CA Réel]))</code></pre>
-        <p class="formules__outil">Qlik Sense : « dans 2026, additionne »</p>
-        <pre><code>Sum(<mark>{&lt;Exercice={2026}, [Mois clos]={1}&gt;}</mark> [CA Réel])</code></pre>
-      </div>
-      <p>La condition sort de la somme et se lit avant elle. Même résultat, grammaire différente.</p>
-    </article>
-    <article>
-      <h3>Le clic</h3>
-      <div class="clic" aria-hidden="true">
-        <div class="clic__ligne"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
-        <div class="clic__ligne"><i class="on"></i><i></i><i></i><i></i></div>
-      </div>
-      <p>Dans Qlik Sense, cliquer sur une région filtre tout l'écran. Dans Spotfire, ce comportement se règle graphique par graphique.</p>
-    </article>
-  </div>
-</section>
-
 <section class="bloc bloc--sombre" id="processus" aria-labelledby="titre-processus">
-  <h2 id="titre-processus">Le trajet, de bout en bout</h2>
-  <p class="bloc__chapo">Un départ, une arrivée, deux chemins. Le schéma se parcourt : « Play story » déroule les trois vues, un clic sur une boîte montre ce qui y entre et ce qui en sort.</p>
+  <h2 id="titre-processus">Les deux approches de migration</h2>
+  <p class="bloc__chapo">Une migration manuelle pour comprendre, une migration par scripts pour répéter. Le schéma se parcourt : « Play story » déroule les trois vues, un clic sur une boîte montre ce qui y entre et ce qui en sort.</p>
   <div class="schema">
     <iframe src="processus.html" title="Schéma interactif du projet : de Spotfire à Qlik Sense, à la main et par scripts" loading="lazy"></iframe>
   </div>
@@ -142,55 +121,20 @@
   </div>
 </section>
 
-<section class="bloc" id="securite" aria-labelledby="titre-securite">
-  <h2 id="titre-securite">La sécurité : qui voit quoi</h2>
-  <p class="bloc__chapo">Le même tableau de bord, mais chacun n'en reçoit que sa part. Dans Qlik Sense, ce mécanisme s'appelle le Section Access : à l'ouverture, les lignes hors périmètre ne sont pas masquées, elles sont retirées.</p>
-
-  <div class="acces">
-    <div class="acces__profils" role="radiogroup" aria-label="Personne connectée" id="profils"></div>
-    <div class="acces__vue" aria-live="polite">
-      <p class="acces__qui" id="acces-qui"></p>
-      <div class="acces__chiffres">
-        <p><b id="acces-ca"></b><span>chiffre d'affaires visible, cumul 2026 à fin octobre</span></p>
-        <p><b id="acces-agences"></b><span>agences visibles</span></p>
-      </div>
-      <ul class="acces__regions" id="acces-regions"></ul>
-      <p class="acces__groupe" id="acces-groupe"></p>
-    </div>
-  </div>
-  <p class="note">Périmètres calculés depuis <code>data/securite.csv</code> et <code>data/ventes.csv</code>. Dans l'application, deux profils ont été ouverts et vérifiés : l'administrateur et la Direction de zone Sud. Les noms sont fictifs.</p>
-
-  <div class="rideau">
-    <article>
-      <h3>Qlik Sense : une porte</h3>
-      <p>Une liste, dans le script de chargement, dit quelle adresse a droit à quelle région. Qlik reconnaît la personne connectée et retire le reste.</p>
-    </article>
-    <article>
-      <h3>Spotfire : un rideau</h3>
-      <p>Pas de fonction au nom équivalent dans le document. Un script pose un filtre sur chaque graphique, mais les données restent dans le fichier. Le vrai cloisonnement se fait avec Spotfire Server, non testé ici.</p>
-    </article>
-    <article>
-      <h3>Le piège</h3>
-      <p>Oublier de s'inscrire soi-même dans la liste ferme l'application à son propre auteur dès le rechargement.</p>
-    </article>
-  </div>
-  <figure class="planche planche--large"><img src="docs/visuels/schema_securite.png" width="1600" height="900" loading="lazy" alt="Schéma de la sécurité : la même liste de profils, une porte dans Qlik Sense, un rideau dans Spotfire"></figure>
-</section>
-
-<section class="bloc bloc--teinte" id="controle" aria-labelledby="titre-controle">
-  <h2 id="titre-controle">Le contrôle fait la valeur</h2>
-  <p class="bloc__chapo">Trois erreurs sont sorties pendant le projet. Aucune n'affichait de message d'erreur : seul un chiffre comparé à un autre les a montrées.</p>
+<section class="bloc" id="controle" aria-labelledby="titre-controle">
+  <h2 id="titre-controle">Validation et qualité des données</h2>
+  <p class="bloc__chapo">Sécuriser une migration, c'est prouver que les chiffres n'ont pas bougé. Trois erreurs sont sorties pendant le projet. Aucune n'affichait de message d'erreur : seul un chiffre comparé à un autre les a montrées.</p>
 
   <div class="jauges" id="jauges">
     <div class="jauge">
       <p class="jauge__titre">Premier contrôle SQL du LAB 02</p>
       <div class="jauge__piste"><span class="jauge__barre jauge__barre--alerte" data-part="518"></span></div>
-      <p class="jauge__valeur"><b>518</b> valeurs identiques sur 611</p>
+      <p class="jauge__valeur"><b>518 / 611</b> 84,8 % de conformité</p>
     </div>
     <div class="jauge">
       <p class="jauge__titre">Après correction de la règle et du script de contrôle</p>
       <div class="jauge__piste"><span class="jauge__barre" data-part="611"></span></div>
-      <p class="jauge__valeur"><b id="jauge-conformes">611</b> valeurs identiques sur <span id="jauge-points">611</span></p>
+      <p class="jauge__valeur"><b><span id="jauge-conformes">611</span> / <span id="jauge-points">611</span></b> 100 % de conformité sur le périmètre testé</p>
     </div>
   </div>
 
@@ -225,10 +169,104 @@
   </div>
 </section>
 
-<section class="bloc" id="limites" aria-labelledby="titre-limites">
+<section class="bloc bloc--teinte" id="differences" aria-labelledby="titre-differences">
+  <h2 id="titre-differences">Les différences techniques</h2>
+  <p class="bloc__chapo">Il n'y a pas de bouton « Exporter vers Qlik ». Modélisation, expressions de calcul, interactions et filtres : trois choses changent, et aucune ne se copie.</p>
+
+  <div class="trois">
+    <article>
+      <h3>Le rangement des données</h3>
+      <div class="rangement" aria-hidden="true">
+        <div class="rangement__neuf"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <span class="rangement__fleche">devient</span>
+        <div class="rangement__etoile"><i></i><i></i><b></b><i></i><i></i><i></i></div>
+      </div>
+      <p>Dans Spotfire, 9 fichiers restent 9 tableaux reliés un à un. Dans Qlik Sense, ils forment une grande table centrale entourée de 5 tables de description.</p>
+    </article>
+    <article>
+      <h3>L'écriture des formules</h3>
+      <div class="formules">
+        <p class="formules__outil">Spotfire : « additionne, si c'est 2026 »</p>
+        <pre><code>Sum(If(<mark>[Exercice] = 2026 and [Mois] &lt;= 10</mark>, [CA Réel]))</code></pre>
+        <p class="formules__outil">Qlik Sense : « dans 2026, additionne »</p>
+        <pre><code>Sum(<mark>{&lt;Exercice={2026}, [Mois clos]={1}&gt;}</mark> [CA Réel])</code></pre>
+      </div>
+      <p>La condition sort de la somme et se lit avant elle. Même résultat, grammaire différente.</p>
+    </article>
+    <article>
+      <h3>Le clic</h3>
+      <div class="clic" aria-hidden="true">
+        <div class="clic__ligne"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div>
+        <div class="clic__ligne"><i class="on"></i><i></i><i></i><i></i></div>
+      </div>
+      <p>Dans Qlik Sense, cliquer sur une région filtre tout l'écran. Dans Spotfire, ce comportement se règle graphique par graphique.</p>
+    </article>
+  </div>
+</section>
+
+<section class="bloc" id="securite" aria-labelledby="titre-securite">
+  <h2 id="titre-securite">Sécurité et gouvernance</h2>
+  <p class="bloc__chapo">Habilitations et périmètres de visibilité : le même tableau de bord, mais chacun n'en reçoit que sa part. Dans Qlik Sense, ce mécanisme s'appelle le Section Access : à l'ouverture, les lignes hors périmètre ne sont pas masquées, elles sont retirées.</p>
+
+  <div class="acces">
+    <div class="acces__profils" role="radiogroup" aria-label="Personne connectée" id="profils"></div>
+    <div class="acces__vue" aria-live="polite">
+      <p class="acces__qui" id="acces-qui"></p>
+      <div class="acces__chiffres">
+        <p><b id="acces-ca"></b><span>chiffre d'affaires visible, cumul 2026 à fin octobre</span></p>
+        <p><b id="acces-agences"></b><span>agences visibles</span></p>
+      </div>
+      <ul class="acces__regions" id="acces-regions"></ul>
+      <p class="acces__groupe" id="acces-groupe"></p>
+    </div>
+  </div>
+  <p class="note">Périmètres calculés depuis <code>data/securite.csv</code> et <code>data/ventes.csv</code>. Dans l'application, deux profils ont été ouverts et vérifiés : l'administrateur et la Direction de zone Sud. Les noms sont fictifs.</p>
+
+  <div class="rideau">
+    <article>
+      <h3>Qlik Sense : une porte</h3>
+      <p>Une liste, dans le script de chargement, dit quelle adresse a droit à quelle région. Qlik reconnaît la personne connectée et retire le reste.</p>
+    </article>
+    <article>
+      <h3>Spotfire : un rideau</h3>
+      <p>Pas de fonction au nom équivalent dans le document. Un script pose un filtre sur chaque graphique, mais les données restent dans le fichier. Le vrai cloisonnement se fait avec Spotfire Server, non testé ici.</p>
+    </article>
+    <article>
+      <h3>Le piège</h3>
+      <p>Oublier de s'inscrire soi-même dans la liste ferme l'application à son propre auteur dès le rechargement.</p>
+    </article>
+  </div>
+  <figure class="planche planche--large"><img src="docs/visuels/schema_securite.png" width="1600" height="900" loading="lazy" alt="Schéma de la sécurité : la même liste de profils, une porte dans Qlik Sense, un rideau dans Spotfire"></figure>
+</section>
+
+<section class="bloc bloc--sombre" id="ia" aria-labelledby="titre-ia">
+  <h2 id="titre-ia">Migration augmentée par Mistral AI</h2>
+  <p class="bloc__chapo">Une expérimentation à part, sur cinq expressions : l'API Mistral propose une formule Qlik, un script Python l'exécute dans Qlik Sense et compare le chiffre obtenu au chiffre attendu.</p>
+  <div class="essais">
+    <article>
+      <h3>Traduction seule</h3>
+      <p class="essais__score">1 sur 5</p>
+      <p>Une demande par formule. Quatre réponses avaient l'air correctes et ne renvoyaient aucune valeur : il manquait deux guillemets dans le filtre.</p>
+    </article>
+    <article>
+      <h3>Boucle de correction</h3>
+      <p class="essais__score">5 sur 5</p>
+      <p>Après chaque échec, le script renvoie à Mistral ce que Qlik a répondu. 11 demandes au total, 2 corrections au plus par formule.</p>
+    </article>
+    <article>
+      <h3>Validation</h3>
+      <p class="essais__score">0 ligne envoyée</p>
+      <p>Seules les formules et la description du modèle partent vers l'API, aucune ligne de données. Une formule n'est acceptée que si elle donne le bon chiffre.</p>
+    </article>
+  </div>
+  <p class="schema__note">Cinq formules, une seule exécution, un seul modèle : c'est une expérimentation, pas une migration. Le code et les résultats sont dans <a href="https://github.com/cnanaj-wq/mistral-ai">le dépôt mistral-ai</a>.</p>
+</section>
+
+<section class="bloc bloc--teinte" id="limites" aria-labelledby="titre-limites">
   <div class="fin">
     <div>
-      <h2 id="titre-limites">Qui fait quoi, après ces deux labs</h2>
+      <h2 id="titre-limites">Limites et perspectives</h2>
+      <p class="fin__chapo">La répartition des rôles, après ces deux labs :</p>
       <ul class="roles">
         <li><b>Python</b> pour automatiser.</li>
         <li><b>Les API</b> pour reconstruire.</li>
@@ -247,18 +285,42 @@
         <li>Le format de fichier de Spotfire n'est pas documenté : le script de lecture n'a été essayé que sur ce fichier.</li>
         <li>Les feuilles générées par scripts ont les bons chiffres, pas encore la charte, la navigation ni les filtres.</li>
       </ul>
+      <h3 class="fin__suite">Et après</h3>
+      <ul class="limites">
+        <li>Industrialiser : une chaîne de conversion semi-automatisée, avec tests de non-régression, traçabilité des résultats et validation humaine avant mise en production.</li>
+        <li>Aller vers un copilote décisionnel : un assistant qui propose les conversions et laisse l'arbitrage à l'expert BI. Ce n'est pas réalisé ici.</li>
+      </ul>
     </div>
   </div>
   <figure class="planche planche--large"><img src="docs/visuels/schema_comparaison.png" width="1600" height="900" loading="lazy" alt="Comparaison des deux labs : à la main on comprend, par scripts on répète"></figure>
+</section>
+
+<section class="bloc" id="ressources" aria-labelledby="titre-ressources">
+  <h2 id="titre-ressources">Auteur et ressources</h2>
+  <div class="ressources">
+    <div>
+      <p class="ressources__nom">Cédric NANA</p>
+      <p>Expert BI &amp; Data | Analytics &amp; AI Automation</p>
+      <p class="ressources__liens"><a href="https://github.com/cnanaj-wq">GitHub</a><a href="https://www.linkedin.com/in/c%C3%A9dric-nana-68466a28/">LinkedIn</a><a href="https://cedricnana.fr">cedricnana.fr</a></p>
+    </div>
+    <ul class="ressources__docs">
+      <li><a href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense">Le dépôt de la migration</a><span>données, scripts, captures et contrôles</span></li>
+      <li><a href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/blob/main/qlik/correspondances.md">Correspondances Spotfire et Qlik Sense</a><span>modèle, expressions, sécurité, totaux</span></li>
+      <li><a href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/blob/main/lab02/README.md">LAB 02 : la migration par scripts</a><span>règles de conversion et contrôle SQL</span></li>
+      <li><a href="https://github.com/cnanaj-wq/migration-spotfire-qlik-sense/blob/main/docs/architecture.md">Architecture et logigramme</a><span>le détail technique</span></li>
+      <li><a href="https://github.com/cnanaj-wq/mistral-ai">Le dépôt mistral-ai</a><span>l'expérimentation avec l'API Mistral</span></li>
+    </ul>
+  </div>
 </section>
 
 </main>
 
 <footer class="pied">
   <p><b>Cédric NANA</b> — Expert BI &amp; Data | Analytics &amp; AI Automation</p>
+  <p>Lab sur données fictives : la société Orvane Distribution n'existe pas.</p>
 </footer>
 
 <script src="data.js?v=3"></script>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>
